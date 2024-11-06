@@ -1,0 +1,76 @@
+%   Filename    : chapter_1.tex 
+\chapter{Introduction}
+\label{sec:researchdesc}    %labels help you reference sections of your document
+
+\section{Overview}
+\label{sec:overview}
+According to the National Road Length by Classification, Surface Type, and Condition of the Department of Public Works and Highways (DPWH), as of October 2022 approximately 98.97% of roads in the Philippines is paved which is either made of concrete or asphalt (DPWH, 2022)(?). Since the DPWH is an institution under the government, it is paramount to maintain such roads in order to avoid accidents and congested traffic situations especially in heavily urbanized areas where there are a lot of vehicles.
+
+
+In an interview with the Road Board of DPWH Region 6 it was stated that road condition assessments are mostly done manually with heavy reliance on engineering judgment. In addition, manual assessment of roads is also time consuming which leaves maintenance operations to wait for lengthy assessments (J. Chua, Personal Interview. 16 September 2024).  In a study conducted by Ramos, Dacanay, and Bronuela-Ambrocio (2022), it was found that the Philippines’ current method of manual pavement surveying is considered as a gap since it takes an average of 2-3 months to cover a 250 km road as opposed to a 1 day duration in the Australian Road Research Board for the same road length. Ramos et al. (2022) recommended that to significantly improve efficiency of surveying methods and data gathering processes, automated survey tools are to be employed. It was also added that use of such automated surveying tools can also guarantee the safety of road surveyors (Ramos et al., 2022).
+
+
+If the process of assessment on the severity of road defects can be automated then the whole process of assessing the quality of roads can be hastened up which can also enable maintenance operations to commence as soon as possible if necessary. If not automated, the delay of assessments will continue and roads that are supposedly needing maintenance may not be properly maintained which can affect the general public that is utilizing public roads daily.
+
+
+\section{Problem Statement}
+Roads support almost every aspect of daily life, from providing a way to transport goods and services to allowing people to stay connected with their communities. However, road defects such as cracks and potholes damage roads over time, and they can increase accident risks and affect the overall transportation. The current way of inspecting the roads for maintenance is often slow as it is done manually, which makes it harder to detect and fix defects early. The delay in addressing these problems can lead to even worse road conditions (J. Chua, Personal Interview. 16 September 2024). There are several research studies into automated road defect classification that have advanced in recent years but most of them focus on identifying the types of defects rather than assessing their severity or characteristics like depth. Without reliable data on the depth of the defect, road maintenance authorities may underestimate the severity of certain defects. To address these challenges, advancements are needed across various areas. An effective solution should not only detect and classify road defects but also measure their severity to better prioritize repairs. Failing to address this problem will require more extensive repairs for damaged roads, which raises the cost and strains the budget. Additionally, road maintenance would still be slow and cause disruptions in daily activities. Using an automated system that accurately detects, classifies, and assess the severity of road defects by incorporating depth are necessary to efficiently monitor road quality.
+
+
+\section{Research Objectives}
+\label{sec:researchobjectives}
+
+\subsection{General Objective}
+\label{sec:generalobjective}
+
+This special problem aims to develop an automated system that will accurately detect, classify, and assess the severity of the different types of road defects by using image analysis, depth measurement technologies, and combination of machine learning and computer vision techniques. 
+
+
+
+\subsection{Specific Objectives}
+\label{sec:specificobjectives}
+
+Specifically, this special problem aims:
+\begin{enumerate}
+   \item To collect high-quality images of road surfaces that capture different types of road defects including their depth in various lighting and weather conditions.
+   \item To develop and train a machine learning model to detect, classify, and assess the severity of road defects from images. 
+   \item To implement depth measurement techniques to measure the depth of road defects.
+   \item To measure the accuracy of the system by comparing the depth measurements against ground truth data collected from actual road inspections
+\end{enumerate}
+
+
+\section{Scope and Limitations of the Research}
+\label{sec:scopelimitations}
+
+
+
+This system will include a collection of images of  different road defects, such as potholes and cracks, using cameras and depth-sensing tools. The images will be captured under various lighting and weather conditions to ensure that the data has variations. The scope is limited to visual and depth data. High-quality and diverse  image data sets are essential for training an efficient model, and by focusing on capturing the depth, it will allow a more accurate assessment of severity of the road defects. 
+
+
+Depth measurement tools, such as LiDAR drones or stereo cameras will be used to record the depth of the road defect. Only accessible defects will be measured, any cracks and potholes filled with water may not be accurately assessed. 
+
+
+A machine learning model will be used to identify, classify, and assess the severity of road defects. It will use the image dataset to classify and assess the road defect types accurately, however, the effectiveness will depend on the quality and quantity of the training dataset. There can be a limited variety of images or inaccuracies due to environmental factors. The model will allow consistent and automated assessment of road defects which is more efficient than manual inspection. 
+
+
+The accuracy of the system will be evaluated by comparing the depth measurement it produces against data collected from the field through manual inspections. However, the comparisons could be limited to selected sample sites because collecting field data across a wide area can be time-consuming. Comparing the data is important to validate the reliability of the system. It ensures that the data that the system produces is accurate so it increases confidence in using it for road maintenance. 
+
+
+\section{Significance of the Research}
+\label{sec:significance}
+
+This special problem aims to be significant to the following:
+
+
+\textit{Computer Science Community}. This system can contribute to advancements in computer vision and machine learning by using both visual and depth data to assess the severity of road defects. It introduces a more comprehensive approach compared to the usual image-only or manual inspection methods. This combination can be applied to other fields that need both visual and depth analysis like medical imaging. 
+
+
+\textit{Concerned Government Agencies.} This system offers a valuable tool for road safety and maintenance. Not only can this detect and classify anomalies, it can also assess the defect’s severity which allows them to prioritize repairs, optimal project expenditures, and better overall road safety and quality. 
+
+
+\textit{Field Engineers.} In the scorching heat, field engineers are no longer required to be on foot unless it requires its engineering judgement when surveying a road segment. It can hasten the overall assessment process. 
+
+
+\textit{Future Researchers.} The special problem can serve as a baseline and guide of researchers with the aim to pursue special problems similar or related to this. 
+
+
