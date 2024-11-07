@@ -19,9 +19,11 @@
 	According to Solawetz (2024), YOLOv5 is a model from a family of computer vision models used for object detection. YOLOv5 is reported to perform comparably to state-of-the-art techniques. It is designed to extract features from raw input images, used primarily in training object detection models alongside various data augmentation techniques.
 	
 	\subsection{Image and Video Processing}
-	
 	Kumar (2024) defines image processing as a process of turning an image into its digital form and extracting data from it through certain functions and operations. Usual processes are considered to treat images as 2D signals wherein different processing methods utilize these signals.
 	Like image processing, Riches Resources (2020) defines video processing as being able to extract information and data from video footage through signal processing methods. However, in video processing due to the diversity of video formats, compression and decompression methods are often expected to be performed on videos before processing methods to either increase or decrease bitrate.
+	
+	\subsection{LiDAR}
+	Wasser (2024) describes LiDAR as a technology utilized to measure the depth of a point from a certain height through its active remote sensing. During this process, a LiDAR measures the distance traveled through the time an emitted light takes to travel to the ground and back. Wasser (2024) states that this measured distance is converted into elevation.
 	
 	
 	\section{Related Studies}
@@ -47,6 +49,10 @@
 	
 	\subsection{Roadway pavement anomaly classification utilizing smartphones and artificial intelligence}
 		The study of Christodoulou,Dimitrio, and Kyriakou (2016) presented what is considered as a low-cost technology which was the use of Artificial Neural Networks in training a model for road anomaly detection from data gathered by smartphone sensors. The researchers were able to collect case study data using two-dimensional indicators of the smartphone’s roll and pitch values. In the study’s discussion, the data collected displayed some complexity due to acceleration and vehicle speed which lead to detected anomalies being not as conclusive as planned. The researchers also added that the plots are unable to show parameters that could verify the data’s correctness and accuracy. Despite the setbacks, the researchers still fed the data into the Artificial Neural Network that was expected to produce two outputs which were “no defect” and “defect”. The method still yielded above 90\% accuracy but due to the limited number of possible outcomes in the data processing the researchers still needed to test the methodology with larger data sets and roads with higher volumes of anomalies.
+		
+	\subsection{Pothole Mapping and Patching Quantity Estimates using LiDAR-Based Mobile Mapping Systems}
+		In the study of Ravi, Habib, and Bullock (2020) utilized LiDAR technology in order to propose pothole mapping methods for public agencies which was argued to be laborious and time-consuming manual classification and quantity estimation. The researchers of the study made use of a wheel-based mobile LiDAR system driven at speeds of 40 - 50 mph during data gathering. In order to ensure accuracy of collected data, the researchers made multiple drive-runs which allowed the comparison of scanned data between two sensors. In a given 3D point cloud,  the researchers also presented a process of pinpointing identified pothole points and these pothole points are then classified into different clusters through a distance-based growing strategy. Analysis procedures are then done by clusters. The researchers however established a minimum volume threshold for potholes in a given bounding box. In classifying pothole points, points inside a segment or tile are used along with plane-fitting to determine planar position and orientation parameters. Individual points are then again used to extract information like signed normal distance from the best-fitting plane. Distance collected is then stated to be the depth beneath the road surface and the researchers classified potential potholes to have a depth that is greater than 1 cm.
+		
 		
 	
 	
