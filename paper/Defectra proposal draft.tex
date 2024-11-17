@@ -1,0 +1,188 @@
+\documentclass{report} % or another appropriate class
+\usepackage{comment} % to use the comment environment
+
+\usepackage{mathptmx} % tnr
+\setcounter{chapter}{0} 
+\linespread{1.5}
+
+\begin{document}
+	
+	\chapter{Introduction}
+	\label{sec:researchdesc}    %labels help you reference sections of your document
+	
+	\section{Overview}
+	\label{sec:overview}
+	According to the National Road Length by Classification, Surface Type, and Condition of the Department of Public Works and Highways (DPWH), as of October 2022 approximately 98.97\% of roads in the Philippines is paved which is either made of concrete or asphalt (DPWH, 2022)(?). Since the DPWH is an institution under the government, it is paramount to maintain such roads in order to avoid accidents and congested traffic situations especially in heavily urbanized areas where there are a lot of vehicles.
+	
+	
+	In an interview with the Road Board of DPWH Region 6 it was stated that road condition assessments are mostly done manually with heavy reliance on engineering judgment. In addition, manual assessment of roads is also time consuming which leaves maintenance operations to wait for lengthy assessments (J. Chua, Personal Interview. 16 September 2024).  In a study conducted by Ramos, Dacanay, and Bronuela-Ambrocio (2022), it was found that the Philippines’ current method of manual pavement surveying is considered as a gap since it takes an average of 2-3 months to cover a 250 km road as opposed to a 1 day duration in the Australian Road Research Board for the same road length. Ramos et al. (2022) recommended that to significantly improve efficiency of surveying methods and data gathering processes, automated survey tools are to be employed. It was also added that use of such automated surveying tools can also guarantee the safety of road surveyors (Ramos et al., 2022).
+	
+	
+	If the process of assessment on the severity of road defects can be automated then the whole process of assessing the quality of roads can be hastened up which can also enable maintenance operations to commence as soon as possible if necessary. If not automated, the delay of assessments will continue and roads that are supposedly needing maintenance may not be properly maintained which can affect the general public that is utilizing public roads daily.
+	
+	
+	\section{Problem Statement}
+	Roads support almost every aspect of daily life, from providing a way to transport goods and services to allowing people to stay connected with their communities. However, road defects such as cracks and potholes damage roads over time, and they can increase accident risks and affect the overall transportation. The current way of inspecting the roads for maintenance is often slow as it is done manually, which makes it harder to detect and fix defects early. The delay in addressing these problems can lead to even worse road conditions (J. Chua, Personal Interview. 16 September 2024). There are several research studies into automated road defect classification that have advanced in recent years but most of them focus on identifying the types of defects rather than assessing their severity or characteristics like depth. Without reliable data on the depth of the defect, road maintenance authorities may underestimate the severity of certain defects. To address these challenges, advancements are needed across various areas. An effective solution should not only detect and classify road defects but also measure their severity to better prioritize repairs. Failing to address this problem will require more extensive repairs for damaged roads, which raises the cost and strains the budget. Additionally, road maintenance would still be slow and cause disruptions in daily activities. Using an automated system that accurately detects, classifies, and assess the severity of road defects by incorporating depth are necessary to efficiently monitor road quality.
+	
+	
+	\section{Research Objectives}
+	\label{sec:researchobjectives}
+	
+	\subsection{General Objective}
+	\label{sec:generalobjective}
+	
+	This special problem aims to develop an automated system that will accurately detect, classify, and assess the severity of the different types of road defects by using image analysis, depth measurement technologies, and combination of machine learning and computer vision techniques. 
+	
+	
+	
+	\subsection{Specific Objectives}
+	\label{sec:specificobjectives}
+	
+	Specifically, this special problem aims:
+	\begin{enumerate}
+		\item To collect high-quality images of road surfaces that capture different types of road defects including their depth in various lighting and weather conditions.
+		\item To develop and train a machine learning model to detect, classify, and assess the severity of road defects from images. 
+		\item To measure the accuracy of the system by comparing the depth measurements against ground truth data collected from actual road inspections
+		\item To develop a prototype system that can detect and measure road defects from image input, analyze their depth, and assess their severity.
+	\end{enumerate}
+	
+	
+	\section{Scope and Limitations of the Research}
+	\label{sec:scopelimitations}
+	
+	
+	
+	This system will include a collection of images of  different road defects, such as potholes and cracks, using cameras and depth-sensing tools. The images will be captured under various lighting and weather conditions to ensure that the data has variations. The scope is limited to visual and depth data. High-quality and diverse  image data sets are essential for training an efficient model, and by focusing on capturing the depth, it will allow a more accurate assessment of severity of the road defects. 
+	
+	
+	Depth measurement tools, such as LiDAR drones or stereo cameras will be used to record the depth of the road defect. Only accessible defects will be measured, any cracks and potholes filled with water may not be accurately assessed. 
+	
+	
+	A machine learning model will be used to identify, classify, and assess the severity of road defects. It will use the image dataset to classify and assess the road defect types accurately, however, the effectiveness will depend on the quality and quantity of the training dataset. There can be a limited variety of images or inaccuracies due to environmental factors. The model will allow consistent and automated assessment of road defects which is more efficient than manual inspection. 
+	
+	
+	The accuracy of the system will be evaluated by comparing the depth measurement it produces against data collected from the field through manual inspections. However, the comparisons could be limited to selected sample sites because collecting field data across a wide area can be time-consuming. Comparing the data is important to validate the reliability of the system. It ensures that the data that the system produces is accurate so it increases confidence in using it for road maintenance. 
+	
+	
+	\section{Significance of the Research}
+	\label{sec:significance}
+	
+	This special problem aims to be significant to the following:
+	
+	
+	\textit{Computer Science Community}. This system can contribute to advancements in computer vision and machine learning by using both visual and depth data to assess the severity of road defects. It introduces a more comprehensive approach compared to the usual image-only or manual inspection methods. This combination can be applied to other fields that need both visual and depth analysis like medical imaging. 
+	
+	
+	\textit{Concerned Government Agencies.} This system offers a valuable tool for road safety and maintenance. Not only can this detect and classify anomalies, it can also assess the defect’s severity which allows them to prioritize repairs, optimal project expenditures, and better overall road safety and quality. 
+	
+	
+	\textit{Field Engineers.} In the scorching heat, field engineers are no longer required to be on foot unless it requires its engineering judgement when surveying a road segment. It can hasten the overall assessment process. 
+	
+	
+	\textit{Future Researchers.} The special problem can serve as a baseline and guide of researchers with the aim to pursue special problems similar or related to this. 
+	
+	\chapter{Review of Related Literature}
+	
+	\section{Related Literature}
+	This section of the chapter presents related literature that is considered essential for the development of this special problem.
+	
+	\subsection{Deep Learning}
+	Kelleher (2019) states that deep learning is inclined on making large-scale neural networks geared towards creating data-driven decisions. Furthermore, it was also argued that deep learning is oriented towards large-scale, complex data.
+	
+	\subsection{YOLOv5}
+	According to Solawetz (2024), YOLOv5 is a model from a family of computer vision models used for object detection. YOLOv5 is reported to perform comparably to state-of-the-art techniques. It is designed to extract features from raw input images, used primarily in training object detection models alongside various data augmentation techniques.
+	
+	\subsection{Image and Video Processing}
+	Kumar (2024) defines image processing as a process of turning an image into its digital form and extracting data from it through certain functions and operations. Usual processes are considered to treat images as 2D signals wherein different processing methods utilize these signals.
+	Like image processing, Riches Resources (2020) defines video processing as being able to extract information and data from video footage through signal processing methods. However, in video processing due to the diversity of video formats, compression and decompression methods are often expected to be performed on videos before processing methods to either increase or decrease bitrate.
+	
+	\subsection{LiDAR}
+	Wasser (2024) describes LiDAR as a technology utilized to measure the depth of a point from a certain height through its active remote sensing. During this process, a LiDAR measures the distance traveled through the time an emitted light takes to travel to the ground and back. Wasser (2024) states that this measured distance is converted into elevation.
+	
+	
+	\section{Related Studies}
+	This section of the chapter presents related studies conducted by other researchers wherein the methodology and technologies used may serve as basis in the development of this special problem.
+	
+	\subsection{Automated Detection and Classification of Road Anomalies in VANET Using Deep Learning}
+		In the study of Bibi et al. (2021) it was noted that identification of active road defects are critical in maintaining smooth and safe flow of traffic. Detection and subsequent repair of such defects in roads are crucial in keeping vehicles using such roads away from mechanical failures. The study also emphasized the growth in use of autonomous vehicles in research data gathering which is what the researchers utilized in data gathering procedures. With the presence of autonomous vehicles, this allowed the researchers to use a combination of sensors and deep neural networks in deploying artificial intelligence. The study aimed to allow autonomous vehicles to avoid critical road defects that can possibly lead to dangerous situations. Researchers used Resnet-18 and VGG-11 in automatic detection and classification of road defects. Researchers concluded that the trained model was able to perform better than other techniques for road defect detection (Bibi et al., 2021). The study is able to provide the effectiveness of using deep learning models in training artificial intelligence for road defect detection and classification. However, the study lacks findings regarding the severity of detected defects which is crucial in automating manual procedures of road surveying in the Philippines.
+	
+	\subsection{Smartphones as Sensors for Road Surface Monitoring}
+		In their study, Chapman, Li, and Sattar (2018) noted the rise of sensing capabilities of smartphones which they utilized in monitoring road surface to detect and identify anomalies. The researchers considered different approaches in detecting road surface anomalies using smartphone sensors. One of which are threshold-based approaches which was determined to be quite difficult  due to several factors that are affecting the process of determining the interval length of a window function in spectral analysis (Chapman et al., 2018). The researchers also utilized a machine learning approach adapted from another study. It was stated that k-means was used in classifying sensor data and in training the SVM algorithm. Due to the requirement of training a supervised algorithm using a labeled sample data was required before classifying data from sensors, the approach was considered to be impractical for real-time situations (Chapman et al., 2018). In addition, Chapman et al. (2018) also noted various challenges when utilizing smartphones as sensors for data gathering such as sensors being dependent on the device’s placement and orientation, smoothness of captured data, and the speed of the vehicle it is being mounted on. Lastly, it was also concluded that the accuracy and performance of using smartphone sensors is challenging to compare due to the limited data sets and reported algorithms.
+
+	
+	\subsection{Road Anomaly Detection through Deep Learning Approaches}
+		The study of Guo, Luo, and Lu (2020) aimed to utilize deep learning models in classifying road anomalies. The researchers used three deep learning approaches namely Convolutional Neural Network, Deep Feedforward Network, and Recurrent Neural Network. In comparing the performance of the three deep learning approaches, the researchers fixed some hyperparameters. Results revealed that the RNN model was the most stable among the three and in the case of the CNN and DFN models, the researchers suggested the use of wheel speed signals to ensure accuracy. And lastly, the researchers concluded that the RNN model was best due to high prediction performance with small set parameters (Guo et al., 2020).
+
+	
+	\subsection{Road Surface Quality Monitoring Using Machine Learning Algorithms}
+		The study of Bansal et al. (2021) aimed to utilize machine learning algorithms in classifying road defects as well as predict their locations. Another implication of the study was to provide useful information to commuters and maintenance data for authorities regarding road conditions. The researchers gathered data using various methods such as smartphone GPS, gyroscopes, and accelerometers. Bansal et al. (2021) also argued that early existing road monitoring models are unable to predict locations of road defects and are dependent on fixed roads and static vehicle speed.  Neural and deep neural networks were utilized in the classification of anomalies which was concluded by the researchers to yield accurate results and are applicable on a larger scale of data (Bansal et al., 2021). The study of Bansal et al. (2021) can be considered as an effective method in gathering data about road conditions. However, it was stated in the study that relevant authorities will be provided with maintenance operation and there is no presence of any severity assessment in the study. This may cause confusion due to a lack of assessment on what is the road condition that will require extensive maintenance or repair.
+
+	
+	\subsection{Assessing Severity of Road Cracks Using Deep Learning-Based Segmentation and Detection}
+		In the study of Ha, Kim, and Kim (2022), it was argued that the detection, classification, and severity assessment of road cracks should be automated due to the bottleneck it causes during the entire process of surveying. For the study, the researchers utilized SqueezNet, U-Net, and MobileNet-SSD models for crack classification and severity assessment. Furthermore, the researchers also employed separate U-nets for linear and area cracking cases. For crack detection, the researchers followed the process of pre-processing, detection, classification. During preprocessing images were smoothed out using image processing techniques. The researchers also utilized YOLOv5 object detection models for classification of pavement cracking wherein the YOLOv51 model recorded the highest accuracy. The researchers however stated images used for the study are only 2D images which may have allowed higher accuracy rates. Furthermore, the researchers suggest incorporating depth information in the models to further enhance results.
+	
+	\subsection{Roadway pavement anomaly classification utilizing smartphones and artificial intelligence}
+		The study of Christodoulou,Dimitrio, and Kyriakou (2016) presented what is considered as a low-cost technology which was the use of Artificial Neural Networks in training a model for road anomaly detection from data gathered by smartphone sensors. The researchers were able to collect case study data using two-dimensional indicators of the smartphone’s roll and pitch values. In the study’s discussion, the data collected displayed some complexity due to acceleration and vehicle speed which lead to detected anomalies being not as conclusive as planned. The researchers also added that the plots are unable to show parameters that could verify the data’s correctness and accuracy. Despite the setbacks, the researchers still fed the data into the Artificial Neural Network that was expected to produce two outputs which were “no defect” and “defect”. The method still yielded above 90\% accuracy but due to the limited number of possible outcomes in the data processing the researchers still needed to test the methodology with larger data sets and roads with higher volumes of anomalies.
+		
+	\subsection{Pothole Mapping and Patching Quantity Estimates using LiDAR-Based Mobile Mapping Systems}
+		In the study of Ravi, Habib, and Bullock (2020) utilized LiDAR technology in order to propose pothole mapping methods for public agencies which was argued to be laborious and time-consuming manual classification and quantity estimation. The researchers of the study made use of a wheel-based mobile LiDAR system driven at speeds of 40 - 50 mph during data gathering. In order to ensure accuracy of collected data, the researchers made multiple drive-runs which allowed the comparison of scanned data between two sensors. In a given 3D point cloud,  the researchers also presented a process of pinpointing identified pothole points and these pothole points are then classified into different clusters through a distance-based growing strategy. Analysis procedures are then done by clusters. The researchers however established a minimum volume threshold for potholes in a given bounding box. In classifying pothole points, points inside a segment or tile are used along with plane-fitting to determine planar position and orientation parameters. Individual points are then again used to extract information like signed normal distance from the best-fitting plane. Distance collected is then stated to be the depth beneath the road surface and the researchers classified potential potholes to have a depth that is greater than 1 cm.
+
+		\chapter{Methodology}
+		This chapter outlines the systematic approach taken to address the problem of classifying and assessing road defects using artificial intelligence. The methodology is divided into key phases: data collection, data preprocessing, algorithm selection, system implementation, and testing. Each phase is essential to accurately classify and assess road defects.
+		\section{System Architecture}
+		
+		\subsection{Overview of the System}
+		The system receives video or images from the drone, preprocess them to enhance the quality, and uses YOLOv5-based model to detect and classify road defects. Severity assessment is in accordance to the official road maintenance manual and guidelines of the Department of Public Works and Highways (DPWH), and the integration of the multi-view depth estimation using epipolar spatio-temporal networks. The results are visualized in a user-friendly interface for assessment. 
+		
+		\subsection{System Flow Diagram}
+		The system’s operational flow is outlined as follows:
+		\begin{enumerate}
+			\item Road Segment Image Capture
+			\item Preprocessing (image enhancement and alignment)
+			\item Defect Detection (YOLOv5 model)
+			\item Defect Depth Estimation (ESTDepth model)
+			\item Severity Assessment (following DPWH criteria)
+			\item Visualization of Results (interface for assessment)
+		\end{enumerate}
+		
+		\section{Data Collection and Preprocessing}
+		\subsection{Data Sources}
+		The custom YOLOv5 model was trained using a public dataset that was acquired from Roboflow. The data for testing is collected using the DJI Mavic 3 Multispectral drone, and essential hyperparameters, such as batch size, epoch count, and input dimensions, were tuned for optimal model performance.
+		
+		\section{Algorithm Selection}
+		\subsection{YOLOv5 Architecture}
+		YOLOv5 was selected for its balance of real-time processing capability and accuracy, essential for detecting road defects in dynamic environments.
+		\subsection{Severity Assessment}
+		The Multi-view Depth Estimation using Epipolar Spatio-Temporal Networks was selected due to the high cost and limited accessibility of LiDAR technology. By applying epipolar geometry and temporal consistency across sequential frames, this approach provides an accurate depth estimation from a standard video footage (Long et al., 2021). 
+		
+		\section{System Implementation}
+		\subsection{Development}
+		The system is developed using Python.
+		\subsection{Process Flow}
+		\subsection{Code Implementation}
+		
+		\section{Testing and Validation}
+		\subsection{Test and Validation Plan}
+		The system is tested using data gathered from ground truthing which involves manual inspection and measuring of road defects to verify the type, shape, and dimensions of the defect. These manual observations serve as a baseline reference to measure the system’s accuracy in detecting, classifying, and severity assessment of road defects. 
+		
+		\subsection{Challenges and Limitations}
+		One major limitation is the availability of local labeled datasets, which affects the model’s training, as most datasets available are those captured from foreign countries only.
+		
+		\section{Tools and Technologies}
+		\subsection{Programming Languages}
+		The system was developed in Python
+		\subsection{Libraries and Frameworks}
+		Key libraries and frameworks include YOLOv5 for object detection, OpenCV for image processing, and PyTorch for model training and evaluation.
+		\subsection{Software}
+		Python, OpenCV, PyTorch, YOLOv5, CUDA, and Visual Studio Code IDE. 
+		\subsection{Hardware}
+		The data was captured from a DJI Mavic 3 Multispectral Drone and the model was trained on a desktop computer with the following specifications:
+		\begin{itemize}
+			\item Memory: 16GB
+			\item Processor: AMD® Ryzen 7 5700G @ 3.8Ghz
+			\item Graphics: NVIDIA® GeForce GTX 1660 SUPER
+			\item OS: Windows 11 Pro
+			\item Disk: 1TB NVMe SSD
+		\end{itemize}
+		
+\end{document}
