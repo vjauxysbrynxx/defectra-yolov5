@@ -23,7 +23,7 @@ Roads support almost every aspect of daily life, from providing a way to transpo
 \subsection{General Objective}
 \label{sec:generalobjective}
 
-This special problem aims to develop an automated system that will accurately detect, classify, and assess the severity of the different types of road defects by using image analysis, depth measurement technologies, and combination of machine learning and computer vision techniques. 
+This special problem aims to develop an automated system that will accurately detect and assess the severity of potholes on road surfaces by using image analysis, depth measurement technologies, and a combination of machine learning and computer vision techniques. The system will focus on measuring the depth of potholes to assess their severity, enabling faster and more accurate road maintenance decisions. 
 
 
 
@@ -32,28 +32,24 @@ This special problem aims to develop an automated system that will accurately de
 
 Specifically, this special problem aims:
 \begin{enumerate}
-   \item To collect high-quality images of road surfaces that capture different types of road defects including their depth in various lighting and weather conditions.
-   \item To develop and train a machine learning model to detect, classify, and assess the severity of road defects from images. 
-   \item To measure the accuracy of the system by comparing the depth measurements against ground truth data collected from actual road inspections
-   \item To develop a prototype system that can detect and measure road defects from image input, analyze their depth, and assess their severity.
+	\item To collect high-quality images of road surfaces that capture potholes including their depth in various lighting and weather conditions.
+	\item To develop and train a machine learning model to detect and assess the severity of potholes from images. 
+	\item To measure the accuracy of the system by comparing the depth measurements against ground truth data collected from actual road inspections
+	\item To develop a prototype system that can detect and measure road potholes from image input, analyze their depth, and assess their severity.
 \end{enumerate}
-
 
 \section{Scope and Limitations of the Research}
 \label{sec:scopelimitations}
 
 
 
-This system will include a collection of images of  different road defects, such as potholes and cracks, using cameras and depth-sensing tools. The images will be captured under various lighting and weather conditions to ensure that the data has variations. The scope is limited to visual and depth data. High-quality and diverse  image data sets are essential for training an efficient model, and by focusing on capturing the depth, it will allow a more accurate assessment of severity of the road defects. 
+This system will focus solely on detecting and assessing the severity of potholes through image analysis and depth measurement technologies. The scope includes the collection of pothole images using cameras and depth-sensing tools under various lighting and weather conditions, ensuring the data captures real-world variations. High-quality and diverse image datasets will be crucial for training the model to accurately assess pothole severity based on depth.
 
+Depth-sensing tools, such as stereo cameras, will be used to record the depth of potholes specifically. The system will not address other road defects like cracks or other surface deformations; therefore, it will detect and analyze only potholes. Additionally, only accessible potholes will be measured, meaning those that are filled with water or obscured by debris may not be accurately assessed.
 
-Depth measurement tools, such as LiDAR drones or stereo cameras will be used to record the depth of the road defect. Only accessible defects will be measured, any cracks and potholes filled with water may not be accurately assessed. 
+The machine learning model developed will focus exclusively on detecting potholes and assessing their severity through depth measurement. The accuracy of the model’s depth measurements will be evaluated by comparing them against data collected from actual field inspections. However, this comparison will be limited to selected sample sites, as collecting field data over a large area can be time-consuming and resource-intensive.
 
-
-A machine learning model will be used to identify, classify, and assess the severity of road defects. It will use the image dataset to classify and assess the road defect types accurately, however, the effectiveness will depend on the quality and quantity of the training dataset. There can be a limited variety of images or inaccuracies due to environmental factors. The model will allow consistent and automated assessment of road defects which is more efficient than manual inspection. 
-
-
-The accuracy of the system will be evaluated by comparing the depth measurement it produces against data collected from the field through manual inspections. However, the comparisons could be limited to selected sample sites because collecting field data across a wide area can be time-consuming. Comparing the data is important to validate the reliability of the system. It ensures that the data that the system produces is accurate so it increases confidence in using it for road maintenance. 
+Environmental factors such as lighting, road surface texture, and weather conditions may impact the model's performance. The accuracy and reliability of the model will depend on the quality and variety of the training dataset. Its ability to generalize to unseen pothole images will need to be carefully validated.
 
 
 \section{Significance of the Research}
