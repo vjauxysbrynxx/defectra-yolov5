@@ -1,0 +1,76 @@
+
+\setcounter{chapter}{2} 
+\linespread{1.5}
+
+
+	\chapter{Methodology}
+	This chapter outlines the systematic approach taken to address the problem of classifying and assessing road defects using artificial intelligence. The methodology is divided into key phases: data collection, data preprocessing, algorithm selection, system implementation, and ss. Each phase is essential to accurately classify and assess road defects.
+	\section{\textbf{ Research Activities} }
+	
+	\subsection{\textbf{Inquiry} }
+	The team conducted initial inquiries to understand the problem domain and existing road maintenance practices. This phase included consulting the engineers under the Road Maintenance Department of the government agency Department of Public Works and Highways (DPWH). This allowed te team to gather information about road defects classification and maintenance practices. The inquiries were conducted during the first week and involved an interview with Engr. Jane Chua of the said department, who provided us a copy of the official road maintenance manual. The manual allows this project to be aligned with the established standards and practices of the DPWH.  
+	
+	\subsection{\textbf{Brainstorming} }
+	Potential solutions, algorithms, and system architectures were discussed by the team and the special problem adviser in this phase. These sessions, conducted in-class and virtually via Zoom, helped narrow down the overview of the system, leading to the selection of the main architecture YOLOv5 for defect detection and Epipolar Spatio-Temporal Networks (ESTN) for depth estimation. YOLO
+	
+	\subsection{\textbf{Algorithm Selection } }
+	Potential solutions, algorithms, and system architectures were discussed by the team and the special problem adviser in this phase. These sessions, conducted in-class and virtually via Zoom, helped narrow down the overview of the system, leading to the selection of the main architecture YOLOv5 for defect detection and Epipolar Spatio-Temporal Networks (ESTN) for depth estimation. YOLO
+	
+	\subsubsection{Defect Detection}
+	YOLOv5 was selected for its balance of real-time processing capability and accuracy, essential for detecting road defects in dynamic environments.
+	
+	\subsubsection{Severity Assessment}
+	The Multi-view Depth Estimation using Epipolar Spatio-Temporal Networks was selected due to the high cost and limited accessibility of LiDAR technology. By applying epipolar geometry and temporal consistency across sequential frames, this approach provides an accurate depth estimation from a standard video footage (Long et al., 2021). 
+	
+	\subsection{\textbf{Observation and Experimentation} }
+	
+	\subsection{\textbf{Design and Testing} }
+	The system is tested using data gathered from ground truthing which involves manual inspection and measuring of road defects to verify the type, shape, and dimensions of the defect. These manual observations serve as a baseline reference to measure the system’s accuracy in detecting, classifying, and severity assessment of road defects. 
+	
+	\subsubsection{Challenges and Limitations}
+	One major limitation is the availability of local labeled datasets, which affects the model’s training, as most datasets available are those captured from foreign countries only.
+	
+	\subsubsection{Documentation}
+	Documentation was conducted throughout the project, ensuring a detailed record of methods, results, and challenges. This documentation not only served as a basis for the final SP report but also provided transparency and reproducibility for future studies.
+	
+	\section{Calendar of Activities}
+	Table 1 shows a Gantt chart of the activities. Each bullet represents approximately one week worth of activity.
+	
+	
+	\begin{table}[ht]
+		\centering
+		\caption{Timetable of Activities} \vspace{0.25em}
+		\begin{tabular}{|p{2in}|c|c|c|c|c|c|c|c|} 
+			\hline
+			\textbf{Activities (2009)} & \textbf{Jan} & \textbf{Feb} & \textbf{Mar} & \textbf{Apr} & \textbf{May} & \textbf{Jun} & \textbf{Jul} \\ \hline
+			Study on Prerequisite Knowledge      &   &   & \weektwo & \weekfour &   &   &   \\ \hline
+			Review of Existing Racing Strategies & \weektwo & \weekfour & \weekfour & \weekfour &   &   &   \\ \hline
+			Identification of Best Features      &   &   &   & \weekfour & \weektwo &   &   \\ \hline
+			Development of Racing Strategies     &   &   &   & \weektwo & \weekfour & \weektwo &   \\ \hline
+			Simulation of Racing Strategies      &   &   &   & \weektwo & \weekfour & \weekthree &   \\ \hline
+			Analysis and Interpretation of Results &   &   &   &   & \weekfour & \weekfour & \weekone \\ \hline
+			Documentation & \weektwo & \weekfour & \weekfour & \weekfour & \weekfour & \weekfour & \weektwo \\ \hline
+		\end{tabular}
+		\label{tab:timetableactivities}
+	\end{table}
+	
+	
+	\begin{table}[h!]
+		\centering
+		\renewcommand{\arraystretch}{1.5} % Adjust row height
+		\setlength{\tabcolsep}{5pt}       % Adjust column width
+		\begin{tabular}{|l|c|c|c|c|c|c|c|}
+			\hline
+			\textbf{Activities} & \textbf{Aug} & \textbf{Sep} & \textbf{Nov} & \textbf{Dec} \\ \hline
+			Pre-proposal Preparation  & $\cdot$ $\cdot$ $\cdot$ $\cdot$ &     &     &  \\ \hline
+			Literature Review & $\cdot$ $\cdot$ $\cdot$ & $\cdot$\hspace*{\fill} &  &     \\ \hline
+			Data Collection  & \hspace*{\fill} $\cdot$ $\cdot$& $\cdot$ $\cdot$\hspace*{\fill}&  &  \\ \hline
+			Algorithm Selection &     &$\cdot$ $\cdot$&     &     \\ \hline
+			System Design  &     &    \hspace*{\fill}{$\cdot$ } & $\cdot$ $\cdot$  \hspace*{\fill}   &    \\ \hline
+			Prelimenary Testing &     &     & \hspace*{\fill} $\cdot$ $\cdot$   & $\cdot$ \hspace*{\fill}\\ \hline
+			Documentation and SP Writing  & $\cdot$ $\cdot$ $\cdot$ $\cdot$ & $\cdot$ $\cdot$ $\cdot$ $\cdot$ & $\cdot$ $\cdot$ $\cdot$ $\cdot$ & $\cdot$ $\cdot$ \hspace*{\fill}\\ \hline
+		\end{tabular}
+		\caption{Timetable of Activities}
+	\end{table}
+	
+	
