@@ -1,262 +1,396 @@
 \begin{thebibliography}{}
 
 \bibitem [\protect \citeauthoryear {%
-Fedkiw%
-, Stam%
-\BCBL {}\ \BBA {} Jensen%
-}{%
-Fedkiw%
+Bibi%
 \ \protect \BOthers {.}}{%
-{\protect \APACyear {2001}}%
-}]{%
-fedkiw:2001:VSO}
-\APACinsertmetastar {%
-fedkiw:2001:VSO}%
-\begin{APACrefauthors}%
-Fedkiw, R.%
-, Stam, J.%
-\BCBL {}\ \BBA {} Jensen, H\BPBI W.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYearMonthDay{2001}{}{}.
-\newblock
-{\BBOQ}\APACrefatitle {Visual Simulation of Smoke} {Visual simulation of
-  smoke}.{\BBCQ}
-\newblock
-\BIn{} E.~Fiume\ (\BED), \APACrefbtitle {Proceedings of SIGGRAPH 2001}
-  {Proceedings of siggraph 2001}\ (\BPGS\ 15--22).
-\newblock
-\APACaddressPublisher{}{ACM Press / ACM SIGGRAPH}.
-\PrintBackRefs{\CurrentBib}
-
-\bibitem [\protect \citeauthoryear {%
-Jobson%
-, Rahman%
-\BCBL {}\ \BBA {} Woodell%
-}{%
-Jobson%
+Bibi%
 \ \protect \BOthers {.}}{%
-{\protect \APACyear {1995}}%
+{\protect \APACyear {2021}}%
 }]{%
-Jobs95}
+bibi2021}
 \APACinsertmetastar {%
-Jobs95}%
+bibi2021}%
 \begin{APACrefauthors}%
-Jobson, D\BPBI J.%
-, Rahman, Z.%
-\BCBL {}\ \BBA {} Woodell, G\BPBI A.%
+Bibi, R.%
+, Saeed, Y.%
+, Zeb, A.%
+, Ghazal, T\BPBI M.%
+, Rahman, T.%
+, Said, R\BPBI A.%
+\BDBL {}Khan, M\BPBI A.%
 \end{APACrefauthors}%
 \unskip\
 \newblock
-\APACrefYearMonthDay{1995}{}{}.
+\APACrefYearMonthDay{2021}{}{}.
 \newblock
-{\BBOQ}\APACrefatitle {Retinex image processing: Improved fidelity to direct
-  visual observation} {Retinex image processing: Improved fidelity to direct
-  visual observation}.{\BBCQ}
+{\BBOQ}\APACrefatitle {Edge AI‐Based Automated Detection and Classification
+  of Road Anomalies in VANET Using Deep Learning} {Edge ai‐based automated
+  detection and classification of road anomalies in vanet using deep
+  learning}.{\BBCQ}
 \newblock
-\BIn{} \APACrefbtitle {Proceedings of the IS\&T Fourth Color Imaging
-  Conference: Color Science, Systems, and Applications} {Proceedings of the
-  is\&t fourth color imaging conference: Color science, systems, and
-  applications}\ (\BVOL~4, \BPGS\ 124--125).
+\APACjournalVolNumPages{Computational Intelligence and
+  Neuroscience}{2021}{1}{}.
+\newblock
+\begin{APACrefDOI} \doi{10.1155/2021/6262194} \end{APACrefDOI}
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
-Kartch%
+Ha%
+, Kim%
+\BCBL {}\ \BBA {} Kim%
 }{%
-Kartch%
-}{%
-{\protect \APACyear {2000}}%
-}]{%
-kartch:2000:ERA}
-\APACinsertmetastar {%
-kartch:2000:ERA}%
-\begin{APACrefauthors}%
-Kartch, D.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYear{2000}.
-\unskip\
-\newblock
-\APACrefbtitle {Efficient Rendering and Compression for Full-Parallax
-  Computer-Generated Holographic Stereograms} {Efficient rendering and
-  compression for full-parallax computer-generated holographic stereograms}\
-  \APACtypeAddressSchool {\BUPhD}{}{}.
-\unskip\
-\newblock
-\APACaddressSchool {}{Cornell University}.
-\PrintBackRefs{\CurrentBib}
-
-\bibitem [\protect \citeauthoryear {%
-Levoy%
+Ha%
 \ \protect \BOthers {.}}{%
-Levoy%
+{\protect \APACyear {2022}}%
+}]{%
+ha2022}
+\APACinsertmetastar {%
+ha2022}%
+\begin{APACrefauthors}%
+Ha, J.%
+, Kim, D.%
+\BCBL {}\ \BBA {} Kim, M.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2022}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Assessing Severity of Road Cracks Using Deep
+  Learning-Based Segmentation and Detection} {Assessing severity of road cracks
+  using deep learning-based segmentation and detection}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{The Journal of Supercomputing}{78}{16}{17721--17735}.
+\newblock
+\begin{APACrefDOI} \doi{10.1007/s11227-022-04560-x} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Kelleher%
+}{%
+Kelleher%
+}{%
+{\protect \APACyear {2019}}%
+}]{%
+kelleher2019}
+\APACinsertmetastar {%
+kelleher2019}%
+\begin{APACrefauthors}%
+Kelleher, J.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYear{2019}.
+\newblock
+\APACrefbtitle {Deep Learning} {Deep learning}.
+\newblock
+\begin{APACrefURL}
+  \url{https://books.google.com.ph/books?hl=en&lr=&id=b06qDwAAQBAJ&oi=fnd&pg=PP9&dq=what+is+deep+learning&ots=_pCSXIk_WN&sig=EoGHTk7LjEBuR_OtFNX87LYOYU4&redir_esc=y#v=onepage&q=what%20is%20deep%20learning&f=false}
+  \end{APACrefURL}
+\newblock
+\APACrefnote{In Google Books}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Kumar%
+}{%
+Kumar%
+}{%
+{\protect \APACyear {2024}}%
+}]{%
+kumar2024}
+\APACinsertmetastar {%
+kumar2024}%
+\begin{APACrefauthors}%
+Kumar, A.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2024}{October}{}.
+\newblock
+\APACrefbtitle {What is Image Processing: Overview, Applications, Benefits, and
+  More.} {What is image processing: Overview, applications, benefits, and
+  more.}
+\newblock
+\begin{APACrefURL} \url{https://www.simplilearn.com/image-processing-article}
+  \end{APACrefURL}
+\newblock
+\APACrefnote{Accessed: January 1, 2025}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Kyriakou%
+, Christodoulou%
+\BCBL {}\ \BBA {} Dimitriou%
+}{%
+Kyriakou%
 \ \protect \BOthers {.}}{%
-{\protect \APACyear {2000}}%
+{\protect \APACyear {2016}}%
 }]{%
-levoy:2000:TDM}
+kyriakou2016}
 \APACinsertmetastar {%
-levoy:2000:TDM}%
+kyriakou2016}%
 \begin{APACrefauthors}%
-Levoy, M.%
-, Pulli, K.%
-, Curless, B.%
-, Rusinkiewicz, S.%
-, Koller, D.%
-, Pereira, L.%
-\BDBL {}Fulk, D.%
+Kyriakou, C.%
+, Christodoulou, S\BPBI E.%
+\BCBL {}\ \BBA {} Dimitriou, L.%
 \end{APACrefauthors}%
 \unskip\
 \newblock
-\APACrefYearMonthDay{2000}{}{}.
+\APACrefYearMonthDay{2016}{April}{}.
 \newblock
-{\BBOQ}\APACrefatitle {The Digital Michelangelo Project} {The digital
-  michelangelo project}.{\BBCQ}
+{\BBOQ}\APACrefatitle {Roadway Pavement Anomaly Classification Utilizing
+  Smartphones and Artificial Intelligence} {Roadway pavement anomaly
+  classification utilizing smartphones and artificial intelligence}.{\BBCQ}
 \newblock
-\BIn{} K.~Akeley\ (\BED), \APACrefbtitle {Proceedings of SIGGRAPH 2000}
-  {Proceedings of siggraph 2000}\ (\BPGS\ 131--144).
+\BIn{} \APACrefbtitle {Proceedings of the IEEE Conference.} {Proceedings of the
+  ieee conference.}
 \newblock
-\APACaddressPublisher{New York}{ACM Press / ACM SIGGRAPH}.
+\begin{APACrefURL} \url{https://ieeexplore.ieee.org/abstract/document/7495459}
+  \end{APACrefURL}
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
-Park%
-, Linsen%
-, Kreylos%
-, Owens%
-\BCBL {}\ \BBA {} Hamann%
+Long%
+, Wang%
+, Zhang%
+, Mei%
+\BCBL {}\ \BBA {} Shen%
 }{%
-Park%
+Long%
 \ \protect \BOthers {.}}{%
-{\protect \APACyear {2006}}%
+{\protect \APACyear {2021}}%
 }]{%
-Park:2006:DSI}
+long2021}
 \APACinsertmetastar {%
-Park:2006:DSI}%
+long2021}%
 \begin{APACrefauthors}%
-Park, S\BPBI W.%
-, Linsen, L.%
-, Kreylos, O.%
-, Owens, J\BPBI D.%
-\BCBL {}\ \BBA {} Hamann, B.%
+Long, Y.%
+, Wang, J.%
+, Zhang, H.%
+, Mei, T.%
+\BCBL {}\ \BBA {} Shen, X.%
 \end{APACrefauthors}%
 \unskip\
 \newblock
-\APACrefYearMonthDay{2006}{{\APACmonth{03}}\slash {\APACmonth{04}}}{}.
+\APACrefYearMonthDay{2021}{}{}.
 \newblock
-{\BBOQ}\APACrefatitle {Discrete Sibson interpolation} {Discrete sibson
-  interpolation}.{\BBCQ}
+{\BBOQ}\APACrefatitle {Multi-View Depth Estimation Using Epipolar
+  Spatio-Temporal Networks} {Multi-view depth estimation using epipolar
+  spatio-temporal networks}.{\BBCQ}
 \newblock
-\APACjournalVolNumPages{IEEE Transactions on Visualization and Computer
-  Graphics}{12}{2}{243--253}.
+\BIn{} \APACrefbtitle {Proceedings of the IEEE/CVF Conference on Computer
+  Vision and Pattern Recognition (CVPR).} {Proceedings of the ieee/cvf
+  conference on computer vision and pattern recognition (cvpr).}
+\newblock
+\begin{APACrefDOI} \doi{10.1109/CVPR46437.2021.01567} \end{APACrefDOI}
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
-Parke%
-\ \BBA {} Waters%
+Luo%
+, Lu%
+\BCBL {}\ \BBA {} Guo%
 }{%
-Parke%
-\ \BBA {} Waters%
-}{%
-{\protect \APACyear {1996}}%
-}]{%
-parke:1996:CFA}
-\APACinsertmetastar {%
-parke:1996:CFA}%
-\begin{APACrefauthors}%
-Parke, F\BPBI I.%
-\BCBT {}\ \BBA {} Waters, K.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYear{1996}.
-\newblock
-\APACrefbtitle {Computer Facial Animation} {Computer facial animation}.
-\newblock
-\APACaddressPublisher{}{A. K. Peters}.
-\PrintBackRefs{\CurrentBib}
-
-\bibitem [\protect \citeauthoryear {%
-Pellacini%
+Luo%
 \ \protect \BOthers {.}}{%
-Pellacini%
+{\protect \APACyear {2020}}%
+}]{%
+luo2020}
+\APACinsertmetastar {%
+luo2020}%
+\begin{APACrefauthors}%
+Luo, D.%
+, Lu, J.%
+\BCBL {}\ \BBA {} Guo, G.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2020}{June}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Road Anomaly Detection Through Deep Learning Approaches}
+  {Road anomaly detection through deep learning approaches}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{IEEE Journals & Magazine}{}{}{}.
+\newblock
+\begin{APACrefURL} \url{https://ieeexplore.ieee.org/document/9123753/}
+  \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Ramaiah%
+\ \BBA {} Kundu%
+}{%
+Ramaiah%
+\ \BBA {} Kundu%
+}{%
+{\protect \APACyear {2021}}%
+}]{%
+ramaiah2021}
+\APACinsertmetastar {%
+ramaiah2021}%
+\begin{APACrefauthors}%
+Ramaiah, N\BPBI K\BPBI B.%
+\BCBT {}\ \BBA {} Kundu, S.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2021}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Stereo Vision Based Pothole Detection System for
+  Improved Ride Quality} {Stereo vision based pothole detection system for
+  improved ride quality}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{SAE International Journal of Advances and Current
+  Practices in Mobility}{3}{5}{2603--2610}.
+\newblock
+\begin{APACrefDOI} \doi{10.4271/2021-01-0085} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Ramos%
+, Dacanay%
+\BCBL {}\ \BBA {} Bronuela-Ambrocio%
+}{%
+Ramos%
 \ \protect \BOthers {.}}{%
-{\protect \APACyear {2005}}%
+{\protect \APACyear {2023}}%
 }]{%
-Pellacini:2005:LAH}
+ramos2023}
 \APACinsertmetastar {%
-Pellacini:2005:LAH}%
+ramos2023}%
 \begin{APACrefauthors}%
-Pellacini, F.%
-, Vidim{\v{c}}e, K.%
-, Lefohn, A.%
-, Mohr, A.%
-, Leone, M.%
-\BCBL {}\ \BBA {} Warren, J.%
+Ramos, J\BPBI A.%
+, Dacanay, J\BPBI P.%
+\BCBL {}\ \BBA {} Bronuela-Ambrocio, L.%
 \end{APACrefauthors}%
 \unskip\
 \newblock
-\APACrefYearMonthDay{2005}{{\APACmonth{08}}}{}.
+\APACrefYear{2023}.
+\unskip\
 \newblock
-{\BBOQ}\APACrefatitle {Lpics: a Hybrid Hardware-Accelerated Relighting Engine
-  for Computer Cinematography} {Lpics: a hybrid hardware-accelerated relighting
-  engine for computer cinematography}.{\BBCQ}
+\APACrefbtitle {A Review of the Current Practices in the Pavement Surface
+  Monitoring in the Philippines} {A review of the current practices in the
+  pavement surface monitoring in the philippines}\ }{}{University of the
+  Philippines Diliman}.
+\unskip\
 \newblock
-\APACjournalVolNumPages{ACM Transactions on Graphics}{24}{3}{464--470}.
+\begin{APACrefURL}
+  \url{https://ncts.upd.edu.ph/tssp/wp-content/uploads/2023/01/TSSP2022_09.pdf}
+  \end{APACrefURL}
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
-Sako%
-\ \BBA {} Fujimura%
+Resources%
 }{%
-Sako%
-\ \BBA {} Fujimura%
+Resources%
 }{%
-{\protect \APACyear {2000}}%
+{\protect \APACyear {2020}}%
 }]{%
-sako:2001:SSB}
+riches2020}
 \APACinsertmetastar {%
-sako:2001:SSB}%
+riches2020}%
 \begin{APACrefauthors}%
-Sako, Y.%
-\BCBT {}\ \BBA {} Fujimura, K.%
+Resources, R.%
 \end{APACrefauthors}%
 \unskip\
 \newblock
-\APACrefYearMonthDay{2000}{}{}.
+\APACrefYearMonthDay{2020}{}{}.
 \newblock
-{\BBOQ}\APACrefatitle {Shape Similarity by Homotropic Deformation} {Shape
-  similarity by homotropic deformation}.{\BBCQ}
+\APACrefbtitle {Video Processing.} {Video processing.}
 \newblock
-\APACjournalVolNumPages{The Visual Computer}{16}{1}{47--61}.
+\begin{APACrefURL}
+  \url{https://resources.riches-project.eu/glossary/video-processing/}
+  \end{APACrefURL}
+\newblock
+\APACrefnote{Accessed: January 1, 2025}
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
-Yee%
+Sattar%
+, Li%
+\BCBL {}\ \BBA {} Chapman%
 }{%
-Yee%
-}{%
-{\protect \APACyear {2000}}%
+Sattar%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2018}}%
 }]{%
-yee:2000:SSA}
+sattar2018}
 \APACinsertmetastar {%
-yee:2000:SSA}%
+sattar2018}%
 \begin{APACrefauthors}%
-Yee, Y\BPBI L\BPBI H.%
+Sattar, S.%
+, Li, S.%
+\BCBL {}\ \BBA {} Chapman, M.%
 \end{APACrefauthors}%
 \unskip\
 \newblock
-\APACrefYear{2000}.
+\APACrefYearMonthDay{2018}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Road Surface Monitoring Using Smartphone Sensors: A
+  Review} {Road surface monitoring using smartphone sensors: A review}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Sensors}{18}{11}{3845--3845}.
+\newblock
+\begin{APACrefDOI} \doi{10.3390/s18113845} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Singh%
+, Bansal%
+, Kamal%
+\BCBL {}\ \BBA {} Kumar%
+}{%
+Singh%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2021}}%
+}]{%
+singh2021}
+\APACinsertmetastar {%
+singh2021}%
+\begin{APACrefauthors}%
+Singh, P.%
+, Bansal, A.%
+, Kamal, A\BPBI E.%
+\BCBL {}\ \BBA {} Kumar, S.%
+\end{APACrefauthors}%
 \unskip\
 \newblock
-\APACrefbtitle {Spatiotemporal sensistivity and visual attention for efficient
-  rendering of dynamic environments} {Spatiotemporal sensistivity and visual
-  attention for efficient rendering of dynamic environments}\
-  \APACtypeAddressSchool {\BUMTh}{}{}.
+\APACrefYearMonthDay{2021}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Road Surface Quality Monitoring Using Machine Learning
+  Algorithm} {Road surface quality monitoring using machine learning
+  algorithm}.{\BBCQ}
+\newblock
+\BIn{} \APACrefbtitle {Smart Innovation, Systems and Technologies} {Smart
+  innovation, systems and technologies}\ (\BPGS\ 423--432).
+\newblock
+\begin{APACrefDOI} \doi{10.1007/978-981-16-6482-3_42} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Solawetz%
+}{%
+Solawetz%
+}{%
+{\protect \APACyear {2024}}%
+}]{%
+solawetz2024}
+\APACinsertmetastar {%
+solawetz2024}%
+\begin{APACrefauthors}%
+Solawetz, J.%
+\end{APACrefauthors}%
 \unskip\
 \newblock
-\APACaddressSchool {}{Cornell University}.
+\APACrefYearMonthDay{2024}{April}{}.
+\newblock
+{\BBOQ}\APACrefatitle {What is YOLOv5? A Guide for Beginners} {What is yolov5?
+  a guide for beginners}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Roboflow Blog}{}{}{}.
+\newblock
+\begin{APACrefURL}
+  \url{https://blog.roboflow.com/yolov5-improvements-and-evaluation/}
+  \end{APACrefURL}
 \PrintBackRefs{\CurrentBib}
 
 \end{thebibliography}
