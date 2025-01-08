@@ -17,7 +17,7 @@ Reallocating 'name_of_file' (item size: 1) to 14 items.
 A level-1 auxiliary file: chapter_4.aux
 Illegal, another \bibstyle command---line 10 of file main.aux
  : \bibstyle
- :          {apacite}
+ :          {plain}
 I'm skipping whatever remains of this command
 Reallocating 'name_of_file' (item size: 1) to 11 items.
 Reallocating 'name_of_file' (item size: 1) to 15 items.
@@ -42,23 +42,23 @@ while executing---line 5079 of file apacite.bst
 You've used 13 entries,
             6951 wiz_defined-function locations,
             1359 strings with 13427 characters,
-and the built_in function-call counts, 26517 in all, are:
+and the built_in function-call counts, 26505 in all, are:
 = -- 3304
 > -- 231
 < -- 1246
 + -- 1280
 - -- 26
-* -- 1685
+* -- 1683
 := -- 4737
 add.period$ -- 57
 call.type$ -- 13
 change.case$ -- 232
 chr.to.int$ -- 0
 cite$ -- 26
-duplicate$ -- 694
-empty$ -- 1042
+duplicate$ -- 693
+empty$ -- 1038
 format.name$ -- 389
-if$ -- 5045
+if$ -- 5041
 int.to.chr$ -- 0
 int.to.str$ -- 39
 missing$ -- 0
@@ -68,7 +68,7 @@ pop$ -- 520
 preamble$ -- 1
 purify$ -- 60
 quote$ -- 0
-skip$ -- 1714
+skip$ -- 1713
 stack$ -- 0
 substring$ -- 1383
 swap$ -- 391

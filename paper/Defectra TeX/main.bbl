@@ -211,8 +211,7 @@ Luo, D.%
 \newblock
 \APACjournalVolNumPages{IEEE Journals & Magazine}{}{}{}.
 \newblock
-\begin{APACrefURL} \url{https://ieeexplore.ieee.org/document/9123753/}
-  \end{APACrefURL}
+\APACrefnote{https://ieeexplore.ieee.org/document/9123753/}
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
