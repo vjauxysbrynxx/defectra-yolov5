@@ -1,0 +1,46 @@
+\contentsline {chapter}{\numberline {1}Introduction}{1}{}%
+\contentsline {section}{\numberline {1.1}Overview}{1}{}%
+\contentsline {section}{\numberline {1.2}Problem Statement}{2}{}%
+\contentsline {section}{\numberline {1.3}Research Objectives}{3}{}%
+\contentsline {subsection}{\numberline {1.3.1}General Objective}{3}{}%
+\contentsline {subsection}{\numberline {1.3.2}Specific Objectives}{3}{}%
+\contentsline {section}{\numberline {1.4}Scope and Limitations of the Research}{4}{}%
+\contentsline {section}{\numberline {1.5}Significance of the Research}{4}{}%
+\contentsline {chapter}{\numberline {2}Review of Related Literature}{6}{}%
+\contentsline {section}{\numberline {2.1}Related Literature}{6}{}%
+\contentsline {subsection}{\numberline {2.1.1}Deep Learning}{6}{}%
+\contentsline {subsection}{\numberline {2.1.2}YOLOv5}{6}{}%
+\contentsline {subsection}{\numberline {2.1.3}Image and Video Processing}{7}{}%
+\contentsline {subsection}{\numberline {2.1.4}Stereo Vision}{7}{}%
+\contentsline {section}{\numberline {2.2}Related Studies}{7}{}%
+\contentsline {subsection}{\numberline {2.2.1}Deep Learning Studies}{7}{}%
+\contentsline {subsubsection}{\numberline {2.2.1.1}Automated Detection and Classification of Road Anomalies in VANET Using Deep Learning}{7}{}%
+\contentsline {subsubsection}{\numberline {2.2.1.2}Road Anomaly Detection through Deep Learning Approaches}{8}{}%
+\contentsline {subsubsection}{\numberline {2.2.1.3}Assessing Severity of Road Cracks Using Deep Learning-Based Segmentation and Detection}{8}{}%
+\contentsline {subsubsection}{\numberline {2.2.1.4}Roadway pavement anomaly classification utilizing smartphones and artificial intelligence}{9}{}%
+\contentsline {subsection}{\numberline {2.2.2}Machine Learning Studies}{9}{}%
+\contentsline {subsubsection}{\numberline {2.2.2.1}Smartphones as Sensors for Road Surface Monitoring}{9}{}%
+\contentsline {subsubsection}{\numberline {2.2.2.2}Road Surface Quality Monitoring Using Machine Learning Algorithms}{10}{}%
+\contentsline {subsection}{\numberline {2.2.3}Computer Vision Studies}{10}{}%
+\contentsline {subsubsection}{\numberline {2.2.3.1}Stereo Vision Based Pothole Detection System for Improved Ride Quality}{10}{}%
+\contentsline {section}{\numberline {2.3}Chapter Summary}{12}{}%
+\contentsline {chapter}{\numberline {3}Methodology}{13}{}%
+\contentsline {section}{\numberline {3.1}\textbf { Research Activities} }{13}{}%
+\contentsline {subsection}{\numberline {3.1.1}\textbf {Data Collection} }{13}{}%
+\contentsline {subsection}{\numberline {3.1.2}\textbf {Algorithm Selection } }{14}{}%
+\contentsline {subsubsection}{\numberline {3.1.2.1}Pothole Detection}{14}{}%
+\contentsline {subsubsection}{\numberline {3.1.2.2}Severity Assessment}{14}{}%
+\contentsline {subsection}{\numberline {3.1.3}\textbf {Design, Testing, and Experimentation} }{14}{}%
+\contentsline {subsubsection}{\numberline {3.1.3.1}Model Design}{15}{}%
+\contentsline {subsubsection}{\numberline {3.1.3.2}Data Set}{15}{}%
+\contentsline {subsubsection}{\numberline {3.1.3.3}Performance Metrics}{15}{}%
+\contentsline {subsubsection}{\numberline {3.1.3.4}Testing and Validation}{16}{}%
+\contentsline {subsubsection}{\numberline {3.1.3.5}Documentation}{16}{}%
+\contentsline {subsection}{\numberline {3.1.4}\textbf {Challenges and Limitations} }{16}{}%
+\contentsline {subsubsection}{\numberline {3.1.4.1}Availability of Local Datasets}{16}{}%
+\contentsline {subsubsection}{\numberline {3.1.4.2}Data Quality and Variability}{17}{}%
+\contentsline {section}{\numberline {3.2}Calendar of Activities}{17}{}%
+\contentsline {chapter}{\numberline {4}Preliminary Results/System Prototype}{19}{}%
+\contentsline {chapter}{References}{20}{}%
+\contentsline {chapter}{\numberline {A}Appendix Title}{22}{}%
+\contentsline {chapter}{\numberline {B}Resource Persons}{23}{}%
