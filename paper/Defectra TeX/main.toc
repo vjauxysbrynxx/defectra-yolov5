@@ -30,14 +30,14 @@
 \contentsline {subsection}{\numberline {3.1.2}\textbf {Algorithm Selection } }{14}{}%
 \contentsline {subsubsection}{\numberline {3.1.2.1}Pothole Detection}{14}{}%
 \contentsline {subsubsection}{\numberline {3.1.2.2}Severity Assessment}{14}{}%
-\contentsline {subsection}{\numberline {3.1.3}\textbf {Design, Testing, and Experimentation} }{14}{}%
+\contentsline {subsection}{\numberline {3.1.3}\textbf {Design, Testing, and Experimentation} }{15}{}%
 \contentsline {subsubsection}{\numberline {3.1.3.1}Model Design}{15}{}%
 \contentsline {subsubsection}{\numberline {3.1.3.2}Data Set}{15}{}%
 \contentsline {subsubsection}{\numberline {3.1.3.3}Performance Metrics}{15}{}%
 \contentsline {subsubsection}{\numberline {3.1.3.4}Testing and Validation}{16}{}%
 \contentsline {subsubsection}{\numberline {3.1.3.5}Documentation}{16}{}%
-\contentsline {subsection}{\numberline {3.1.4}\textbf {Challenges and Limitations} }{16}{}%
-\contentsline {subsubsection}{\numberline {3.1.4.1}Availability of Local Datasets}{16}{}%
+\contentsline {subsection}{\numberline {3.1.4}\textbf {Challenges and Limitations} }{17}{}%
+\contentsline {subsubsection}{\numberline {3.1.4.1}Availability of Local Datasets}{17}{}%
 \contentsline {subsubsection}{\numberline {3.1.4.2}Data Quality and Variability}{17}{}%
 \contentsline {section}{\numberline {3.2}Calendar of Activities}{17}{}%
 \contentsline {chapter}{\numberline {4}Preliminary Results/System Prototype}{19}{}%
