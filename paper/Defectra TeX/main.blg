@@ -15,10 +15,6 @@ Reallocating 'name_of_file' (item size: 1) to 14 items.
 A level-1 auxiliary file: chapter_3.aux
 Reallocating 'name_of_file' (item size: 1) to 14 items.
 A level-1 auxiliary file: chapter_4.aux
-Illegal, another \bibstyle command---line 10 of file main.aux
- : \bibstyle
- :          {apacite}
-I'm skipping whatever remains of this command
 Reallocating 'name_of_file' (item size: 1) to 11 items.
 Reallocating 'name_of_file' (item size: 1) to 15 items.
 A level-1 auxiliary file: appendix_A.aux
@@ -35,49 +31,44 @@ Reallocating 'wiz_functions' (item size: 4) to 9000 items.
 Reallocating 'singl_function' (item size: 4) to 100 items.
 Database file #1: references.bib
 apacite.bst [2013/07/21 v6.03 APA bibliography style]
-You can't pop an empty literal stack for entry ramos2023
-while executing---line 5079 of file apacite.bst
-You can't pop an empty literal stack for entry ramos2023
-while executing---line 5079 of file apacite.bst
 You've used 13 entries,
             6951 wiz_defined-function locations,
-            1359 strings with 13427 characters,
-and the built_in function-call counts, 26517 in all, are:
-= -- 3304
+            1361 strings with 13469 characters,
+and the built_in function-call counts, 26548 in all, are:
+= -- 3295
 > -- 231
 < -- 1246
 + -- 1280
 - -- 26
-* -- 1685
-:= -- 4737
+* -- 1699
+:= -- 4743
 add.period$ -- 57
 call.type$ -- 13
 change.case$ -- 232
 chr.to.int$ -- 0
 cite$ -- 26
-duplicate$ -- 694
-empty$ -- 1042
+duplicate$ -- 701
+empty$ -- 1046
 format.name$ -- 389
-if$ -- 5045
+if$ -- 5038
 int.to.chr$ -- 0
 int.to.str$ -- 39
 missing$ -- 0
-newline$ -- 358
+newline$ -- 362
 num.names$ -- 104
-pop$ -- 520
+pop$ -- 437
 preamble$ -- 1
 purify$ -- 60
 quote$ -- 0
-skip$ -- 1714
+skip$ -- 1801
 stack$ -- 0
 substring$ -- 1383
-swap$ -- 391
+swap$ -- 403
 text.length$ -- 40
 text.prefix$ -- 0
 top$ -- 1
-type$ -- 1304
+type$ -- 1296
 warning$ -- 0
 while$ -- 145
 width$ -- 0
-write$ -- 450
-(There were 3 error messages)
+write$ -- 454
