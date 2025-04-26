@@ -40,6 +40,8 @@
 \contentsline {subsubsection}{\numberline {3.1.4.1}Camera Limitations}{16}{}%
 \contentsline {section}{\numberline {3.2}Calendar of Activities}{16}{}%
 \contentsline {chapter}{\numberline {4}Preliminary Results/System Prototype}{18}{}%
-\contentsline {chapter}{References}{19}{}%
-\contentsline {chapter}{\numberline {A}Appendix Title}{21}{}%
-\contentsline {chapter}{\numberline {B}Resource Persons}{22}{}%
+\contentsline {section}{\numberline {4.1}\textbf { Initial Testing Results} }{18}{}%
+\contentsline {section}{\numberline {4.2}\textbf { Final Testing Results} }{19}{}%
+\contentsline {chapter}{References}{20}{}%
+\contentsline {chapter}{\numberline {A}Appendix Title}{22}{}%
+\contentsline {chapter}{\numberline {B}Resource Persons}{23}{}%

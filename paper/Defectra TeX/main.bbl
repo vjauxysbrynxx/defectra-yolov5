@@ -152,42 +152,6 @@ Kyriakou, C.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
-Long%
-, Wang%
-, Zhang%
-, Mei%
-\BCBL {}\ \BBA {} Shen%
-}{%
-Long%
-\ \protect \BOthers {.}}{%
-{\protect \APACyear {2021}}%
-}]{%
-long2021}
-\APACinsertmetastar {%
-long2021}%
-\begin{APACrefauthors}%
-Long, Y.%
-, Wang, J.%
-, Zhang, H.%
-, Mei, T.%
-\BCBL {}\ \BBA {} Shen, X.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYearMonthDay{2021}{}{}.
-\newblock
-{\BBOQ}\APACrefatitle {Multi-View Depth Estimation Using Epipolar
-  Spatio-Temporal Networks} {Multi-view depth estimation using epipolar
-  spatio-temporal networks}.{\BBCQ}
-\newblock
-\BIn{} \APACrefbtitle {Proceedings of the IEEE/CVF Conference on Computer
-  Vision and Pattern Recognition (CVPR).} {Proceedings of the ieee/cvf
-  conference on computer vision and pattern recognition (cvpr).}
-\newblock
-\begin{APACrefDOI} \doi{10.1109/CVPR46437.2021.01567} \end{APACrefDOI}
-\PrintBackRefs{\CurrentBib}
-
-\bibitem [\protect \citeauthoryear {%
 Luo%
 , Lu%
 \BCBL {}\ \BBA {} Guo%

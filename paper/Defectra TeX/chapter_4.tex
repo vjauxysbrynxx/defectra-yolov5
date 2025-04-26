@@ -1,3 +1,29 @@
 %   Filename    : chapter_4.tex 
 \chapter{Preliminary Results/System Prototype}
-This chapter  presents the preliminary results or the system prototype of your SP.  Include screenhots, tables, or graphs and provide the discussion of results.
+This chapter presents the results on estimating the depth of potholes using the StereoPi system. It contains the measurements taken during the initial testing and final testing phases, comparing the the ground truth depths with the depths estimated by the camera. This chapter also includes tables showing the collected data, images of the outputs, and discussion on the analysis of results.
+
+\section{\textbf{ Initial Testing Results} }
+In the initial testing, we tested five simulated potholes with different depths.For each pothole, two manual measurements were taken to determine the ground truth, and the StereoPi camera also estimated the depth twice from different sides.The averages of the ground truth and camera estimates were then calculated to provide a basis for comparison.Based on the results, the StereoPi camera was able to estimate the depths fairly close to the ground truth values.The smallest difference was seen in Pothole 5, where the estimated depth was only 0.24 cm away from the ground truth. The largest difference was found in Pothole 1, where the error was 3.45 cm. For the other potholes, the differences were 0.67 cm for Pothole 2, 2.07 cm for Pothole 3, and 2.66 cm for Pothole 4. Most of the time, the camera’s estimated depths were only off by about one to three centimeters.Table 4.1 shows the comparison between the manually measured ground truth depths and the depths estimated by the StereoPi camera for each simulated pothole.
+
+\begin{table}[h!]
+	\centering
+	\hspace{-2cm}
+	\small 
+	\caption{Ground Truth and StereoPi Depth Measurements (Initial Testing)}
+	\begin{tabular}{|p{1.5cm}|p{1.5cm}|p{1.5cm}|p{1.5cm}|p{1.5cm}|p{1.5cm}|p{1.5cm}|p{1.5cm}|}
+		\hline
+		\textbf{Pothole} & \textbf{Ground Truth 1 (cm)} & \textbf{Ground Truth 2 (cm)} & \textbf{Ground Truth Avg (cm)} & \textbf{Est Depth 1(cm)} & \textbf{Est Depth 2 (cm)} & \textbf{Est Depth Avg(cm)} & \textbf{Diff(cm)} \\ \hline
+		
+		1 & 14.6 & 14.4 & 14.5 & 11.16 & 10.94 & 11.05 & 3.45  \\ \hline
+		2 & 12.0 & 12.1 & 12.05 & 12.36 & 10.4 & 11.38 & 0.67 \\ \hline
+		3 & 6.4 & 6.5 & 6.45 & 4.76 & 4.0 & 4.38 & 2.07 \\ \hline
+		4 & 9.8 & 9.3 & 9.55 & 6.16 & 7.62 & 6.89 & 2.66 \\ \hline
+		5 & 13.9 & 14.3 & 14.1 & 13.04 & 14.68 & 13.86 & 0.24 \\ \hline
+		
+	\end{tabular}
+	\label{tab:comparison}
+	\hspace{-3cm}
+\end{table}
+
+\section{\textbf{ Final Testing Results} }
+In the final testing, actual potholes located around the University of the Philippines Visayas (UPV) campus were tested. The ground truth depths of the potholes were measured manually and compared with the depths estimated by the camera.
