@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.1.13)  18 APR 2025 14:19
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.1.13)  26 APR 2025 21:31
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -705,30 +705,28 @@ Chapter 3.
 
 [14]
 
-[15]
-
-[16]
-
-[17] Excluding 'comment' comment.
-Underfull \hbox (badness 10000) in paragraph at lines 86--86
+[15] Excluding 'comment' comment.
+Underfull \hbox (badness 10000) in paragraph at lines 99--99
 []|\OT1/cmr/m/n/12 Documentation and SP
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 101--101
+Underfull \hbox (badness 10000) in paragraph at lines 114--114
 []|\OT1/cmr/m/n/12 Documentation and SP
  []
 
 )
 
-[18]
+[16]
+
+[17]
 \openout2 = `chapter_4.aux'.
 
  (chapter_4.tex
 Chapter 4.
 )
 
-[19
+[18
 
 
 
@@ -771,7 +769,7 @@ u [] .ph / tssp / wp [] -content / uploads /
 
 
 
-[20
+[19
 
 
 
@@ -789,14 +787,14 @@ Underfull \hbox (badness 1931) in paragraph at lines 293--309
 
 )
 
-[21]
+[20]
 \openout2 = `appendix_A.aux'.
 
  (appendix_A.tex
 Appendix A.
 )
 
-[22
+[21
 
 
 ]
@@ -811,7 +809,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 31--32
 
 )
 
-[23
+[22
 
 
 
@@ -828,13 +826,13 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 8756 strings out of 473536
- 146354 string characters out of 5715377
- 551737 words of memory out of 5000000
- 31774 multiletter control sequences out of 15000+600000
+ 8755 strings out of 473536
+ 146341 string characters out of 5715377
+ 552737 words of memory out of 5000000
+ 31773 multiletter control sequences out of 15000+600000
  568915 words of font info for 74 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
- 79i,11n,122p,2491b,382s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 79i,11n,122p,1869b,382s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/KRISTIAN LYLE/AppData/Local/MiKTeX/fonts/type1/public/amsfonts/cm/c
 mbx10.pfb><C:/Users/KRISTIAN LYLE/AppData/Local/MiKTeX/fonts/type1/public/amsfo
 nts/cm/cmbx12.pfb><C:/Users/KRISTIAN LYLE/AppData/Local/MiKTeX/fonts/type1/publ
@@ -844,9 +842,9 @@ fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/KRISTIAN LYLE/AppData/Local/
 MiKTeX/fonts/type1/public/amsfonts/cm/cmss8.pfb><C:/Users/KRISTIAN LYLE/AppData
 /Local/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Users/KRISTIAN LYLE
 /AppData/Local/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on main.pdf (29 pages, 194013 bytes).
+Output written on main.pdf (28 pages, 190114 bytes).
 PDF statistics:
- 135 PDF objects out of 1000 (max. 8388607)
+ 132 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
