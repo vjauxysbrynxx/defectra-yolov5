@@ -35,15 +35,18 @@
 \contentsline {subsubsection}{\numberline {3.1.3.3}Camera Calibration (Fisheye Distortion)}{17}{}%
 \contentsline {subsubsection}{\numberline {3.1.3.4}Camera Calibration (Disparity Map Fine-tuning)}{17}{}%
 \contentsline {subsubsection}{\numberline {3.1.3.5}Initial Testing}{18}{}%
-\contentsline {subsubsection}{\numberline {3.1.3.6}Performance Metrics}{19}{}%
+\contentsline {subsubsection}{\numberline {3.1.3.6}Performance Metrics}{18}{}%
 \contentsline {subsubsection}{\numberline {3.1.3.7}Final Testing and Validation}{19}{}%
 \contentsline {subsubsection}{\numberline {3.1.3.8}Documentation}{19}{}%
-\contentsline {subsection}{\numberline {3.1.4}\textbf {Challenges and Limitations} }{20}{}%
-\contentsline {subsubsection}{\numberline {3.1.4.1}Camera Limitations}{20}{}%
+\contentsline {subsection}{\numberline {3.1.4}\textbf {Challenges and Limitations} }{19}{}%
+\contentsline {subsubsection}{\numberline {3.1.4.1}Camera Limitations}{19}{}%
 \contentsline {section}{\numberline {3.2}Calendar of Activities}{20}{}%
-\contentsline {chapter}{\numberline {4}Preliminary Results/System Prototype}{22}{}%
-\contentsline {section}{\numberline {4.1}\textbf {Testing Results} }{22}{}%
-\contentsline {section}{\numberline {4.2}\textbf { Final Testing Results} }{23}{}%
-\contentsline {chapter}{References}{24}{}%
-\contentsline {chapter}{\numberline {A}Appendix Title}{26}{}%
-\contentsline {chapter}{\numberline {B}Resource Persons}{27}{}%
+\contentsline {chapter}{\numberline {4}Preliminary Results/System Prototype}{21}{}%
+\contentsline {section}{\numberline {4.1}\textbf {System Calibration and Model Refinement}}{21}{}%
+\contentsline {section}{\numberline {4.2}\textbf {Model Refinement Using Regression}}{22}{}%
+\contentsline {section}{\numberline {4.3}\textbf {Error Analysis}}{23}{}%
+\contentsline {section}{\numberline {4.4}\textbf {Testing Results} }{23}{}%
+\contentsline {section}{\numberline {4.5}\textbf {Discussion}}{24}{}%
+\contentsline {chapter}{References}{25}{}%
+\contentsline {chapter}{\numberline {A}Appendix Title}{27}{}%
+\contentsline {chapter}{\numberline {B}Resource Persons}{28}{}%

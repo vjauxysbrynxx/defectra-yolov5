@@ -102,17 +102,22 @@ Initial testing was conducted to verify the functionality and basic accuracy of 
 	\captionof{figure}{The system tested on a simulated pothole.}
 \end{center}
 
-However, the results revealed a non-linear relationship between the computed disparity values and the actual distances. This discrepancy indicated that the traditional depth estimation method was insufficient for our setup. To address this, we collected multiple data points correlating known distances to their respective disparity readings and fitted an inverse model to better represent the system's behavior (see Figure 3.1). This updated disparity-to-depth model was subsequently used in the final testing phase.
+However, the results revealed a non-linear relationship between the computed disparity values and the actual distances. This discrepancy indicated that the traditional depth estimation method was insufficient for our setup. To address this, we collected multiple data points correlating known distances to their respective disparity readings and fitted an inverse model to better represent the system's behavior (see \ref{fig:model}). This updated disparity-to-depth model was subsequently used in the final testing phase.
 
 %initial test
-\begin{center}
+\begin{figure}[htbp]
+	\centering
 	\includegraphics[scale=0.55]{inversemodel.png}
-	\captionof{figure}{Inverse Model Fit to Disparity vs. Distance.}
-\end{center}
+	\caption{Inverse Model Fit to Disparity vs. Distance.\\}
+	\label{fig:model}
+\end{figure}
+
+
 
 
 \subsubsection{Performance Metrics}
 The accuracy of the pothole depth estimated by StereoPi V2 was analyzed using Non-linear Regression in order to model the difference between the disparity and distance. The lower the disparity indicates that the pothole is deeper.
+
 %The performance of the YOLOv5 model will be evaluated using mean Average Precision (mAP). mAP is a widely used metric in object detection tasks and is particularly useful for assessing models that need to detect and classify multiple object categories. In this case, mAP will provide a comprehensive evaluation of the model's ability to detect and classify potholes, offering an aggregated score across the relevant detection thresholds. This ensures a balanced assessment of both detection accuracy and classification performance, which is essential for accurately identifying potholes across varying conditions. The effectiveness of mAP for this task is well-established in object detection literature (Everingham et al., 2015; Lin et al., 2014).
 
 

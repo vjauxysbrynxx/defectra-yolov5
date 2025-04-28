@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.12.9)  28 APR 2025 09:32
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.12.9)  28 APR 2025 10:52
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -293,35 +293,44 @@ Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
 \bframebox=\box57
 \linenoamsmath@ams@eqpen=\count292
 LaTeX Info: Redefining \\ on input line 3180.
-) (C:\Users\garen\AppData\Local\Programs\MiKTeX\tex/latex/comment\comment.sty
+) (C:\Users\garen\AppData\Local\Programs\MiKTeX\tex/latex/float\float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count293
+\float@exts=\toks31
+\float@box=\box58
+\@float@everytoks=\toks32
+\@floatcapt=\box59
+)
+(C:\Users\garen\AppData\Local\Programs\MiKTeX\tex/latex/comment\comment.sty
 \CommentStream=\write3
+
 Excluding comment 'comment')
 (C:\Users\garen\AppData\Local\Programs\MiKTeX\tex/latex/titlesec\titlesec.sty
 Package: titlesec 2023/10/27 v2.16 Sectioning titles
-\ttl@box=\box58
+\ttl@box=\box60
 \beforetitleunit=\skip61
 \aftertitleunit=\skip62
 \ttl@plus=\dimen178
 \ttl@minus=\dimen179
-\ttl@toksa=\toks31
+\ttl@toksa=\toks33
 \titlewidth=\dimen180
 \titlewidthlast=\dimen181
 \titlewidthfirst=\dimen182
 )
 (C:\Users\garen\AppData\Local\Programs\MiKTeX\tex/latex/base\inputenc.sty
 Package: inputenc 2021/02/14 v1.3d Input encoding file
-\inpenc@prehook=\toks32
-\inpenc@posthook=\toks33
+\inpenc@prehook=\toks34
+\inpenc@posthook=\toks35
 )
 (C:\Users\garen\AppData\Local\Programs\MiKTeX\tex/latex/tools\array.sty
 Package: array 2023/10/16 v2.5g Tabular extension package (FMi)
 \col@sep=\dimen183
-\ar@mcellbox=\box59
+\ar@mcellbox=\box61
 \extrarowheight=\dimen184
-\NC@list=\toks34
+\NC@list=\toks36
 \extratabsurround=\skip63
 \backup@length=\skip64
-\ar@cellbox=\box60
+\ar@cellbox=\box62
 )
 (C:\Users\garen\AppData\Local\Programs\MiKTeX\tex/latex/pdflscape\pdflscape.sty
 Package: pdflscape 2022-10-27 v0.13 Display of landscape pages in PDF
@@ -353,14 +362,15 @@ Package: caption3 2023/07/31 v2.4d caption3 kernel (AR)
 \caption@hangindent=\dimen192
 Package caption Info: Standard document class detected.
 )
-\c@caption@flags=\count293
-\c@continuedfloat=\count294
+\c@caption@flags=\count294
+\c@continuedfloat=\count295
+Package caption Info: float package is loaded.
 )
 (C:\Users\garen\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdf
 tex.def
 File: l3backend-pdftex.def 2024-01-04 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count295
-\l__pdf_internal_box=\box61
+\l__color_backend_stack_int=\count296
+\l__pdf_internal_box=\box63
 )
 
 LaTeX Warning: Unused global option(s):
@@ -396,17 +406,17 @@ LaTeX Font Info:    ... okay on input line 7.
 (C:\Users\garen\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mk
 ii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count296
+\scratchcounter=\count297
 \scratchdimen=\dimen193
-\scratchbox=\box62
-\nofMPsegments=\count297
-\nofMParguments=\count298
-\everyMPshowfont=\toks35
-\MPscratchCnt=\count299
+\scratchbox=\box64
+\nofMPsegments=\count298
+\nofMParguments=\count299
+\everyMPshowfont=\toks37
+\MPscratchCnt=\count300
 \MPscratchDim=\dimen194
-\MPnumerator=\count300
-\makeMPintoPDFobject=\count301
-\everyMPtoPDFconversion=\toks36
+\MPnumerator=\count301
+\makeMPintoPDFobject=\count302
+\everyMPtoPDFconversion=\toks38
 )
 (C:\Users\garen\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-b
 ase.sty
@@ -418,7 +428,7 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 fg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
-\c@maskedRefs=\count302
+\c@maskedRefs=\count303
 
 (C:\Users\garen\AppData\Local\Programs\MiKTeX\tex/latex/apacite\english.apc
 File: english.apc 2013/07/21 v6.03 apacite language file
@@ -710,103 +720,100 @@ Package pdftex.def Info: initialtest.jpg  used on input line 101.
 <inversemodel.png, id=92, 408.02437pt x 236.38312pt>
 File: inversemodel.png Graphic file (type png)
 <use inversemodel.png>
-Package pdftex.def Info: inversemodel.png  used on input line 109.
+Package pdftex.def Info: inversemodel.png  used on input line 110.
 (pdftex.def)             Requested size: 224.4141pt x 130.01111pt.
  [18 <./initialtest.jpg>] [19 <./inversemodel.png>] Excluding 'comment' comment
 .
-Underfull \hbox (badness 10000) in paragraph at lines 173--173
+Underfull \hbox (badness 10000) in paragraph at lines 178--178
 []|\OT1/cmr/m/n/12 Documentation and SP
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 188--188
+Underfull \hbox (badness 10000) in paragraph at lines 193--193
 []|\OT1/cmr/m/n/12 Documentation and SP
  []
 
-) [20] [21]
+) [20]
 \openout2 = `chapter_4.aux'.
 
  (chapter_4.tex
 Chapter 4.
+[21
 
-Underfull \hbox (badness 10000) in paragraph at lines 15--15
+
+
+
+] [22]
+Underfull \hbox (badness 10000) in paragraph at lines 80--80
 []|\OT1/cmr/bx/n/10.95 Ground
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 15--15
+Underfull \hbox (badness 10000) in paragraph at lines 80--80
 []|\OT1/cmr/bx/n/10.95 Ground
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 15--15
+Underfull \hbox (badness 10000) in paragraph at lines 80--80
 []|\OT1/cmr/bx/n/10.95 Ground
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 15--15
+Underfull \hbox (badness 10000) in paragraph at lines 80--80
 \OT1/cmr/bx/n/10.95 Truth
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 15--15
+Underfull \hbox (badness 10000) in paragraph at lines 80--80
 \OT1/cmr/bx/n/10.95 Avg
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 15--15
+Underfull \hbox (badness 10000) in paragraph at lines 80--80
 []|\OT1/cmr/bx/n/10.95 Est
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 15--15
+Underfull \hbox (badness 10000) in paragraph at lines 80--80
 \OT1/cmr/bx/n/10.95 Depth
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 15--15
+Underfull \hbox (badness 10000) in paragraph at lines 80--80
 []|\OT1/cmr/bx/n/10.95 Est
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 15--15
+Underfull \hbox (badness 10000) in paragraph at lines 80--80
 \OT1/cmr/bx/n/10.95 Depth
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 15--15
+Underfull \hbox (badness 10000) in paragraph at lines 80--80
 []|\OT1/cmr/bx/n/10.95 Est
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 15--15
+Underfull \hbox (badness 10000) in paragraph at lines 80--80
 \OT1/cmr/bx/n/10.95 Depth
  []
 
 
-Overfull \hbox (5.66785pt too wide) in paragraph at lines 15--15
+Overfull \hbox (5.66785pt too wide) in paragraph at lines 80--80
 \OT1/cmr/bx/n/10.95 Avg(cm)| 
  []
 
 
-Overfull \hbox (3.706pt too wide) in paragraph at lines 15--15
+Overfull \hbox (3.706pt too wide) in paragraph at lines 80--80
 []|\OT1/cmr/bx/n/10.95 Diff(cm)| 
  []
 
 
-Overfull \hbox (25.48044pt too wide) in paragraph at lines 13--26
+Overfull \hbox (25.48044pt too wide) in paragraph at lines 78--91
  [][] 
  []
 
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[22
-
-
-
-
-]) [23] (main.bbl
+[23]) [24] (main.bbl
 Underfull \hbox (badness 6157) in paragraph at lines 78--92
 []\OT1/cmr/m/n/12 Kelleher, J.  (2019).  \OT1/cmr/m/it/12 Deep learn-ing\OT1/cm
 r/m/n/12 .  Re-trieved from $\OT1/cmtt/m/n/12 https ://
@@ -842,7 +849,7 @@ Underfull \hbox (badness 1210) in paragraph at lines 226--245
 u [] .ph / tssp / wp [] -content / uploads /
  []
 
-[24
+[25
 
 
 
@@ -858,12 +865,12 @@ Underfull \hbox (badness 1931) in paragraph at lines 257--273
 ] -project [] .eu / glossary / video []
  []
 
-) [25]
+) [26]
 \openout2 = `appendix_A.aux'.
 
  (appendix_A.tex
 Appendix A.
-) [26
+) [27
 
 
 ]
@@ -876,7 +883,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 31--32
 
  []
 
-) [27
+) [28
 
 
 
@@ -893,10 +900,10 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 8805 strings out of 474486
- 146258 string characters out of 5743755
- 1939542 words of memory out of 5000000
- 30888 multiletter control sequences out of 15000+600000
+ 8871 strings out of 474486
+ 147448 string characters out of 5743755
+ 1940542 words of memory out of 5000000
+ 30950 multiletter control sequences out of 15000+600000
  568484 words of font info for 75 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
  79i,11n,122p,1869b,383s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -905,14 +912,17 @@ Here is how much of TeX's memory you used:
 ts/cm/cmbx10.pfb><C:/Users/garen/AppData/Local/Programs/MiKTeX/fonts/type1/publ
 ic/amsfonts/cm/cmbx12.pfb><C:/Users/garen/AppData/Local/Programs/MiKTeX/fonts/t
 ype1/public/amsfonts/cm/cmcsc10.pfb><C:/Users/garen/AppData/Local/Programs/MiKT
-eX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/garen/AppData/Local/Progr
-ams/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/garen/AppData/Loc
-al/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmss8.pfb><C:/Users/garen/App
-Data/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Users/
-garen/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on main.pdf (33 pages, 4892405 bytes).
+eX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/garen/AppData/Local/Prog
+rams/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/garen/AppData/Lo
+cal/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/garen/Ap
+pData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmss8.pfb><C:/Users/
+garen/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><
+C:/Users/garen/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmt
+i12.pfb><C:/Users/garen/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfon
+ts/cm/cmtt12.pfb>
+Output written on main.pdf (34 pages, 4915830 bytes).
 PDF statistics:
- 164 PDF objects out of 1000 (max. 8388607)
+ 177 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  41 words of extra memory for PDF output out of 10000 (max. 10000000)
 

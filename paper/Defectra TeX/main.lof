@@ -8,7 +8,7 @@
 \contentsline {figure}{\numberline {3.5}{\ignorespaces Calibration process with a checkerboard to correct fisheye lens distortion.}}{17}{}%
 \contentsline {figure}{\numberline {3.6}{\ignorespaces Parameter tuning process to achieve cleaner and more accurate disparity maps.}}{17}{}%
 \contentsline {figure}{\numberline {3.7}{\ignorespaces The system tested on a simulated pothole.}}{18}{}%
-\contentsline {figure}{\numberline {3.8}{\ignorespaces Inverse Model Fit to Disparity vs. Distance.}}{19}{}%
+\contentsline {figure}{\numberline {3.8}{\ignorespaces Inverse Model Fit to Disparity vs. Distance. }}{19}{}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }

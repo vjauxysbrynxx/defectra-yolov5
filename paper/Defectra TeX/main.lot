@@ -3,8 +3,9 @@
 \contentsline {table}{\numberline {2.1}{\ignorespaces Comparison of Related Studies on Road Anomaly Detection using Deep Learning Techniques and Stereo Vision}}{12}{}%
 \addvspace {10\p@ }
 \contentsline {table}{\numberline {3.1}{\ignorespaces Timetable of Activities for 2024}}{20}{}%
-\contentsline {table}{\numberline {3.2}{\ignorespaces Timetable of Activities for 2025}}{21}{}%
+\contentsline {table}{\numberline {3.2}{\ignorespaces Timetable of Activities for 2025}}{20}{}%
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {4.1}{\ignorespaces Ground Truth and StereoPi Depth Measurements}}{23}{}%
+\contentsline {table}{\numberline {4.1}{\ignorespaces Performance Metrics for the Regression Model}}{22}{}%
+\contentsline {table}{\numberline {4.2}{\ignorespaces Ground Truth and StereoPi Depth Measurements}}{24}{}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
