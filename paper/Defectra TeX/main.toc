@@ -4,45 +4,49 @@
 \contentsline {section}{\numberline {1.3}Research Objectives}{3}{}%
 \contentsline {subsection}{\numberline {1.3.1}General Objective}{3}{}%
 \contentsline {subsection}{\numberline {1.3.2}Specific Objectives}{3}{}%
-\contentsline {section}{\numberline {1.4}Scope and Limitations of the Research}{3}{}%
+\contentsline {section}{\numberline {1.4}Scope and Limitations of the Research}{4}{}%
 \contentsline {section}{\numberline {1.5}Significance of the Research}{4}{}%
-\contentsline {chapter}{\numberline {2}Review of Related Literature}{5}{}%
-\contentsline {section}{\numberline {2.1}Frameworks}{5}{}%
-\contentsline {subsection}{\numberline {2.1.1}Depth Estimation}{5}{}%
-\contentsline {subsection}{\numberline {2.1.2}Image and Video Processing}{5}{}%
-\contentsline {subsection}{\numberline {2.1.3}Stereo Vision}{6}{}%
-\contentsline {section}{\numberline {2.2}Related Studies}{6}{}%
-\contentsline {subsection}{\numberline {2.2.1}Deep Learning Studies}{6}{}%
-\contentsline {subsubsection}{\numberline {2.2.1.1}Automated Detection and Classification of Road Anomalies in VANET Using Deep Learning}{6}{}%
-\contentsline {subsubsection}{\numberline {2.2.1.2}Road Anomaly Detection through Deep Learning Approaches}{7}{}%
-\contentsline {subsubsection}{\numberline {2.2.1.3}Assessing Severity of Road Cracks Using Deep Learning-Based Segmentation and Detection}{7}{}%
-\contentsline {subsubsection}{\numberline {2.2.1.4}Roadway pavement anomaly classification utilizing smartphones and artificial intelligence}{7}{}%
-\contentsline {subsection}{\numberline {2.2.2}Machine Learning Studies}{8}{}%
-\contentsline {subsubsection}{\numberline {2.2.2.1}Smartphones as Sensors for Road Surface Monitoring}{8}{}%
-\contentsline {subsubsection}{\numberline {2.2.2.2}Road Surface Quality Monitoring Using Machine Learning Algorithms}{8}{}%
-\contentsline {subsection}{\numberline {2.2.3}Computer Vision Studies}{9}{}%
-\contentsline {subsubsection}{\numberline {2.2.3.1}Stereo Vision Based Pothole Detection System for Improved Ride Quality}{9}{}%
-\contentsline {section}{\numberline {2.3}Chapter Summary}{10}{}%
-\contentsline {chapter}{\numberline {3}Methodology}{11}{}%
-\contentsline {section}{\numberline {3.1}\textbf { Research Activities} }{11}{}%
-\contentsline {subsection}{\numberline {3.1.1}\textbf {Data Collection} }{11}{}%
-\contentsline {subsubsection}{\numberline {3.1.1.1}Data Collection (Ground Truth Data)}{12}{}%
-\contentsline {subsection}{\numberline {3.1.2}\textbf {Algorithm Selection } }{12}{}%
-\contentsline {subsection}{\numberline {3.1.3}\textbf {Design, Testing, and Experimentation} }{12}{}%
-\contentsline {subsubsection}{\numberline {3.1.3.1}Materials and Equipment}{13}{}%
-\contentsline {subsubsection}{\numberline {3.1.3.2}Prototype Building}{14}{}%
-\contentsline {subsubsection}{\numberline {3.1.3.3}Camera Calibration (Fisheye Distortion)}{15}{}%
-\contentsline {subsubsection}{\numberline {3.1.3.4}Camera Calibration (Disparity Map Fine-tuning)}{15}{}%
-\contentsline {subsubsection}{\numberline {3.1.3.5}Initial Testing}{16}{}%
-\contentsline {subsubsection}{\numberline {3.1.3.6}Performance Metrics}{17}{}%
-\contentsline {subsubsection}{\numberline {3.1.3.7}Final Testing and Validation}{17}{}%
-\contentsline {subsubsection}{\numberline {3.1.3.8}Documentation}{17}{}%
-\contentsline {subsection}{\numberline {3.1.4}\textbf {Challenges and Limitations} }{18}{}%
-\contentsline {subsubsection}{\numberline {3.1.4.1}Camera Limitations}{18}{}%
-\contentsline {section}{\numberline {3.2}Calendar of Activities}{18}{}%
-\contentsline {chapter}{\numberline {4}Preliminary Results/System Prototype}{20}{}%
-\contentsline {section}{\numberline {4.1}\textbf {Testing Results} }{20}{}%
-\contentsline {section}{\numberline {4.2}\textbf { Final Testing Results} }{21}{}%
-\contentsline {chapter}{References}{22}{}%
-\contentsline {chapter}{\numberline {A}Appendix Title}{24}{}%
-\contentsline {chapter}{\numberline {B}Resource Persons}{25}{}%
+\contentsline {chapter}{\numberline {2}Review of Related Literature}{6}{}%
+\contentsline {section}{\numberline {2.1}Frameworks}{6}{}%
+\contentsline {subsection}{\numberline {2.1.1}Deep Learning}{6}{}%
+\contentsline {subsection}{\numberline {2.1.2}YOLOv5}{6}{}%
+\contentsline {subsection}{\numberline {2.1.3}Image and Video Processing}{7}{}%
+\contentsline {subsection}{\numberline {2.1.4}Stereo Vision}{7}{}%
+\contentsline {section}{\numberline {2.2}Related Studies}{7}{}%
+\contentsline {subsection}{\numberline {2.2.1}Deep Learning Studies}{7}{}%
+\contentsline {subsubsection}{\numberline {2.2.1.1}Automated Detection and Classification of Road Anomalies in VANET Using Deep Learning}{7}{}%
+\contentsline {subsubsection}{\numberline {2.2.1.2}Road Anomaly Detection through Deep Learning Approaches}{8}{}%
+\contentsline {subsubsection}{\numberline {2.2.1.3}Assessing Severity of Road Cracks Using Deep Learning-Based Segmentation and Detection}{8}{}%
+\contentsline {subsubsection}{\numberline {2.2.1.4}Roadway pavement anomaly classification utilizing smartphones and artificial intelligence}{9}{}%
+\contentsline {subsection}{\numberline {2.2.2}Machine Learning Studies}{9}{}%
+\contentsline {subsubsection}{\numberline {2.2.2.1}Smartphones as Sensors for Road Surface Monitoring}{9}{}%
+\contentsline {subsubsection}{\numberline {2.2.2.2}Road Surface Quality Monitoring Using Machine Learning Algorithms}{10}{}%
+\contentsline {subsection}{\numberline {2.2.3}Computer Vision Studies}{10}{}%
+\contentsline {subsubsection}{\numberline {2.2.3.1}Stereo Vision Based Pothole Detection System for Improved Ride Quality}{10}{}%
+\contentsline {section}{\numberline {2.3}Chapter Summary}{12}{}%
+\contentsline {chapter}{\numberline {3}Methodology}{13}{}%
+\contentsline {section}{\numberline {3.1}\textbf { Research Activities} }{13}{}%
+\contentsline {subsection}{\numberline {3.1.1}\textbf {Data Collection} }{13}{}%
+\contentsline {subsubsection}{\numberline {3.1.1.1}Data Collection (Ground Truth Data)}{14}{}%
+\contentsline {subsection}{\numberline {3.1.2}\textbf {Algorithm Selection } }{14}{}%
+\contentsline {subsection}{\numberline {3.1.3}\textbf {Design, Testing, and Experimentation} }{14}{}%
+\contentsline {subsubsection}{\numberline {3.1.3.1}Materials and Equipment}{15}{}%
+\contentsline {subsubsection}{\numberline {3.1.3.2}Prototype Building}{16}{}%
+\contentsline {subsubsection}{\numberline {3.1.3.3}Camera Calibration (Fisheye Distortion)}{17}{}%
+\contentsline {subsubsection}{\numberline {3.1.3.4}Camera Calibration (Disparity Map Fine-tuning)}{17}{}%
+\contentsline {subsubsection}{\numberline {3.1.3.5}Initial Testing}{18}{}%
+\contentsline {subsubsection}{\numberline {3.1.3.6}Performance Metrics}{18}{}%
+\contentsline {subsubsection}{\numberline {3.1.3.7}Final Testing and Validation}{19}{}%
+\contentsline {subsubsection}{\numberline {3.1.3.8}Documentation}{19}{}%
+\contentsline {subsection}{\numberline {3.1.4}\textbf {Challenges and Limitations} }{19}{}%
+\contentsline {subsubsection}{\numberline {3.1.4.1}Camera Limitations}{19}{}%
+\contentsline {section}{\numberline {3.2}Calendar of Activities}{20}{}%
+\contentsline {chapter}{\numberline {4}Preliminary Results/System Prototype}{21}{}%
+\contentsline {section}{\numberline {4.1}\textbf {System Calibration and Model Refinement}}{21}{}%
+\contentsline {section}{\numberline {4.2}\textbf {Model Refinement Using Regression}}{22}{}%
+\contentsline {section}{\numberline {4.3}\textbf {Error Analysis}}{23}{}%
+\contentsline {section}{\numberline {4.4}\textbf {Testing Results} }{23}{}%
+\contentsline {section}{\numberline {4.5}\textbf {Discussion}}{24}{}%
+\contentsline {chapter}{References}{25}{}%
+\contentsline {chapter}{\numberline {A}Appendix Title}{27}{}%
+\contentsline {chapter}{\numberline {B}Resource Persons}{28}{}%
