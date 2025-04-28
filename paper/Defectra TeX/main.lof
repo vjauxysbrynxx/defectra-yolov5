@@ -1,17 +1,17 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Components used in the prototype development.}}{15}{}%
-\contentsline {figure}{\numberline {3.2}{\ignorespaces Dual RPi Camera Modules attached to the custom housing.}}{16}{}%
-\contentsline {figure}{\numberline {3.3}{\ignorespaces LCD Module connected to the StereoPi board.}}{16}{}%
-\contentsline {figure}{\numberline {3.4}{\ignorespaces The finished prototype.}}{16}{}%
-\contentsline {figure}{\numberline {3.5}{\ignorespaces Calibration process with a checkerboard to correct fisheye lens distortion.}}{17}{}%
-\contentsline {figure}{\numberline {3.6}{\ignorespaces Parameter tuning process to achieve cleaner and more accurate disparity maps.}}{17}{}%
-\contentsline {figure}{\numberline {3.7}{\ignorespaces The system tested on a simulated pothole.}}{18}{}%
-\contentsline {figure}{\numberline {3.8}{\ignorespaces Inverse Model Fit to Disparity vs. Distance. }}{19}{}%
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Components used in the prototype development.}}{13}{}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Dual RPi Camera Modules attached to the custom housing.}}{14}{}%
+\contentsline {figure}{\numberline {3.3}{\ignorespaces LCD Module connected to the StereoPi board.}}{14}{}%
+\contentsline {figure}{\numberline {3.4}{\ignorespaces The finished prototype.}}{14}{}%
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Calibration process with a checkerboard to correct fisheye lens distortion.}}{15}{}%
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Parameter tuning process to achieve cleaner and more accurate disparity maps.}}{15}{}%
+\contentsline {figure}{\numberline {3.7}{\ignorespaces The system tested on a simulated pothole.}}{16}{}%
+\contentsline {figure}{\numberline {3.8}{\ignorespaces Inverse Model Fit to Disparity vs. Distance. }}{17}{}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Disparity Map}}{24}{}%
-\contentsline {figure}{\numberline {4.2}{\ignorespaces Left Stereo Image}}{24}{}%
-\contentsline {figure}{\numberline {4.3}{\ignorespaces Right Stereo Image}}{24}{}%
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Disparity Map}}{22}{}%
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Left Stereo Image}}{22}{}%
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Right Stereo Image}}{22}{}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
