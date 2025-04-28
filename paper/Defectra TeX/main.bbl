@@ -65,32 +65,6 @@ Ha, J.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
-Kelleher%
-}{%
-Kelleher%
-}{%
-{\protect \APACyear {2019}}%
-}]{%
-kelleher2019}
-\APACinsertmetastar {%
-kelleher2019}%
-\begin{APACrefauthors}%
-Kelleher, J.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYear{2019}.
-\newblock
-\APACrefbtitle {Deep Learning} {Deep learning}.
-\newblock
-\begin{APACrefURL}
-  \url{https://books.google.com.ph/books?hl=en&lr=&id=b06qDwAAQBAJ&oi=fnd&pg=PP9&dq=what+is+deep+learning&ots=_pCSXIk_WN&sig=EoGHTk7LjEBuR_OtFNX87LYOYU4&redir_esc=y#v=onepage&q=what%20is%20deep%20learning&f=false}
-  \end{APACrefURL}
-\newblock
-\APACrefnote{In Google Books}
-\PrintBackRefs{\CurrentBib}
-
-\bibitem [\protect \citeauthoryear {%
 Kumar%
 }{%
 Kumar%
@@ -272,6 +246,37 @@ Resources, R.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
+Sanz%
+, Mezcua%
+\BCBL {}\ \BBA {} Pena%
+}{%
+Sanz%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2012}}%
+}]{%
+sanz2012}
+\APACinsertmetastar {%
+sanz2012}%
+\begin{APACrefauthors}%
+Sanz, P.%
+, Mezcua, B.%
+\BCBL {}\ \BBA {} Pena, J.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2012}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Depth Estimation: An Introduction} {Depth estimation: An
+  introduction}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Current Advancements in Stereo Vision}{}{}{}.
+\newblock
+\begin{APACrefURL} \url{http://dx.doi.org/10.5772/45904} \end{APACrefURL}
+\newblock
+\begin{APACrefDOI} \doi{10.5772/45904} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 Sattar%
 , Li%
 \BCBL {}\ \BBA {} Chapman%
@@ -331,33 +336,6 @@ Singh, P.%
   innovation, systems and technologies}\ (\BPGS\ 423--432).
 \newblock
 \begin{APACrefDOI} \doi{10.1007/978-981-16-6482-3_42} \end{APACrefDOI}
-\PrintBackRefs{\CurrentBib}
-
-\bibitem [\protect \citeauthoryear {%
-Solawetz%
-}{%
-Solawetz%
-}{%
-{\protect \APACyear {2024}}%
-}]{%
-solawetz2024}
-\APACinsertmetastar {%
-solawetz2024}%
-\begin{APACrefauthors}%
-Solawetz, J.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYearMonthDay{2024}{April}{}.
-\newblock
-{\BBOQ}\APACrefatitle {What is YOLOv5? A Guide for Beginners} {What is yolov5?
-  a guide for beginners}.{\BBCQ}
-\newblock
-\APACjournalVolNumPages{Roboflow Blog}{}{}{}.
-\newblock
-\begin{APACrefURL}
-  \url{https://blog.roboflow.com/yolov5-improvements-and-evaluation/}
-  \end{APACrefURL}
 \PrintBackRefs{\CurrentBib}
 
 \end{thebibliography}
