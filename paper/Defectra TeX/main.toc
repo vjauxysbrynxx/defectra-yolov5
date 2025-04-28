@@ -24,11 +24,11 @@
 \contentsline {subsubsection}{\numberline {2.2.3.1}Stereo Vision Based Pothole Detection System for Improved Ride Quality}{9}{}%
 \contentsline {section}{\numberline {2.3}Chapter Summary}{10}{}%
 \contentsline {chapter}{\numberline {3}Methodology}{11}{}%
-\contentsline {section}{\numberline {3.1}\textbf { Research Activities} }{11}{}%
-\contentsline {subsection}{\numberline {3.1.1}\textbf {Data Collection} }{11}{}%
+\contentsline {section}{\numberline {3.1} Research Activities}{11}{}%
+\contentsline {subsection}{\numberline {3.1.1}Data Collection}{11}{}%
 \contentsline {subsubsection}{\numberline {3.1.1.1}Data Collection (Ground Truth Data)}{12}{}%
-\contentsline {subsection}{\numberline {3.1.2}\textbf {Algorithm Selection } }{12}{}%
-\contentsline {subsection}{\numberline {3.1.3}\textbf {Design, Testing, and Experimentation} }{12}{}%
+\contentsline {subsection}{\numberline {3.1.2}Algorithm Selection}{12}{}%
+\contentsline {subsection}{\numberline {3.1.3}Design, Testing, and Experimentation}{12}{}%
 \contentsline {subsubsection}{\numberline {3.1.3.1}Materials and Equipment}{13}{}%
 \contentsline {subsubsection}{\numberline {3.1.3.2}Prototype Building}{14}{}%
 \contentsline {subsubsection}{\numberline {3.1.3.3}Camera Calibration (Fisheye Distortion)}{15}{}%
@@ -37,15 +37,18 @@
 \contentsline {subsubsection}{\numberline {3.1.3.6}Performance Metrics}{16}{}%
 \contentsline {subsubsection}{\numberline {3.1.3.7}Final Testing and Validation}{17}{}%
 \contentsline {subsubsection}{\numberline {3.1.3.8}Documentation}{17}{}%
-\contentsline {subsection}{\numberline {3.1.4}\textbf {Challenges and Limitations} }{17}{}%
+\contentsline {subsection}{\numberline {3.1.4}Challenges and Limitations}{17}{}%
 \contentsline {subsubsection}{\numberline {3.1.4.1}Camera Limitations}{17}{}%
 \contentsline {section}{\numberline {3.2}Calendar of Activities}{18}{}%
 \contentsline {chapter}{\numberline {4}Preliminary Results/System Prototype}{19}{}%
-\contentsline {section}{\numberline {4.1}\textbf {System Calibration and Model Refinement}}{19}{}%
-\contentsline {section}{\numberline {4.2}\textbf {Model Refinement Using Regression}}{20}{}%
-\contentsline {section}{\numberline {4.3}\textbf {Error Analysis}}{21}{}%
-\contentsline {section}{\numberline {4.4}\textbf {Testing Results} }{21}{}%
-\contentsline {section}{\numberline {4.5}\textbf {Discussion}}{22}{}%
-\contentsline {chapter}{References}{23}{}%
-\contentsline {chapter}{\numberline {A}Appendix Title}{25}{}%
-\contentsline {chapter}{\numberline {B}Resource Persons}{26}{}%
+\contentsline {section}{\numberline {4.1}System Calibration and Model Refinement}{19}{}%
+\contentsline {section}{\numberline {4.2}Model Refinement Using Regression}{20}{}%
+\contentsline {section}{\numberline {4.3}Error Analysis}{21}{}%
+\contentsline {section}{\numberline {4.4}Testing Results}{21}{}%
+\contentsline {section}{\numberline {4.5}Discussion}{22}{}%
+\contentsline {chapter}{\numberline {5}Conclusion and Recommendations}{23}{}%
+\contentsline {section}{\numberline {5.1}Conclusion}{23}{}%
+\contentsline {section}{\numberline {5.2}Recommendations}{23}{}%
+\contentsline {chapter}{References}{24}{}%
+\contentsline {chapter}{\numberline {A}Appendix Title}{26}{}%
+\contentsline {chapter}{\numberline {B}Resource Persons}{27}{}%

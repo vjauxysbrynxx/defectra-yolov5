@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.1.28)  28 APR 2025 12:56
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.1.28)  28 APR 2025 14:23
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -385,7 +385,7 @@ LaTeX Warning: Label `tab:timetableactivities' multiply defined.
 
 LaTeX Warning: Label `tab:comparison' multiply defined.
 
-) (appendix_A.aux) (appendix_B.aux))
+) (chapter_5.aux) (appendix_A.aux) (appendix_B.aux))
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 7.
@@ -830,7 +830,17 @@ File: right.png Graphic file (type png)
 Package pdftex.def Info: right.png  used on input line 111.
 (pdftex.def)             Requested size: 132.97983pt x 99.73637pt.
 ) [22 <./disparity.png (PNG copy)> <./left.png (PNG copy)> <./right.png (PNG co
-py)>] (main.bbl
+py)>]
+\openout2 = `chapter_5.aux'.
+
+ (chapter_5.tex
+Chapter 5.
+) [23
+
+
+
+
+] (main.bbl
 Underfull \hbox (badness 2326) in paragraph at lines 141--156
 []\OT1/cmr/m/n/12 Luo, D., Lu, J., & Guo, G.  (2020, June).  Road anomaly de-te
 c-
@@ -854,16 +864,16 @@ Underfull \hbox (badness 1931) in paragraph at lines 231--247
 ] -project [] .eu / glossary / video []
  []
 
-[23
+[24
 
 
 
-]) [24]
+]) [25]
 \openout2 = `appendix_A.aux'.
 
  (appendix_A.tex
 Appendix A.
-) [25
+) [26
 
 
 ]
@@ -876,13 +886,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 31--32
 
  []
 
-) [26
+) [27
 
 
 
 
 ] (main.aux (title_page.aux) (abstract.aux) (chapter_1.aux) (chapter_2.aux) (ch
-apter_3.aux) (chapter_4.aux) (appendix_A.aux) (appendix_B.aux))
+apter_3.aux) (chapter_4.aux) (chapter_5.aux) (appendix_A.aux)
+(appendix_B.aux))
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-04>
@@ -893,10 +904,10 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 8892 strings out of 474486
- 148111 string characters out of 5743755
+ 8917 strings out of 474486
+ 148882 string characters out of 5743755
  1940542 words of memory out of 5000000
- 30971 multiletter control sequences out of 15000+600000
+ 30989 multiletter control sequences out of 15000+600000
  568484 words of font info for 75 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
  79i,11n,122p,1869b,440s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -913,9 +924,9 @@ perse/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><
 C:/Users/perse/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmt
 i12.pfb><C:/Users/perse/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfon
 ts/cm/cmtt12.pfb>
-Output written on main.pdf (32 pages, 5280550 bytes).
+Output written on main.pdf (33 pages, 5281269 bytes).
 PDF statistics:
- 174 PDF objects out of 1000 (max. 8388607)
+ 177 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  56 words of extra memory for PDF output out of 10000 (max. 10000000)
 

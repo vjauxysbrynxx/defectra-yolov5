@@ -2,7 +2,7 @@
 \chapter{Preliminary Results/System Prototype}
 This chapter presents the results on estimating the depth of potholes using the StereoPi system. It details the prototype construction, calibration of the system, and the application of regression analysis to improve depth estimation. It also contains the measurements taken during the testing phases, comparing the ground truth depths with the value estimated by the camera. Findings are presented systematically, supported by tables showing the collected data, images of the outputs, and discussion on the analysis of results.
 
-\section{\textbf{System Calibration and Model Refinement}}
+\section{System Calibration and Model Refinement}
 After the initial testing, the system was calibrated using a controlled setup, where artificial potholes with known depths were created. The stereo camera system captured disparity maps, from which depth was calculated using the standard stereo vision formula:
 
 \[
@@ -34,7 +34,7 @@ where:
 	\item \( a \) and \( b \) are coefficients obtained through regression analysis.
 \end{itemize}
 
-\section{\textbf{Model Refinement Using Regression}}
+\section{Model Refinement Using Regression}
 The regression analysis produced the following model parameters:
 \begin{itemize}
 	\item a = …
@@ -58,7 +58,7 @@ The model achieved the following performance on the test data:
 The relatively low MAE and RMSE indicate that the fitted model significantly improved the accuracy of depth estimation compared to the original stereo formula.
 
 
-\section{\textbf{Error Analysis}}
+\section{Error Analysis}
 Despite the improvements, minor estimation errors remained. These errors were primarily attributed to:
 \begin{itemize}
 	\item Low-light imaging conditions affecting disparity computation,
@@ -67,7 +67,7 @@ Despite the improvements, minor estimation errors remained. These errors were pr
 \end{itemize}
 
 
-\section{\textbf{Testing Results} }
+\section{Testing Results}
 Following calibration, actual potholes located around the University of the Philippines Visayas (UPV) campus were tested. The ground truth depths of the potholes were measured manually and compared with the depths estimated by the camera. Based on the results, the StereoPi camera was able to estimate the depths fairly close to the ground truth values.The smallest difference was seen in Pothole 5, where the estimated depth was only 0.24 cm away from the ground truth. The largest difference was found in Pothole 1, where the error was 3.45 cm. For the other potholes, the differences were 0.67 cm for Pothole 2, 2.07 cm for Pothole 3, and 2.66 cm for Pothole 4. Most of the time, the camera’s estimated depths were only off by about one to three centimeters. Table \ref{tab:comparison} shows the comparison between the manually measured ground truth depths and the depths estimated by the StereoPi camera for each simulated pothole.
 
 \begin{table}[H]
@@ -116,5 +116,5 @@ Following calibration, actual potholes located around the University of the Phil
 
 
 
-\section{\textbf{Discussion}}
+\section{Discussion}
 

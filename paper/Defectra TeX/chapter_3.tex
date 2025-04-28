@@ -2,15 +2,15 @@
 \chapter{Methodology}
 This chapter outlines the systematic approach that were taken to address the problem of pothole depth estimation using StereoPi V2. The methodology is divided into key phases: data collection, algorithm selection, design, testing and experimentation, and challenges and limitations. Each phase will play a crucial role in accurately classifying and assessing road defects.  Each phase is essential for accurately estimating the depth of potholes using StereoPi V2. 
 
-\section{\textbf{ Research Activities} }
+\section{ Research Activities}
 
-\subsection{\textbf{Data Collection} }
+\subsection{Data Collection}
 The researchers conducted initial inquiries to understand the problem domain and existing road maintenance practices. This phase included consulting the engineers under the Road Maintenance Department of the government agency Department of Public Works and Highways (DPWH). An interview with Engr. Jane Chua provided a comprehensive overview of the DPWH's road maintenance manual, which was crucial in aligning this project with existing standards. This collaboration with DPWH provided insights into road pothole classification standards, ensuring that the collected data will align with industry standards. The DPWH manual primarily focuses on the volume of detected potholes within a road segment as a measure of severity. However, since depth is not explicitly measured in their current procedures, the study will supplement this by referencing international standards such as the Long-Term Pavement Performance (LTPP) classification used in the United States. The LTPP categorizes potholes based on depth thresholds, which will be integrated with DPWH’s volume-based assessment to provide a more comprehensive severity classification framework. The data collection involved capturing around 130 images of potholes from various locations within the UP Visayas Campus. Ground truth data of pothole depth were collected by the researchers by measuring the depth of different points in an individual pothole and then solving for its average depth. The aforementioned process was validated by Engr. Benjamin Javellana, Assistant Director of DPWH Region 6. In order to individually locate or determine each pothole where the ground truth data is collected, images taken were labeled with their corresponding coordinates, street names, and nearby landmarks.
 
 \subsubsection{Data Collection (Ground Truth Data)}
 The researchers collected depth information from 130 potholes around the University of the Philippines Visayas Miagao Campus. During data collection, the researchers are equipped with safety vests and an early warning device to give caution to incoming vehicles. To measure the depth of each pothole, the researchers recorded four depth points within the pothole and calculated their average.
 
-\subsection{\textbf{Algorithm Selection } }
+\subsection{Algorithm Selection} 
 Potential solutions, algorithms, and system architectures were discussed by the researchers and the special problem adviser in this phase. These sessions, conducted in class and virtually via Zoom, helped narrow down the overview of the system, leading to the selection of the main architecture Epipolar Spatio-Temporal Networks (ESTN) for depth estimation. 
 
 %\subsubsection{Pothole Detection}
@@ -19,7 +19,7 @@ Potential solutions, algorithms, and system architectures were discussed by the 
 %\subsubsection{Severity Assessment}
 %The Multi-view Depth Estimation using Epipolar Spatio-Temporal Networks was selected due to the high cost and limited accessibility of LiDAR technology. By applying epipolar geometry and temporal consistency across sequential frames, this approach provides an accurate depth estimation from standard video footage \cite{long2021}. 
 
-\subsection{\textbf{Design, Testing, and Experimentation} }
+\subsection{Design, Testing, and Experimentation}
 This section outlines both the design and testing of the system, as well as the experimentation process to validate the selected methodologies. 
 
 %\subsubsection{Model Design}
@@ -130,7 +130,7 @@ The testing process began with a detailed testing plan that includes both simula
 \subsubsection{Documentation}
 Throughout the research activities, thorough documentation was maintained. This documentation captured all methods, results, challenges, and adjustments made during the experimentation phases. It ensured the reproducibility of the work and provided transparency for future research endeavors. 
 
-\subsection{\textbf{Challenges and Limitations} }
+\subsection{Challenges and Limitations}
 
 \subsubsection{Camera Limitations}
 During the data collection process, the researchers were faced with various issues involving the StereoPi V2 kit. Issues like inaccuracies in the rectified image pair and generated disparity map were very apparent in the early stages of data collection due to limited related studies and literature involving the camera. In addition, the camera also yielded some inaccurate depth estimation and over reliance on controlled environments which prompted the researchers to further improve its tuning and calibration.
