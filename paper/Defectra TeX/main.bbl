@@ -306,6 +306,40 @@ Sattar, S.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
+Scharstein%
+\ \BBA {} Szeliski%
+}{%
+Scharstein%
+\ \BBA {} Szeliski%
+}{%
+{\protect \APACyear {2002}}%
+}]{%
+scharstein2002}
+\APACinsertmetastar {%
+scharstein2002}%
+\begin{APACrefauthors}%
+Scharstein, D.%
+\BCBT {}\ \BBA {} Szeliski, R.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2002}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {A Taxonomy and Evaluation of Dense Two-Frame Stereo
+  Correspondence Algorithms} {A taxonomy and evaluation of dense two-frame
+  stereo correspondence algorithms}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{International Journal of Computer
+  Vision}{47}{1}{7--42}.
+\newblock
+\begin{APACrefURL}
+  \url{https://link.springer.com/article/10.1023/A:1014573219977}
+  \end{APACrefURL}
+\newblock
+\begin{APACrefDOI} \doi{10.1023/A:1014573219977} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 Singh%
 , Bansal%
 , Kamal%
