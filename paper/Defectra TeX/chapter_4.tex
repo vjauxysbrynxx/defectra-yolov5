@@ -117,4 +117,18 @@ Following calibration, actual potholes located around the University of the Phil
 
 
 \section{Discussion}
+The Linear Regression test on the collected data revealed a strong positive linear relationship between the estimated and ground truth depths (\(R = 0.937)\). The coefficient of determination (\(R^{2} = 0.878)\) also indicates that 87.8\% of the differences in the estimated depth are correctly predicted based on the ground truth data. After calculating for the Mean Absolute Error, it was also found that estimated pothole depths differ from the actual ground truth data by around 1.82 cm. In addition, the Root Mean Square Error also revealed that the typical error size is at 1.19 cm.
+
+\begin{table}[h]
+	\centering
+	\begin{tabular}{|c|c|c|c|}
+		\hline
+		\textbf{R} & \textbf{R\textsuperscript{2}} & \textbf{Root Mean Square Error} & \textbf{Mean Absolute Error} \\
+		\hline
+		0.937 & 0.878 & 1.19 & 1.82 \\
+		\hline
+	\end{tabular}
+	\caption{Model Fit Measures for Pothole Depth Estimation}
+	\label{tab:model_fit}
+\end{table}
 
