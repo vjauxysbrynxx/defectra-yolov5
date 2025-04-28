@@ -62,7 +62,7 @@ The relatively low MAE and RMSE indicate that the fitted model significantly imp
 Despite the improvements, minor estimation errors remained. These errors were primarily attributed to:
 \begin{itemize}
 	\item Low-light imaging conditions affecting disparity computation,
-	\item Shallow potholes with depths less than 3 cm, where disparity resolution becomes a limiting factor,
+	\item Shallow potholes with depths less than 1 cm, where disparity resolution becomes a limiting factor,
 	\item Perspective distortion when the stereo camera was not parallel to the ground plane.
 \end{itemize}
 
@@ -131,4 +131,12 @@ The Linear Regression test on the collected data revealed a strong positive line
 	\caption{Linear Regression Model for Pothole Depth Estimation}
 	\label{tab:model_fit}
 \end{table}
+
+%regression
+\begin{figure}[H]
+	\centering
+	\includegraphics[scale=0.55]{regression.png}
+	\caption{Inverse Model Fit to Disparity vs. Distance.\\}
+	\label{fig:model}
+\end{figure}
 

@@ -1,13 +1,13 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {2.1}{\ignorespaces Comparison of Related Studies on Road Anomaly Detection using Deep Learning Techniques and Stereo Vision}}{10}{}%
+\contentsline {table}{\numberline {2.1}{\ignorespaces Comparison of Related Studies on Road Anomaly Detection using Deep Learning Techniques and Stereo Vision}}{11}{}%
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {3.1}{\ignorespaces Timetable of Activities for 2024}}{18}{}%
-\contentsline {table}{\numberline {3.2}{\ignorespaces Timetable of Activities for 2025}}{18}{}%
+\contentsline {table}{\numberline {3.1}{\ignorespaces Timetable of Activities for 2024}}{19}{}%
+\contentsline {table}{\numberline {3.2}{\ignorespaces Timetable of Activities for 2025}}{19}{}%
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {4.1}{\ignorespaces Performance Metrics for the Regression Model}}{20}{}%
-\contentsline {table}{\numberline {4.2}{\ignorespaces Ground Truth and StereoPi Depth Measurements}}{22}{}%
-\contentsline {table}{\numberline {4.3}{\ignorespaces Model Fit Measures for Pothole Depth Estimation}}{22}{}%
+\contentsline {table}{\numberline {4.1}{\ignorespaces Performance Metrics for the Regression Model}}{21}{}%
+\contentsline {table}{\numberline {4.2}{\ignorespaces Ground Truth and StereoPi Depth Measurements}}{23}{}%
+\contentsline {table}{\numberline {4.3}{\ignorespaces Linear Regression Model for Pothole Depth Estimation}}{23}{}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
