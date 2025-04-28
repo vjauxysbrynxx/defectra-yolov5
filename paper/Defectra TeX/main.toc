@@ -30,18 +30,20 @@
 \contentsline {subsubsection}{\numberline {3.1.1.1}Data Collection (Ground Truth Data)}{14}{}%
 \contentsline {subsection}{\numberline {3.1.2}\textbf {Algorithm Selection } }{14}{}%
 \contentsline {subsection}{\numberline {3.1.3}\textbf {Design, Testing, and Experimentation} }{14}{}%
-\contentsline {subsubsection}{\numberline {3.1.3.1}Camera Calibration (Fisheye Distortion)}{14}{}%
-\contentsline {subsubsection}{\numberline {3.1.3.2}Camera Calibration (Disparity Map Finetuning)}{15}{}%
-\contentsline {subsubsection}{\numberline {3.1.3.3}Prototype Building}{15}{}%
-\contentsline {subsubsection}{\numberline {3.1.3.4}Performance Metrics}{15}{}%
-\contentsline {subsubsection}{\numberline {3.1.3.5}Testing and Validation}{15}{}%
-\contentsline {subsubsection}{\numberline {3.1.3.6}Documentation}{16}{}%
-\contentsline {subsection}{\numberline {3.1.4}\textbf {Challenges and Limitations} }{16}{}%
-\contentsline {subsubsection}{\numberline {3.1.4.1}Camera Limitations}{16}{}%
-\contentsline {section}{\numberline {3.2}Calendar of Activities}{16}{}%
-\contentsline {chapter}{\numberline {4}Preliminary Results/System Prototype}{18}{}%
-\contentsline {section}{\numberline {4.1}\textbf { Initial Testing Results} }{18}{}%
-\contentsline {section}{\numberline {4.2}\textbf { Final Testing Results} }{19}{}%
-\contentsline {chapter}{References}{20}{}%
-\contentsline {chapter}{\numberline {A}Appendix Title}{22}{}%
-\contentsline {chapter}{\numberline {B}Resource Persons}{23}{}%
+\contentsline {subsubsection}{\numberline {3.1.3.1}Materials and Equipment}{15}{}%
+\contentsline {subsubsection}{\numberline {3.1.3.2}Prototype Building}{16}{}%
+\contentsline {subsubsection}{\numberline {3.1.3.3}Camera Calibration (Fisheye Distortion)}{17}{}%
+\contentsline {subsubsection}{\numberline {3.1.3.4}Camera Calibration (Disparity Map Fine-tuning)}{17}{}%
+\contentsline {subsubsection}{\numberline {3.1.3.5}Initial Testing}{18}{}%
+\contentsline {subsubsection}{\numberline {3.1.3.6}Performance Metrics}{19}{}%
+\contentsline {subsubsection}{\numberline {3.1.3.7}Final Testing and Validation}{19}{}%
+\contentsline {subsubsection}{\numberline {3.1.3.8}Documentation}{19}{}%
+\contentsline {subsection}{\numberline {3.1.4}\textbf {Challenges and Limitations} }{20}{}%
+\contentsline {subsubsection}{\numberline {3.1.4.1}Camera Limitations}{20}{}%
+\contentsline {section}{\numberline {3.2}Calendar of Activities}{20}{}%
+\contentsline {chapter}{\numberline {4}Preliminary Results/System Prototype}{22}{}%
+\contentsline {section}{\numberline {4.1}\textbf {Testing Results} }{22}{}%
+\contentsline {section}{\numberline {4.2}\textbf { Final Testing Results} }{23}{}%
+\contentsline {chapter}{References}{24}{}%
+\contentsline {chapter}{\numberline {A}Appendix Title}{26}{}%
+\contentsline {chapter}{\numberline {B}Resource Persons}{27}{}%
