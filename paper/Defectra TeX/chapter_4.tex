@@ -17,9 +17,9 @@ where:
 \end{itemize}
 
 
-However, preliminary observations revealed that the relationship between measured disparity and true depth was nonlinear, particularly for small disparities corresponding to greater distances. As a result, a direct application of the stereo formula led to systematic errors, especially at the extremes of the depth range.
+However, preliminary observations revealed that the relationship between measured disparity and depth was shifted from the ideal. Their relationship is inherently nonlinear, specifically an inverse relationship (of the form y=1/xy=1/x). As disparity decreases, depth increases rapidly and nonlinearly. However, due to real-world factors such as lens distortion, imperfect calibration, stereo matching errors, and pixel quantization, the actual relationship between measured disparity and true depth often deviates from the theoretical ideal (Scharstein & Szeliski, 2002). cite here
 
-To address the nonlinear behavior, a curve fitting approach was introduced. Specifically, an inverse model was fitted to the collected data points, relating disparity and ground-truth distance measurements.
+To address the shifting behavior, a curve fitting approach was introduced. Specifically, an inverse model was fitted to the collected data points, relating disparity and ground-truth distance measurements.
 
 An inverse function of the form:
 
