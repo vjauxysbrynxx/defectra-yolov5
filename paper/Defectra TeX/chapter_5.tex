@@ -1,0 +1,52 @@
+\chapter{Summary, Conclusions, Discussion, and Recommendations}
+This chapter provides conclusions based on the research findings from data collected on the development of a pothole depth estimation system using stereo vision technology. It also presents a discussion and recommendations for future research. This chapter reviews the purpose of the study, research questions, related literature, methodology, and findings. It then presents the conclusions, a discussion of the results, recommendations for practice, suggestions for further research, and the final conclusion of the study.
+
+\section{Summary}
+This special project addressed the critical issue of road maintenance by developing a system capable of estimating the depth of potholes to help prioritize repairs. The purpose of the project was to create an automated method that not only detects potholes but also assesses their severity based on depth, responding to the current manual and slow road inspection practices. The researchers aimed to collect high-quality images of potholes under varying conditions, to validate the system’s depth estimation accuracy using ground truth measurements and linear regression analysis, and to build a working prototype using stereo vision that can detect, measure, and assess potholes. 
+
+To achieve these objectives, a hardware prototype was built using the StereoPi V2 board and Raspberry Pi Compute Module 4, equipped with dual fisheye-lens cameras. Camera calibration was performed using a 9x6 checkerboard pattern with known square sizes to correct for fisheye lens distortion and ensure proper alignment of the stereo pair. After calibration, disparity map generation was fine-tuned by adjusting block matching parameters to produce clearer and more reliable disparity maps. Initial testing was conducted using simulated potholes with known depths to verify the functionality of the system and identify the non-linear behavior present in stereo vision depth measurements. It was observed that using the standard stereo depth formula led to inaccuracies, particularly at greater distances. 
+
+The calibrated system and fitted regression model were validated by comparing the estimated depths with the manually measured depths. The findings showed that the system was able to estimate pothole depths within approximately ±2 cm of actual measurements, achieving a Mean Absolute Error (MAE) of 1.82 cm and a Root Mean Square Error (RMSE) of 1.19 cm. A strong positive linear relationship was observed between the estimated and actual depths (R = 0.937, R² = 0.878).
+
+\section{Conclusions}
+The researchers conclude the following based on the findings:
+
+\begin{itemize}
+	\item The system effectively captures and analyzes depth information from stereo images, providing a viable method for automated pothole severity assessment.
+	
+	\item Incorporating depth measurements significantly improves pothole repair prioritization compared to traditional visual-only inspections, allowing maintenance decisions to be based on objective, measurable data.
+	\item The system achieved an acceptable regression model fit, with a strong positive correlation (R = 0.937) and a coefficient of determination (R² = 0.878), confirming that the depth estimates closely align with the ground truth measurements.The system obtained satisfactory error metrics, with a Mean Absolute Error (MAE) of 1.82 cm and a Root Mean Square Error (RMSE) of 1.19 cm, indicating reliable performance for both pothole detection and depth estimation tasks.
+	\item The proposed approach fills a critical gap in current road maintenance practices, especially within the Philippine context where depth-based severity classification is not yet systematically implemented.
+\end{itemize}
+
+\section{Discussion}
+The study found that stereo vision works effectively in helping estimate the depth of road potholes. The system built using the StereoPi V2 camera was able to measure pothole depths with results mostly within ±2 cm of the actual ground truth values. This matches the general observation in earlier studies (e.g., Ramaiah and Kundu, 2021), which showed that stereo vision can provide useful 3D information for road obstacle detection. However, this study advances previous work by focusing not just on detection, but on depth-based severity classification, which was largely missing in earlier research.
+
+The outputs of the system were generally positive, showing that with proper calibration and tuning, consistent and reliable depth estimates can be produced. Calibration using checkerboards and tuning block matching parameters were crucial steps in achieving these results. Similar to the findings of Sanz et al. (2012), proper stereo camera calibration was found to be critical to achieving acceptable disparity maps. This reinforces the importance of calibration techniques, especially in real-world outdoor conditions where environmental factors introduce noise.
+
+It was also observed that incorporating depth measurements into pothole detection greatly improves how potholes are prioritized for repairs compared to traditional visual-only inspections. This insight fills a notable gap in current practices, especially in the Philippine context where depth measurements are not typically part of road surveys (Ramos et al., 2023). Depth-based severity classification enables road maintenance teams to make more informed and objective decisions on which potholes to prioritize for immediate repair, helping to optimize resource allocation and improve public road safety.
+
+The system achieved a strong positive regression model fit (R = 0.937, R² = 0.878) and satisfactory error measures (MAE = 1.82 cm, RMSE = 1.19 cm). These results confirm that stereo vision, when combined with simple regression modeling, can reliably estimate pothole depths. This finding is significant because earlier machine learning-based road detection studies (such as Bibi et al., 2021) focused mostly on classifying the existence of defects, not measuring their severity.
+
+However, the study also highlighted limitations affecting system performance, including sensitivity to camera calibration quality, lighting conditions, road surface texture, and the camera's vertical positioning during image capture. Outdoor testing revealed that low lighting and shallow potholes made it difficult to generate clean disparity maps, sometimes causing minor estimation errors. These observations are consistent with Sattar et al. (2018), who reported that mobile road sensing systems often struggle in low-light or highly variable surface conditions. Understanding these challenges is important because it points to practical improvements, such as using better cameras, adding lighting support, or applying more robust image enhancement methods in future versions of the system.
+
+\section{Recommendations for Practice}
+Based on the findings of this special project, the following recommendations are proposed for future researchers, engineers, and road maintenance agencies:
+
+\textit {Use stereo vision systems for road surveys}.Road maintenance agencies should consider using calibrated stereo vision systems to estimate pothole depth, allowing for better prioritization of road repairs compared to visual inspections alone.
+
+\textit{Incorporate depth-based severity classification in maintenance procedures}.Authorities should update road inspection protocols to include depth measurements, making pothole severity assessment more objective and standardized.
+
+
+\section{Suggestions for further research}
+
+Based on the limitations encountered and the results obtained,the researchers have
+observed that there are lapses and possible improvements to further better this system.
+
+\textit{Better camera}. While the StereoPi V2 camera was effective for basic depth estimation, its performance is limited by its resolution, sensitivity to lighting, and depth range. Future researchers could consider using higher-quality stereo cameras or depth sensors with better image resolution and low-light capabilities to achieve more accurate and consistent disparity maps.
+	
+\textit{Improve camera calibration and tuning}. While the StereoPi system produced good depth estimates, the results still varied depending on the precision of the camera calibration. Future researchers can explore better calibration techniques and finer parameter adjustments to minimize errors, especially in challenging environments.
+
+
+\section{Conclusion}
+This special project has successfully developed a system that addresses the problem of pothole severity assessment using depth measurement.The research shows that stereo vision, even using accessible and affordable technology, holds strong potential for future development in road maintenance automation. By building upon the foundation laid by this project, future systems can become even more accurate, efficient, and practical for real-world deployment.

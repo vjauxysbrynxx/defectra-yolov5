@@ -7,15 +7,15 @@
 
 According to the National Road Length by Classification, Surface Type, and Condition of the Department of Public Works and Highways (DPWH), as of October 2022 approximately 98.97\% of roads in the Philippines is paved which is either made of concrete or asphalt (DPWH, 2022). Since the DPWH is an institution under the government, it is paramount to maintain such roads in order to avoid accidents and congested traffic situations especially in heavily urbanized areas where there are a lot of vehicles.
 
-
-In an interview with the Road Board of DPWH Region 6 it was stated that road condition assessments are mostly done manually with heavy reliance on engineering judgment. In addition, manual assessment of roads is also time consuming which leaves maintenance operations to wait for lengthy assessments (J. Chua, Personal Interview. 16 September 2024).  In a study conducted by \cite{ramos2023}, it was found that the Philippines’ current method of manual pavement surveying is considered as a gap since it takes an average of 2-3 months to cover a 250 km road as opposed to a 1 day duration in the Australian Road Research Board for the same road length. Ramos et al. (2022) recommended that to significantly improve efficiency of surveying methods and data gathering processes, automated survey tools are to be employed. It was also added that use of such automated surveying tools can also guarantee the safety of road surveyors \cite{ramos2023}.
-
+In an interview with the Road Board of DPWH Region 6 it was stated that road condition assessments are mostly done manually with heavy reliance on engineering judgment. In addition, manual assessment of roads is also time consuming which leaves maintenance operations to wait for lengthy assessments (J. Chua, Personal Interview. 16 September 2024).  In a study conducted by \cite{ramos2023}, it was found that the Philippines’ current method of manual pavement surveying is considered as a gap since it takes an average of 2-3 months to cover a 250 km road as opposed to a 1 day duration in the Australian Road Research Board for the same road length. Ramos et al. (2022) recommended that to significantly improve efficiency of surveying methods and data gathering processes, automated survey tools are to be employed. It was also added that use of such automated, surveying tools can also guarantee the safety of road surveyors \cite{ramos2023}.
 
 If the process of assessment on the severity of road defects can be automated then the whole process of assessing the quality of roads can be hastened up which can also enable maintenance operations to commence as soon as possible if necessary. If not automated, the delay of assessments will continue and roads that are supposedly needing maintenance may not be properly maintained which can affect the general public that is utilizing public roads daily.
 
+Existing studies involving road defects such as potholes mainly focus on the detection of potholes using deep learning models and almost not considering the severity of detected potholes or did not incorporate any depth information from potholes \cite{ha2022,kumar2024,bibi2021}. In addition, for studies that include severity assessment on potholes, the main goal of the study is not directed towards road maintenance automation but other factors such as improvement of ride quality for the vehicle. Another issue found in existing solutions is the lack of incorporation to the context of Philippine roads. With these issues in mind, the study aims to utilize stereo vision from StereoPi V2 in order to obtain multi-perspective views of detected potholes to be used in severity asssessment by focusing on estimating the depth of individual potholes for automated road condition monitoring.
+
 
 \section{Problem Statement}
-Roads support almost every aspect of daily life, from providing a way to transport goods and services to allowing people to stay connected with their communities. However, road defects such as cracks and potholes damage roads over time, and they can increase accident risks and affect the overall transportation. The current way of inspecting the roads for maintenance is often slow as it is done manually, which makes it harder to detect and fix defects early. The delay in addressing these problems can lead to even worse road conditions (J. Chua, Personal Interview. 16 September 2024). There are several research studies into automated road defect classification that have advanced in recent years but most of them focus on identifying the types of defects rather than assessing their severity or characteristics like depth. Without reliable data on the depth of the defect, road maintenance authorities may underestimate the severity of certain defects. To address these challenges, advancements are needed across various areas. An effective solution should not only detect and classify road defects but also measure their severity to better prioritize repairs. Failing to address this problem will require more extensive repairs for damaged roads, which raises the cost and strains the budget. Additionally, road maintenance would still be slow and cause disruptions in daily activities. Using an automated system that accurately detects, classifies, and assess the severity of road defects by incorporating depth are necessary to efficiently monitor road quality.
+Roads support almost every aspect of daily life, from providing a way to transport goods and services to allowing people to stay connected with their communities. However, road defects such as cracks and potholes damage roads over time, and they can increase accident risks and affect the overall transportation. The current way of inspecting the roads for maintenance is often slow as it is done manually, which makes it harder to detect and fix defects early. The delay in addressing these problems can lead to even worse road conditions (J. Chua, Personal Interview. 16 September 2024). There are several research studies into automated road defect classification that have advanced in recent years but most of them focus on identifying the types of defects rather than assessing their severity or characteristics like depth. Without reliable data on the depth of the defect, road maintenance authorities may underestimate the severity of certain defects. To address these challenges, advancements are needed across various areas. An effective solution should not only detect and classify road defects but also measure their severity to better prioritize repairs. Failing to address this problem will require more extensive repairs for damaged roads, which raises the cost and strains the budget. Additionally, road maintenance would still be slow and cause disruptions in daily activities. Using an automated system that accurately assess the severity of road defects by incorporating depth is necessary to efficiently monitor road quality.
 
 
 \section{Research Objectives}
@@ -24,33 +24,29 @@ Roads support almost every aspect of daily life, from providing a way to transpo
 \subsection{General Objective}
 \label{sec:generalobjective}
 
-This special problem aims to develop an automated system that will accurately detect and assess the severity of potholes on road surfaces by using image analysis, depth measurement technologies, and a combination of machine learning and computer vision techniques. The system will focus on measuring the depth of potholes to assess their severity, enabling faster and more accurate road maintenance decisions. 
-
-
+This special problem aims to develop a system that accurately estimates the depth of potholes on road surfaces by using image analysis, depth measurement technologies, and computer vision techniques. The system will focus specifically on measuring the depth of potholes to assess their severity, enabling faster and more accurate road maintenance decisions, and there are no current practices in the Philippines involving depth information of potholes in assessing their severity. In accordance with the Department of Public Works and Highways Region 6’s manual for road maintenance, the study will classify potholes into different severity levels such as low, medium, and high, which will be primarily based on their depth. In order to measure the system's accuracy, linear regression in order to represent the difference between the depth calculated from the disparity and the actual depth of the pothole from ground truth data.
 
 \subsection{Specific Objectives}
 \label{sec:specificobjectives}
 
 Specifically, this special problem aims:
 \begin{enumerate}
-	\item To collect high-quality images of road surfaces that capture potholes including their depth in various lighting and weather conditions.
-	\item To develop and train a machine learning model to detect and assess the severity of potholes from images. 
-	\item To measure the accuracy of the system by comparing the depth measurements against ground truth data collected from actual road inspections
+	\item To collect high-quality stereo images of road surfaces that capture potholes including their depth in favorable conditions
+	%\item To develop and train a machine learning model to detect and assess the severity of potholes from images. 
+	\item To measure the accuracy of the system by comparing the depth measurements against ground truth data collected from actual road inspections and to utilize linear regression, root mean square error, and mean absolute error as a metric for evaluation.
 	\item To develop a prototype system that can detect and measure road potholes from image input, analyze their depth, and assess their severity.
 \end{enumerate}
 
 \section{Scope and Limitations of the Research}
 \label{sec:scopelimitations}
 
-
-
-This system will focus solely on detecting and assessing the severity of potholes through image analysis and depth measurement technologies. The scope includes the collection of pothole images using cameras and depth-sensing tools under various lighting and weather conditions, ensuring the data captures real-world variations. High-quality and diverse image datasets will be crucial for training the model to accurately assess pothole severity based on depth.
+This system focuses solely on detecting and assessing the severity of potholes through image analysis and depth measurement technologies. The scope includes the collection of pothole images using cameras and depth-sensing tools under a favorable weather condition.
 
 Depth-sensing tools, such as stereo cameras, will be used to record the depth of potholes specifically. The system will not address other road defects like cracks or other surface deformations; therefore, it will detect and analyze only potholes. Additionally, only accessible potholes will be measured, meaning those that are filled with water or obscured by debris may not be accurately assessed.
 
-The machine learning model developed will focus exclusively on detecting potholes and assessing their severity through depth measurement. The accuracy of the model’s depth measurements will be evaluated by comparing them against data collected from actual field inspections. However, this comparison will be limited to selected sample sites, as collecting field data over a large area can be time-consuming and resource-intensive.
+The system developed focuses exclusively on detecting potholes and assessing their severity through depth measurement. The accuracy of the system’s depth measurements is evaluated by comparing them against data collected from actual field inspections. However, this comparison is limited to selected sample sites, as collecting field data over a large area can be time-consuming and resource-intensive.
 
-Environmental factors such as lighting, road surface texture, and weather conditions may impact the model's performance. The accuracy and reliability of the model will depend on the quality and variety of the training dataset. Its ability to generalize to unseen pothole images will need to be carefully validated.
+Environmental factors such as lighting, road surface texture, and weather conditions may impact the system's performance. The accuracy and reliability of the system will depend on the quality of camera calibration and disparity map finetuning. Its ability to measure the depth of pothole images needs careful validation.
 
 
 \section{Significance of the Research}
@@ -65,9 +61,9 @@ This special problem aims to be significant to the following:
 \textit{Concerned Government Agencies.} This system offers a valuable tool for road safety and maintenance. Not only can this detect and classify anomalies, it can also assess the defect’s severity which allows them to prioritize repairs, optimal project expenditures, and better overall road safety and quality. 
 
 
-\textit{Field Engineers.} In the scorching heat, field engineers are no longer required to be on foot unless it requires its engineering judgement when surveying a road segment. It can hasten the overall assessment process. 
+\textit{Field Engineers.} In the scorching heat, field engineers are no longer required to be on foot unless it requires their engineering judgement when surveying a road segment. It can hasten the overall assessment process. 
 
 
-\textit{Future Researchers.} The special problem can serve as a baseline and guide of researchers with the aim to pursue special problems similar or related to this. 
+\textit{Future Researchers.} The special problem may serve as a baseline and guide of researchers with the aim to pursue special problems similar or related to this. 
 
 
