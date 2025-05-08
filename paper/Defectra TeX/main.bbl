@@ -65,32 +65,6 @@ Ha, J.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
-Kelleher%
-}{%
-Kelleher%
-}{%
-{\protect \APACyear {2019}}%
-}]{%
-kelleher2019}
-\APACinsertmetastar {%
-kelleher2019}%
-\begin{APACrefauthors}%
-Kelleher, J.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYear{2019}.
-\newblock
-\APACrefbtitle {Deep Learning} {Deep learning}.
-\newblock
-\begin{APACrefURL}
-  \url{https://books.google.com.ph/books?hl=en&lr=&id=b06qDwAAQBAJ&oi=fnd&pg=PP9&dq=what+is+deep+learning&ots=_pCSXIk_WN&sig=EoGHTk7LjEBuR_OtFNX87LYOYU4&redir_esc=y#v=onepage&q=what%20is%20deep%20learning&f=false}
-  \end{APACrefURL}
-\newblock
-\APACrefnote{In Google Books}
-\PrintBackRefs{\CurrentBib}
-
-\bibitem [\protect \citeauthoryear {%
 Kumar%
 }{%
 Kumar%
@@ -107,9 +81,11 @@ Kumar, A.%
 \newblock
 \APACrefYearMonthDay{2024}{October}{}.
 \newblock
-\APACrefbtitle {What is Image Processing: Overview, Applications, Benefits, and
-  More.} {What is image processing: Overview, applications, benefits, and
-  more.}
+{\BBOQ}\APACrefatitle {What is Image Processing: Overview, Applications,
+  Benefits, and More} {What is image processing: Overview, applications,
+  benefits, and more}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{AI and Machine Learning}{}{}{}.
 \newblock
 \begin{APACrefURL} \url{https://www.simplilearn.com/image-processing-article}
   \end{APACrefURL}
@@ -150,42 +126,6 @@ Kyriakou, C.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
-Long%
-, Wang%
-, Zhang%
-, Mei%
-\BCBL {}\ \BBA {} Shen%
-}{%
-Long%
-\ \protect \BOthers {.}}{%
-{\protect \APACyear {2021}}%
-}]{%
-long2021}
-\APACinsertmetastar {%
-long2021}%
-\begin{APACrefauthors}%
-Long, Y.%
-, Wang, J.%
-, Zhang, H.%
-, Mei, T.%
-\BCBL {}\ \BBA {} Shen, X.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYearMonthDay{2021}{}{}.
-\newblock
-{\BBOQ}\APACrefatitle {Multi-View Depth Estimation Using Epipolar
-  Spatio-Temporal Networks} {Multi-view depth estimation using epipolar
-  spatio-temporal networks}.{\BBCQ}
-\newblock
-\BIn{} \APACrefbtitle {Proceedings of the IEEE/CVF Conference on Computer
-  Vision and Pattern Recognition (CVPR).} {Proceedings of the ieee/cvf
-  conference on computer vision and pattern recognition (cvpr).}
-\newblock
-\begin{APACrefDOI} \doi{10.1109/CVPR46437.2021.01567} \end{APACrefDOI}
-\PrintBackRefs{\CurrentBib}
-
-\bibitem [\protect \citeauthoryear {%
 Luo%
 , Lu%
 \BCBL {}\ \BBA {} Guo%
@@ -209,10 +149,9 @@ Luo, D.%
 {\BBOQ}\APACrefatitle {Road Anomaly Detection Through Deep Learning Approaches}
   {Road anomaly detection through deep learning approaches}.{\BBCQ}
 \newblock
-\APACjournalVolNumPages{IEEE Journals & Magazine}{}{}{}.
+\APACjournalVolNumPages{IEEE Journals and Magazine}{}{}{}.
 \newblock
-\begin{APACrefURL} \url{https://ieeexplore.ieee.org/document/9123753/}
-  \end{APACrefURL}
+\APACrefnote{https://ieeexplore.ieee.org/document/9123753/}
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -269,8 +208,8 @@ Ramos, J\BPBI A.%
 \newblock
 \APACrefbtitle {A Review of the Current Practices in the Pavement Surface
   Monitoring in the Philippines} {A review of the current practices in the
-  pavement surface monitoring in the philippines}\ }{}{University of the
-  Philippines Diliman}.
+  pavement surface monitoring in the philippines}\ \APACtypeAddressSchool
+  {\BPhD}{}{University of the Philippines Diliman}.
 \unskip\
 \newblock
 \begin{APACrefURL}
@@ -295,13 +234,46 @@ Resources, R.%
 \newblock
 \APACrefYearMonthDay{2020}{}{}.
 \newblock
-\APACrefbtitle {Video Processing.} {Video processing.}
+{\BBOQ}\APACrefatitle {Video Processing} {Video processing}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Riches Project EU}{}{}{}.
 \newblock
 \begin{APACrefURL}
   \url{https://resources.riches-project.eu/glossary/video-processing/}
   \end{APACrefURL}
 \newblock
 \APACrefnote{Accessed: January 1, 2025}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Sanz%
+, Mezcua%
+\BCBL {}\ \BBA {} Pena%
+}{%
+Sanz%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2012}}%
+}]{%
+sanz2012}
+\APACinsertmetastar {%
+sanz2012}%
+\begin{APACrefauthors}%
+Sanz, P.%
+, Mezcua, B.%
+\BCBL {}\ \BBA {} Pena, J.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2012}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Depth Estimation: An Introduction} {Depth estimation: An
+  introduction}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Current Advancements in Stereo Vision}{}{}{}.
+\newblock
+\begin{APACrefURL} \url{http://dx.doi.org/10.5772/45904} \end{APACrefURL}
+\newblock
+\begin{APACrefDOI} \doi{10.5772/45904} \end{APACrefDOI}
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -331,6 +303,40 @@ Sattar, S.%
 \APACjournalVolNumPages{Sensors}{18}{11}{3845--3845}.
 \newblock
 \begin{APACrefDOI} \doi{10.3390/s18113845} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Scharstein%
+\ \BBA {} Szeliski%
+}{%
+Scharstein%
+\ \BBA {} Szeliski%
+}{%
+{\protect \APACyear {2002}}%
+}]{%
+scharstein2002}
+\APACinsertmetastar {%
+scharstein2002}%
+\begin{APACrefauthors}%
+Scharstein, D.%
+\BCBT {}\ \BBA {} Szeliski, R.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2002}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {A Taxonomy and Evaluation of Dense Two-Frame Stereo
+  Correspondence Algorithms} {A taxonomy and evaluation of dense two-frame
+  stereo correspondence algorithms}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{International Journal of Computer
+  Vision}{47}{1}{7--42}.
+\newblock
+\begin{APACrefURL}
+  \url{https://link.springer.com/article/10.1023/A:1014573219977}
+  \end{APACrefURL}
+\newblock
+\begin{APACrefDOI} \doi{10.1023/A:1014573219977} \end{APACrefDOI}
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -364,33 +370,6 @@ Singh, P.%
   innovation, systems and technologies}\ (\BPGS\ 423--432).
 \newblock
 \begin{APACrefDOI} \doi{10.1007/978-981-16-6482-3_42} \end{APACrefDOI}
-\PrintBackRefs{\CurrentBib}
-
-\bibitem [\protect \citeauthoryear {%
-Solawetz%
-}{%
-Solawetz%
-}{%
-{\protect \APACyear {2024}}%
-}]{%
-solawetz2024}
-\APACinsertmetastar {%
-solawetz2024}%
-\begin{APACrefauthors}%
-Solawetz, J.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYearMonthDay{2024}{April}{}.
-\newblock
-{\BBOQ}\APACrefatitle {What is YOLOv5? A Guide for Beginners} {What is yolov5?
-  a guide for beginners}.{\BBCQ}
-\newblock
-\APACjournalVolNumPages{Roboflow Blog}{}{}{}.
-\newblock
-\begin{APACrefURL}
-  \url{https://blog.roboflow.com/yolov5-improvements-and-evaluation/}
-  \end{APACrefURL}
 \PrintBackRefs{\CurrentBib}
 
 \end{thebibliography}
