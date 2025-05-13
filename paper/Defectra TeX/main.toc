@@ -13,15 +13,8 @@
 \contentsline {subsection}{\numberline {2.1.3}Stereo Vision}{7}{}%
 \contentsline {section}{\numberline {2.2}Related Studies}{7}{}%
 \contentsline {subsection}{\numberline {2.2.1}Deep Learning Studies}{7}{}%
-\contentsline {subsubsection}{\numberline {2.2.1.1}Automated Detection and Classification of Road Anomalies in VANET Using Deep Learning}{7}{}%
-\contentsline {subsubsection}{\numberline {2.2.1.2}Road Anomaly Detection through Deep Learning Approaches}{8}{}%
-\contentsline {subsubsection}{\numberline {2.2.1.3}Assessing Severity of Road Cracks Using Deep Learning-Based Segmentation and Detection}{8}{}%
-\contentsline {subsubsection}{\numberline {2.2.1.4}Roadway pavement anomaly classification utilizing smartphones and artificial intelligence}{8}{}%
 \contentsline {subsection}{\numberline {2.2.2}Machine Learning Studies}{9}{}%
-\contentsline {subsubsection}{\numberline {2.2.2.1}Smartphones as Sensors for Road Surface Monitoring}{9}{}%
-\contentsline {subsubsection}{\numberline {2.2.2.2}Road Surface Quality Monitoring Using Machine Learning Algorithms}{9}{}%
 \contentsline {subsection}{\numberline {2.2.3}Computer Vision Studies}{10}{}%
-\contentsline {subsubsection}{\numberline {2.2.3.1}Stereo Vision Based Pothole Detection System for Improved Ride Quality}{10}{}%
 \contentsline {section}{\numberline {2.3}Chapter Summary}{11}{}%
 \contentsline {chapter}{\numberline {3}Methodology}{12}{}%
 \contentsline {section}{\numberline {3.1} Research Activities}{12}{}%

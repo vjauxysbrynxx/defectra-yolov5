@@ -218,31 +218,27 @@ Ramos, J\BPBI A.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
-Resources%
+{RICHES Project}%
 }{%
-Resources%
+{RICHES Project}%
 }{%
-{\protect \APACyear {2020}}%
+{\protect \APACyear {2014}}%
 }]{%
-riches2020}
+riches2014}
 \APACinsertmetastar {%
-riches2020}%
+riches2014}%
 \begin{APACrefauthors}%
-Resources, R.%
+{RICHES Project}.%
 \end{APACrefauthors}%
 \unskip\
 \newblock
-\APACrefYearMonthDay{2020}{}{}.
+\APACrefYearMonthDay{2014}{}{}.
 \newblock
-{\BBOQ}\APACrefatitle {Video Processing} {Video processing}.{\BBCQ}
-\newblock
-\APACjournalVolNumPages{Riches Project EU}{}{}{}.
+\APACrefbtitle {Video Processing.} {Video processing.}
 \newblock
 \begin{APACrefURL}
   \url{https://resources.riches-project.eu/glossary/video-processing/}
   \end{APACrefURL}
-\newblock
-\APACrefnote{Accessed: January 1, 2025}
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
