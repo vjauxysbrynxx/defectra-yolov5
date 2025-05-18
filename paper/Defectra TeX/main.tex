@@ -7,8 +7,13 @@
 \begin{document}
 \linenumbers
 \include{title_page}      %includes LaTeX source file for the Title Page 
-\include{abstract}        %includes the the Abstract page
 \pagenumbering{roman}   %number pages as i, ii, iii, etc...
+\setcounter{page}{2}
+\include{approval}
+\include{declaration}
+\include{dedication}
+\include{acknowledgment}
+\include{abstract}   %number pages as i, ii, iii, etc...
 \setcounter{page}{2}
 \tableofcontents                  %generate the Table of Contents
 \newpage
