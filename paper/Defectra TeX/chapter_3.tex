@@ -5,13 +5,13 @@ This chapter outlines the systematic approach that were taken to address the pro
 \section{ Research Activities}
 
 \subsection{Data Collection}
-The researchers conducted initial inquiries to understand the problem domain and existing road maintenance practices. This phase included consulting the engineers under the Road Maintenance Department of the government agency Department of Public Works and Highways (DPWH). An interview with Engr. Jane Chua provided a comprehensive overview of the DPWH's road maintenance manual, which was crucial in aligning this project with existing standards. This collaboration with DPWH provided insights into road pothole classification standards, ensuring that the collected data will align with industry standards. The DPWH manual primarily focuses on the volume of detected potholes within a road segment as a measure of severity. However, since depth is not explicitly measured in their current procedures, the study will supplement this by referencing international standards such as the Long-Term Pavement Performance (LTPP) classification used in the United States. The LTPP categorizes potholes based on depth thresholds, which will be integrated with DPWH’s volume-based assessment to provide a more comprehensive severity classification framework. The data collection involved capturing around 130 images of potholes from various locations within the UP Visayas Campus. Ground truth data of pothole depth were collected by the researchers by measuring the depth of different points in an individual pothole and then solving for its average depth. The aforementioned process was validated by Engr. Benjamin Javellana, Assistant Director of the DPWH Regional Office 6 Maintenance Division. In order to individually locate or determine each pothole where the ground truth data is collected, images taken were labeled with their corresponding coordinates, street names, and nearby landmarks.
+The researchers conducted initial inquiries to understand the problem domain and existing road maintenance practices. This phase included consulting the engineers under the Road Maintenance Department of the government agency Department of Public Works and Highways (DPWH). An interview with Engr. Jane Chua provided a comprehensive overview of the DPWH's road maintenance manual, which was crucial in aligning this project with existing standards. This collaboration with DPWH provided insights into road pothole classification standards, ensuring that the collected data will align with industry standards. The DPWH manual primarily focuses on the volume of detected potholes within a road segment as a measure of severity. However, since depth is not explicitly measured in their current procedures, the study will supplement this by referencing international standards such as the Long-Term Pavement Performance (LTPP) classification used in the United States (Miller et al., 2014). The LTPP categorizes potholes based on depth thresholds, which will be integrated with DPWH’s volume-based assessment to provide a more comprehensive severity classification framework. The data collection involved capturing around 130 images of potholes from various locations within the UP Visayas Campus. Ground truth data of pothole depth were collected by the researchers by measuring the depth of different points in an individual pothole and then solving for its average depth. The aforementioned process was validated by Engr. Benjamin Javellana, Assistant Director of the DPWH Regional Office 6 Maintenance Division. In order to individually locate or determine each pothole where the ground truth data is collected, images taken were labeled with their corresponding coordinates, street names, and nearby landmarks.
 
 \subsubsection{Data Collection (Ground Truth Data)}
-The researchers collected depth information from 130 potholes around the University of the Philippines Visayas Miagao Campus. During data collection, the researchers are equipped with safety vests and an early warning device to give caution to incoming vehicles. To measure the depth of each pothole, the researchers recorded four depth points within the pothole and calculated their average.
+Data collection took place between January and March 2025, during which the researchers collected depth information from 130 potholes around the University of the Philippines Visayas Miagao Campus. During data collection, the researchers are equipped with safety vests and an early warning device to give caution to incoming vehicles. To measure the depth of each pothole, the researchers recorded four depth points within the pothole and calculated their average.
 
-\subsection{Algorithm Selection} 
-Potential solutions, algorithms, and system architectures were discussed by the researchers and the special problem adviser in this phase. These sessions, conducted in class and virtually via Zoom, helped narrow down the overview of the system, leading to the selection of the main architecture Epipolar Spatio-Temporal Networks (ESTN) for depth estimation. 
+%\subsection{Algorithm Selection} 
+%Potential solutions, algorithms, and system architectures were discussed by the researchers and the special problem adviser in this phase. These sessions, conducted in class and virtually via Zoom, helped narrow down the overview of the system, leading to the selection of the main architecture Epipolar Spatio-Temporal Networks (ESTN) for depth estimation. 
 
 %\subsubsection{Pothole Detection}
 %YOLOv5 was selected due to its high accuracy and ability to process images in real-time, making it suitable for detecting road defects in dynamic environments. Its architecture is optimized for speed and performance, which is crucial for large-scale deployment in road inspections. 
@@ -142,8 +142,8 @@ During the data collection process, the researchers were faced with various issu
 %Variations in the quality and resolution of the data collected from different sources may impact the performance of the trained models. In particular, images captured under varying weather conditions or lighting may affect the accuracy of pothole detection. To address this, the researchers plan to use the StereoPi kit to capture images under optimal weather and lighting conditions, such as mid-morning or early afternoon on clear days, ensuring consistent image quality for stereo vision analysis. The kit’s stereo cameras will be calibrated for uniform resolution and focus. Data augmentation techniques will also be applied to simulate varying conditions, and pre-processing steps like noise reduction and contrast enhancement will be used to improve the quality of the captured data. This approach aims to minimize the impact of environmental factors on the accuracy of road pothole detection and depth estimation.
 
 
-\section{Calendar of Activities}
-Table 1 shows a Gantt chart of the activities. Each bullet represents approximately one week's worth of activity.
+%\section{Calendar of Activities}
+%Table 1 shows a Gantt chart of the activities. Each bullet represents approximately one week's worth of activity.
 %
 %  the following commands will be used for filling up the bullets in the Gantt chart
 %
@@ -155,44 +155,44 @@ Table 1 shows a Gantt chart of the activities. Each bullet represents approximat
 %
 %  alternative to bullet is a star 
 %
-\begin{comment}
-   \newcommand{\weekone}{$\star$}
-   \newcommand{\weektwo}{$\star \star$}
-   \newcommand{\weekthree}{$\star \star \star$}
-   \newcommand{\weekfour}{$\star \star \star \star$ }
-\end{comment}
+%\begin{comment}
+   %\newcommand{\weekone}{$\star$}
+  % \newcommand{\weektwo}{$\star \star$}
+  % \newcommand{\weekthree}{$\star \star \star$}
+  % \newcommand{\weekfour}{$\star \star \star \star$ }
+%\end{comment}
 
 
 
-\begin{table}[ht]   %t means place on top, replace with b if you want to place at the bottom
-\centering
-\caption{Timetable of Activities for 2024} \vspace{0.25em}
-\begin{tabular}{|p{2in}|c|c|c|c|c|} \hline
-\centering Activities (2024) & Aug   & Sept & Oct & Nov & Dec  \\ \hline
-Pre-proposal Preparation      &  \weekfour     &     &  &  &   \\ \hline
-Literature Review & ~~~\weekthree  & \weekone  & &  &    \\ \hline
-Data Collection     &  \weektwo & \weektwo  &  &  &  \\ \hline
-Algorithm Selection     &   & \weektwo &  &  &  \\ \hline
-System Design      &   & \weekone  & \weektwo & ~~~\weektwo &    \\ \hline
-Preliminary Testing &   &  &  & \weektwo & \weekone  \\ \hline
-Documentation and SP Writing & ~~~\weekfour & \weekfour & \weekfour & \weekfour & \weektwo \\ \hline
-\end{tabular}
-\label{tab:timetableactivities}
-\end{table}
+%\begin{table}[ht]   %t means place on top, replace with b if you want to place at the bottom
+%\centering
+%\caption{Timetable of Activities for 2024} \vspace{0.25em}
+%\begin{tabular}{|p{2in}|c|c|c|c|c|} \hline
+%\centering Activities (2024) & Aug   & Sept & Oct & Nov & Dec  \\ \hline
+%Pre-proposal Preparation      &  \weekfour     &     &  &  &   \\ \hline
+%Literature Review & ~~~\weekthree  & \weekone  & &  &    \\ \hline
+%Data Collection     &  \weektwo & \weektwo  &  &  &  \\ \hline
+%Algorithm Selection     &   & \weektwo &  &  &  \\ \hline
+%System Design      &   & \weekone  & \weektwo & ~~~\weektwo &    \\ \hline
+%Preliminary Testing &   &  &  & \weektwo & \weekone  \\ \hline
+%Documentation and SP Writing & ~~~\weekfour & \weekfour & \weekfour & \weekfour & \weektwo \\ \hline
+%\end{tabular}
+%\label{tab:timetableactivities}
+%\end{table}
 
-\begin{table}[ht]   %t means place on top, replace with b if you want to place at the bottom
-	\centering
-	\caption{Timetable of Activities for 2025} \vspace{0.25em}
-	\begin{tabular}{|p{2in}|c|c|c|c|c|c|} \hline
-		\centering Activities (2025) & Jan   & Feb & Mar & Apr & May & Jun  \\ \hline
-		Data Collection      &  \weekfour     &     &  &  & &  \\ \hline
-		System Design & ~~~\weekthree  & \weektwo  & \weektwo &  & &   \\ \hline
-		Model testing     &  \weekthree & \weekfour  &  \weekfour &  &  & \\ \hline
-		Results Analysis    &   &  &  \weektwo & \weekfour& & \\ \hline
-		Conclusion Formulation     &   &   &  & ~~~\weektwo &  ~~~\weekthree &  \\ \hline
-		Documentation and SP Writing & ~~~\weekfour & \weekfour & \weekfour & \weekfour & \weekfour & \weektwo\\ \hline
-	\end{tabular}
-	\label{tab:timetableactivities}
-\end{table}
+%\begin{table}[ht]   %t means place on top, replace with b if you want to place at the bottom
+%	\centering
+%	\caption{Timetable of Activities for 2025} \vspace{0.25em}
+%	\begin{tabular}{|p{2in}|c|c|c|c|c|c|} \hline
+%		\centering Activities (2025) & Jan   & Feb & Mar & Apr & May & Jun  \\ \hline
+%		Data Collection      &  \weekfour     &     &  &  & &  \\ \hline
+%		System Design & ~~~\weekthree  & \weektwo  & \weektwo &  & &   \\ \hline
+%		Model testing     &  \weekthree & \weekfour  &  \weekfour &  &  & \\ \hline
+%		Results Analysis    &   &  &  \weektwo & \weekfour& & \\ \hline
+%		Conclusion Formulation     &   &   &  & ~~~\weektwo &  ~~~\weekthree &  \\ \hline
+%		Documentation and SP Writing & ~~~\weekfour & \weekfour & \weekfour & \weekfour & \weekfour &% \weektwo\\ \hline
+%	\end{tabular}
+%	\label{tab:timetableactivities}
+%\end{table}
 
 
