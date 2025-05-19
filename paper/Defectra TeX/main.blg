@@ -30,6 +30,10 @@ Reallocating 'name_of_file' (item size: 1) to 15 items.
 A level-1 auxiliary file: appendix_A.aux
 Reallocating 'name_of_file' (item size: 1) to 15 items.
 A level-1 auxiliary file: appendix_B.aux
+Reallocating 'name_of_file' (item size: 1) to 15 items.
+A level-1 auxiliary file: appendix_C.aux
+Reallocating 'name_of_file' (item size: 1) to 15 items.
+A level-1 auxiliary file: appendix_D.aux
 Reallocating 'glb_str_end' (item size: 4) to 20 items.
 Reallocating 'glb_str_ptr' (item size: 4) to 20 items.
 Reallocating 'global_strs' (item size: 1) to 4000000 items.
@@ -43,45 +47,45 @@ Database file #1: references.bib
 Warning--entry type for "riches2014" isn't style-file defined
 --line 71 of file references.bib
 apacite.bst [2013/07/21 v6.03 APA bibliography style]
-You've used 11 entries,
+You've used 12 entries,
             6951 wiz_defined-function locations,
-            1362 strings with 13064 characters,
-and the built_in function-call counts, 22674 in all, are:
-= -- 2804
-> -- 198
-< -- 1073
-+ -- 1101
-- -- 24
-* -- 1484
-:= -- 4106
-add.period$ -- 47
-call.type$ -- 11
-change.case$ -- 195
+            1370 strings with 13397 characters,
+and the built_in function-call counts, 25157 in all, are:
+= -- 3142
+> -- 217
+< -- 1195
++ -- 1232
+- -- 26
+* -- 1632
+:= -- 4533
+add.period$ -- 51
+call.type$ -- 12
+change.case$ -- 212
 chr.to.int$ -- 0
-cite$ -- 22
-duplicate$ -- 597
-empty$ -- 883
-format.name$ -- 335
-if$ -- 4275
+cite$ -- 24
+duplicate$ -- 652
+empty$ -- 964
+format.name$ -- 367
+if$ -- 4755
 int.to.chr$ -- 0
-int.to.str$ -- 33
+int.to.str$ -- 36
 missing$ -- 0
-newline$ -- 309
-num.names$ -- 88
-pop$ -- 319
+newline$ -- 337
+num.names$ -- 96
+pop$ -- 349
 preamble$ -- 1
-purify$ -- 50
+purify$ -- 54
 quote$ -- 0
-skip$ -- 1543
+skip$ -- 1729
 stack$ -- 0
-substring$ -- 1192
-swap$ -- 354
-text.length$ -- 35
+substring$ -- 1333
+swap$ -- 383
+text.length$ -- 37
 text.prefix$ -- 0
 top$ -- 1
-type$ -- 1080
+type$ -- 1224
 warning$ -- 0
-while$ -- 124
+while$ -- 136
 width$ -- 0
-write$ -- 390
+write$ -- 427
 (There was 1 warning)
