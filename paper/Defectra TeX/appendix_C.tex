@@ -1,0 +1,76 @@
+\chapter{Data Table and Stereo Pi Images}
+\label{sec:appendixc}
+
+\begin{table}[h!]
+	\centering
+	\resizebox{\textwidth}{!}{
+		\begin{tabular}{|c|c|c|c|c|}
+			\hline
+			\textbf{Sample} & \textbf{Actual Depth (cm)} & \textbf{Estimated Depth (cm)} & \textbf{Residual} & \textbf{Absolute Error (cm)} \\
+			\hline
+			1 & 14.500 & 11.050 & -3.450 & 3.450 \\
+			2 & 12.050 & 11.380 & -0.670 & 0.670 \\
+			3 & 6.450 & 4.380 & -2.070 & 2.070 \\
+			4 & 9.550 & 6.890 & -2.660 & 2.660 \\
+			5 & 14.300 & 13.860 & -0.240 & 0.240 \\
+			6 & 1.875 & 2.050 & 0.175 & 0.175 \\
+			7 & 2.600 & 2.663 & 0.063 & 0.063 \\
+			8 & 1.500 & 2.230 & 0.730 & 0.730 \\
+			9 & 1.750 & 1.775 & 0.025 & 0.025 \\
+			10 & 1.625 & 1.567 & -0.058 & 0.058 \\
+			11 & 1.800 & 1.745 & -0.055 & 0.055 \\
+			12 & 1.675 & 1.653 & -0.022 & 0.022 \\
+			13 & 2.225 & 2.078 & -0.147 & 0.147 \\
+			14 & 1.875 & 1.903 & 0.028 & 0.028 \\
+			15 & 3.050 & 2.230 & -0.820 & 0.820 \\
+			16 & 2.625 & 2.185 & -0.440 & 0.440 \\
+			17 & 3.050 & 2.708 & -0.342 & 0.342 \\
+			18 & 2.225 & 2.185 & -0.040 & 0.040 \\
+			19 & 3.025 & 2.822 & -0.203 & 0.203 \\
+			20 & 1.800 & 1.718 & -0.083 & 0.083 \\
+			21 & 2.300 & 2.047 & -0.252 & 0.252 \\
+			22 & 2.500 & 1.950 & -0.550 & 0.550 \\
+			23 & 10.800 & 8.785 & -2.015 & 2.015 \\
+			24 & 14.500 & 11.050 & -3.450 & 3.450 \\
+			25 & 9.200 & 7.122 & -2.077 & 2.077 \\
+			26 & 9.800 & 8.825 & -0.975 & 0.975 \\
+			27 & 14.300 & 13.860 & -0.440 & 0.440 \\
+			28 & 7.100 & 7.883 & 0.783 & 0.783 \\
+			29 & 9.800 & 8.182 & -1.618 & 1.618 \\
+			30 & 8.100 & 8.200 & 0.100 & 0.100 \\
+			31 & 11.500 & 9.533 & -1.967 & 1.967 \\
+			32 & 12.100 & 11.380 & -0.720 & 0.720 \\
+			33 & 6.500 & 4.380 & -2.120 & 2.120 \\
+			34 & 9.300 & 6.890 & -2.410 & 2.410 \\
+			35 & 12.200 & 10.918 & -1.282 & 1.282 \\
+			
+			\hline
+		\end{tabular}
+	}
+	\caption{Actual vs. Estimated Depths with Residuals and Absolute Errors}
+	\label{tab:depth_results}
+\end{table}
+
+\begin{figure}[htbp]
+	\centering
+	\begin{minipage}{0.32\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{pothole disparity.png}
+		\caption{Disparity Map}
+		\label{fig:image1}
+	\end{minipage}
+	\hfill
+	\begin{minipage}{0.32\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{pothole raw left.png}
+		\caption{Left Stereo Image}
+		\label{fig:image2}
+	\end{minipage}
+	\hfill
+	\begin{minipage}{0.32\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{pothole raw right.png}
+		\caption{Right Stereo Image}
+		\label{fig:image3}
+	\end{minipage}
+\end{figure}

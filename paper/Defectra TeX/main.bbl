@@ -185,39 +185,6 @@ Ramaiah, N\BPBI K\BPBI B.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
-Ramos%
-, Dacanay%
-\BCBL {}\ \BBA {} Bronuela-Ambrocio%
-}{%
-Ramos%
-\ \protect \BOthers {.}}{%
-{\protect \APACyear {2023}}%
-}]{%
-ramos2023}
-\APACinsertmetastar {%
-ramos2023}%
-\begin{APACrefauthors}%
-Ramos, J\BPBI A.%
-, Dacanay, J\BPBI P.%
-\BCBL {}\ \BBA {} Bronuela-Ambrocio, L.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYear{2023}.
-\unskip\
-\newblock
-\APACrefbtitle {A Review of the Current Practices in the Pavement Surface
-  Monitoring in the Philippines} {A review of the current practices in the
-  pavement surface monitoring in the philippines}\ \APACtypeAddressSchool
-  {\BPhD}{}{University of the Philippines Diliman}.
-\unskip\
-\newblock
-\begin{APACrefURL}
-  \url{https://ncts.upd.edu.ph/tssp/wp-content/uploads/2023/01/TSSP2022_09.pdf}
-  \end{APACrefURL}
-\PrintBackRefs{\CurrentBib}
-
-\bibitem [\protect \citeauthoryear {%
 {RICHES Project}%
 }{%
 {RICHES Project}%
