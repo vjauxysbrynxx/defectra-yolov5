@@ -1,9 +1,9 @@
-\chapter{Data Table and Stereo Pi Images}
+\chapter{Data Table and Pothole Images}
 \label{sec:appendixc}
 
 \begin{table}[h!]
 	\centering
-	\resizebox{\textwidth}{!}{
+	\resizebox{130mm}{!}{
 		\begin{tabular}{|c|c|c|c|c|}
 			\hline
 			\textbf{Sample} & \textbf{Actual Depth (cm)} & \textbf{Estimated Depth (cm)} & \textbf{Residual} & \textbf{Absolute Error (cm)} \\
@@ -51,26 +51,23 @@
 	\label{tab:depth_results}
 \end{table}
 
-\begin{figure}[htbp]
-	\centering
-	\begin{minipage}{0.32\textwidth}
-		\centering
-		\includegraphics[width=\textwidth]{pothole disparity.png}
-		\caption{Disparity Map}
-		\label{fig:image1}
-	\end{minipage}
-	\hfill
-	\begin{minipage}{0.32\textwidth}
-		\centering
-		\includegraphics[width=\textwidth]{pothole raw left.png}
-		\caption{Left Stereo Image}
-		\label{fig:image2}
-	\end{minipage}
-	\hfill
-	\begin{minipage}{0.32\textwidth}
-		\centering
-		\includegraphics[width=\textwidth]{pothole raw right.png}
-		\caption{Right Stereo Image}
-		\label{fig:image3}
-	\end{minipage}
+\begin{figure}
+	\begin{tabular}{cc}
+		\includegraphics[width=65mm]{Actual_Disparity.png} &   \includegraphics[width=65mm]{Actual_Left.png} \\
+		(a) Actual Pothole Disparity Map & (b) Actual Pothole Left Stereo Image \\[6pt]
+		\includegraphics[width=65mm]{Actual Right.png} & \includegraphics[width=65mm]{Actual_SP2} \\
+		(c)  Actual Pothole Right Stereo Image & (d)  Actual Pothole real-world image \\[6pt]
+	\end{tabular}
+	\caption{Actual Pothole Images }
 \end{figure}
+
+\begin{figure}[htbp]
+	\begin{tabular}{cc}
+		\includegraphics[width=65mm]{Simulated_Disparity.png} &   \includegraphics[width=65mm]{Simulated Left.png} \\
+		(a) Simulated Pothole Disparity Map & (b) Simulated Pothole Left Stereo Image \\[6pt]
+		\includegraphics[width=65mm]{Simulated Right.png} &   \includegraphics[width=65mm]{Simulated_Real} \\
+		(c)Simulated Pothole Right Stereo Image & (d)  Simulated Pothole StereoPi capture \\[6pt]
+	\end{tabular}
+	\caption{Simulated Pothole Images }
+\end{figure}
+

@@ -45,5 +45,5 @@
 \contentsline {chapter}{References}{29}{}%
 \contentsline {chapter}{\numberline {A}Code Snippets}{31}{}%
 \contentsline {chapter}{\numberline {B}Resource Persons}{32}{}%
-\contentsline {chapter}{\numberline {C}Data Table and Stereo Pi Images}{33}{}%
-\contentsline {chapter}{\numberline {D}Supplementary Documents}{35}{}%
+\contentsline {chapter}{\numberline {C}Data Table and Pothole Images}{34}{}%
+\contentsline {chapter}{\numberline {D}Supplementary Documents}{37}{}%
