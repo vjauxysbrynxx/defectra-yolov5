@@ -41,7 +41,7 @@
 \contentsline {section}{\numberline {5.1}Summary}{25}{}%
 \contentsline {section}{\numberline {5.2}Conclusions}{26}{}%
 \contentsline {section}{\numberline {5.3}Recommendations for Practice}{27}{}%
-\contentsline {section}{\numberline {5.4}Suggestions for further research}{27}{}%
+\contentsline {section}{\numberline {5.4}Suggestions for Further Research}{27}{}%
 \contentsline {chapter}{References}{29}{}%
 \contentsline {chapter}{\numberline {A}Code Snippets}{31}{}%
 \contentsline {chapter}{\numberline {B}Resource Persons}{32}{}%
