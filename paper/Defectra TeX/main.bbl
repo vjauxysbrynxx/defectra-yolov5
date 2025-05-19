@@ -1,6 +1,31 @@
 \begin{thebibliography}{}
 
 \bibitem [\protect \citeauthoryear {%
+Balita%
+}{%
+Balita%
+}{%
+{\protect \APACyear {2024}}%
+}]{%
+balita2024}
+\APACinsertmetastar {%
+balita2024}%
+\begin{APACrefauthors}%
+Balita, C.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2024}{{\APACmonth{06}}}{14}.
+\newblock
+\APACrefbtitle {{Road length Philippines 2023, by classification}.} {{Road
+  length Philippines 2023, by classification}.}
+\newblock
+\begin{APACrefURL}
+  \url{https://www.statista.com/statistics/1276356/philippines-road-length-by-classification/}
+  \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
 Bibi%
 \ \protect \BOthers {.}}{%
 Bibi%
@@ -153,6 +178,37 @@ Luo, D.%
 \APACjournalVolNumPages{IEEE Journals and Magazine}{}{}{}.
 \newblock
 \APACrefnote{https://ieeexplore.ieee.org/document/9123753/}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Miller%
+\ \BBA {} Bellinger%
+}{%
+Miller%
+\ \BBA {} Bellinger%
+}{%
+{\protect \APACyear {2014}}%
+}]{%
+miller2014}
+\APACinsertmetastar {%
+miller2014}%
+\begin{APACrefauthors}%
+Miller, J\BPBI S.%
+\BCBT {}\ \BBA {} Bellinger, W\BPBI Y.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYear{2014}.
+\newblock
+\APACrefbtitle {{Distress Identification Manual for the {Long-Term Pavement
+  Performance} Program}} {{Distress Identification Manual for the {Long-Term
+  Pavement Performance} Program}}.
+\newblock
+\APACaddressPublisher{}{{U.S. Department of Transportation, Federal Highway
+  Administration}}.
+\newblock
+\begin{APACrefURL} \url{https://rosap.ntl.bts.gov/view/dot/28612}
+  \end{APACrefURL}
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%

@@ -46,46 +46,51 @@ Reallocating 'singl_function' (item size: 4) to 100 items.
 Database file #1: references.bib
 Warning--entry type for "riches2014" isn't style-file defined
 --line 71 of file references.bib
+Illegal end of database file---line 372 of file references.bib
+ : 
+ : 
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
 apacite.bst [2013/07/21 v6.03 APA bibliography style]
-You've used 12 entries,
+You've used 14 entries,
             6951 wiz_defined-function locations,
-            1370 strings with 13397 characters,
-and the built_in function-call counts, 25157 in all, are:
-= -- 3142
-> -- 217
-< -- 1195
-+ -- 1232
-- -- 26
-* -- 1632
-:= -- 4533
-add.period$ -- 51
-call.type$ -- 12
-change.case$ -- 212
+            1379 strings with 13788 characters,
+and the built_in function-call counts, 28782 in all, are:
+= -- 3591
+> -- 241
+< -- 1377
++ -- 1410
+- -- 30
+* -- 1858
+:= -- 5228
+add.period$ -- 59
+call.type$ -- 14
+change.case$ -- 250
 chr.to.int$ -- 0
-cite$ -- 24
-duplicate$ -- 652
-empty$ -- 964
-format.name$ -- 367
-if$ -- 4755
+cite$ -- 28
+duplicate$ -- 739
+empty$ -- 1113
+format.name$ -- 405
+if$ -- 5447
 int.to.chr$ -- 0
-int.to.str$ -- 36
+int.to.str$ -- 42
 missing$ -- 0
-newline$ -- 337
-num.names$ -- 96
-pop$ -- 349
+newline$ -- 386
+num.names$ -- 112
+pop$ -- 466
 preamble$ -- 1
-purify$ -- 54
+purify$ -- 66
 quote$ -- 0
-skip$ -- 1729
+skip$ -- 1906
 stack$ -- 0
-substring$ -- 1333
-swap$ -- 383
-text.length$ -- 37
+substring$ -- 1527
+swap$ -- 420
+text.length$ -- 45
 text.prefix$ -- 0
 top$ -- 1
-type$ -- 1224
+type$ -- 1384
 warning$ -- 0
-while$ -- 136
+while$ -- 152
 width$ -- 0
-write$ -- 427
-(There was 1 warning)
+write$ -- 484
+(There was 1 error message)
