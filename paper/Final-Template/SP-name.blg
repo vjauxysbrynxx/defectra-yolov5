@@ -51,7 +51,7 @@ Reallocating 'wiz_functions' (item size: 4) to 9000 items.
 Reallocating 'singl_function' (item size: 4) to 100 items.
 Database file #1: myreferences.bib
 Warning--entry type for "riches2014" isn't style-file defined
---line 36 of file myreferences.bib
+--line 71 of file myreferences.bib
 apacite.bst [2013/07/21 v6.03 APA bibliography style]
 You've used 14 entries,
             6951 wiz_defined-function locations,

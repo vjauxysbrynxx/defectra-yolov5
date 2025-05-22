@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.1.28)  19 MAY 2025 23:50
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.1.28)  22 MAY 2025 21:39
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -519,7 +519,7 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 15.
 (C:\Users\perse\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ))
-Overfull \hbox (13.75838pt too wide) in paragraph at lines 15--12
+Overfull \hbox (7.22237pt too wide) in paragraph at lines 15--12
 [][] 
  []
 
@@ -577,6 +577,12 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 [11] [12
 
 ] (SP-name.lof
+Overfull \hbox (30.9999pt too wide) in paragraph at lines 6--6
+ \OT1/cmr/m/n/12 cool-ing fan, Stere-oPi V2 Board, two cam-era mod-ules, an-ten
+na,momentary 
+ []
+
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [13]
@@ -890,6 +896,9 @@ File: Parts.png Graphic file (type png)
 <use Parts.png>
 Package pdftex.def Info: Parts.png  used on input line 71.
 (pdftex.def)             Requested size: 415.55249pt x 296.82568pt.
+
+Underfull \vbox (badness 2245) has occurred while \output is active []
+
  [22 <./Parts.png (PNG copy)>]
 <3.jpg, id=139, 1276.01718pt x 956.82469pt>
 File: 3.jpg Graphic file (type jpg)
@@ -906,8 +915,7 @@ File: prototype.png Graphic file (type png)
 <use prototype.png>
 Package pdftex.def Info: prototype.png  used on input line 96.
 (pdftex.def)             Requested size: 317.78162pt x 227.04422pt.
-
-[23 <./3.jpg> <./1.jpg> <./prototype.png (PNG copy)>]
+ [23 <./3.jpg> <./1.jpg> <./prototype.png (PNG copy)>]
 <calibration.png, id=145, 1284.8pt x 481.8pt>
 File: calibration.png Graphic file (type png)
 <use calibration.png>
@@ -919,7 +927,7 @@ File: calibration2.jpg Graphic file (type jpg)
 Package pdftex.def Info: calibration2.jpg  used on input line 115.
 (pdftex.def)             Requested size: 289.06754pt x 137.75874pt.
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \vbox (badness 1817) has occurred while \output is active []
 
  [24 <./calibration.png>]
 <initialtest.jpg, id=151, 688.82344pt x 489.32813pt>
@@ -1102,6 +1110,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 25--26
  []
 
 
+Underfull \hbox (badness 10000) in paragraph at lines 25--26
+
+ []
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 27--28
 
  []
@@ -1267,7 +1280,7 @@ LaTeX Warning: There were multiply-defined labels.
  ) 
 Here is how much of TeX's memory you used:
  11425 strings out of 474486
- 189106 string characters out of 5743755
+ 189847 string characters out of 5743755
  2036542 words of memory out of 5000000
  33419 multiletter control sequences out of 15000+600000
  569145 words of font info for 77 fonts, out of 8000000 for 9000
@@ -1289,7 +1302,7 @@ perse/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:
 amsfonts/cm/cmsy10.pfb><C:/Users/perse/AppData/Local/Programs/MiKTeX/fonts/type
 1/public/amsfonts/cm/cmti12.pfb><C:/Users/perse/AppData/Local/Programs/MiKTeX/f
 onts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on SP-name.pdf (85 pages, 17975163 bytes).
+Output written on SP-name.pdf (85 pages, 17975525 bytes).
 PDF statistics:
  402 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)

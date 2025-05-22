@@ -24,8 +24,8 @@
 \contentsline {subsubsection}{\numberline {3.1.2.1}Depth Measurement}{20}{}%
 \contentsline {subsubsection}{\numberline {3.1.2.2}Severity Assessment}{21}{}%
 \contentsline {subsubsection}{\numberline {3.1.2.3}Materials and Equipment}{21}{}%
-\contentsline {subsubsection}{\numberline {3.1.2.4}Prototype Building}{22}{}%
-\contentsline {subsubsection}{\numberline {3.1.2.5}Camera Calibration (Fisheye Distortion)}{23}{}%
+\contentsline {subsubsection}{\numberline {3.1.2.4}Prototype Building}{23}{}%
+\contentsline {subsubsection}{\numberline {3.1.2.5}Camera Calibration (Fisheye Distortion)}{24}{}%
 \contentsline {subsubsection}{\numberline {3.1.2.6}Camera Calibration (Disparity Map Fine-tuning)}{24}{}%
 \contentsline {subsubsection}{\numberline {3.1.2.7}Initial Testing}{25}{}%
 \contentsline {subsubsection}{\numberline {3.1.2.8}Performance Metrics}{26}{}%
