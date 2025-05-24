@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.1.28)  22 MAY 2025 21:39
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.1.28)  25 MAY 2025 01:25
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -914,27 +914,25 @@ Package pdftex.def Info: 1.jpg  used on input line 89.
 File: prototype.png Graphic file (type png)
 <use prototype.png>
 Package pdftex.def Info: prototype.png  used on input line 96.
-(pdftex.def)             Requested size: 317.78162pt x 227.04422pt.
+(pdftex.def)             Requested size: 190.66412pt x 136.22307pt.
  [23 <./3.jpg> <./1.jpg> <./prototype.png (PNG copy)>]
 <calibration.png, id=145, 1284.8pt x 481.8pt>
 File: calibration.png Graphic file (type png)
 <use calibration.png>
 Package pdftex.def Info: calibration.png  used on input line 106.
 (pdftex.def)             Requested size: 321.19922pt x 120.44969pt.
-<calibration2.jpg, id=146, 1927.2pt x 918.43124pt>
+
+[24 <./calibration.png>]
+<calibration2.jpg, id=150, 1927.2pt x 918.43124pt>
 File: calibration2.jpg Graphic file (type jpg)
 <use calibration2.jpg>
 Package pdftex.def Info: calibration2.jpg  used on input line 115.
 (pdftex.def)             Requested size: 289.06754pt x 137.75874pt.
-
-Underfull \vbox (badness 1817) has occurred while \output is active []
-
- [24 <./calibration.png>]
 <initialtest.jpg, id=151, 688.82344pt x 489.32813pt>
 File: initialtest.jpg Graphic file (type jpg)
 <use initialtest.jpg>
 Package pdftex.def Info: initialtest.jpg  used on input line 124.
-(pdftex.def)             Requested size: 241.09181pt x 171.2674pt.
+(pdftex.def)             Requested size: 206.64862pt x 146.79956pt.
  [25 <./calibration2.jpg> <./initialtest.jpg>]
 <inversemodel.png, id=155, 408.02437pt x 236.38312pt>
 File: inversemodel.png Graphic file (type png)
@@ -984,37 +982,41 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 <pothole disparity.png, id=179, 250.68657pt x 190.46156pt>
 File: pothole disparity.png Graphic file (type png)
 <use pothole disparity.png>
-Package pdftex.def Info: pothole disparity.png  used on input line 84.
+Package pdftex.def Info: pothole disparity.png  used on input line 82.
 (pdftex.def)             Requested size: 132.97983pt x 101.03712pt.
 <pothole raw left.png, id=180, 250.68657pt x 186.6975pt>
 File: pothole raw left.png Graphic file (type png)
 <use pothole raw left.png>
-Package pdftex.def Info: pothole raw left.png  used on input line 91.
+Package pdftex.def Info: pothole raw left.png  used on input line 89.
 (pdftex.def)             Requested size: 132.97983pt x 99.04036pt.
 <pothole raw right.png, id=181, 250.68657pt x 188.20313pt>
 File: pothole raw right.png Graphic file (type png)
 <use pothole raw right.png>
-Package pdftex.def Info: pothole raw right.png  used on input line 98.
+Package pdftex.def Info: pothole raw right.png  used on input line 96.
 (pdftex.def)             Requested size: 132.97983pt x 99.83907pt.
- [31]
-Overfull \hbox (27.32071pt too wide) in paragraph at lines 109--116
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[31]
+Overfull \hbox (27.32071pt too wide) in paragraph at lines 107--114
  [][] 
  []
 
 LaTeX Font Info:    Trying to load font information for OML+cmr on input line 1
-27.
+25.
 (C:\Users\perse\AppData\Local\Programs\MiKTeX\tex/latex/base\omlcmr.fd
 File: omlcmr.fd 2023/04/13 v2.5m Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OML/cmr/m/n' in size <12> not available
-(Font)              Font shape `OML/cmm/m/it' tried instead on input line 127.
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 125.
 
 [32 <./pothole disparity.png> <./pothole raw left.png> <./pothole raw right.png
 >]
 <regression.png, id=194, 474.27188pt x 395.22656pt>
 File: regression.png Graphic file (type png)
 <use regression.png>
-Package pdftex.def Info: regression.png  used on input line 138.
+Package pdftex.def Info: regression.png  used on input line 136.
 (pdftex.def)             Requested size: 260.85034pt x 217.37527pt.
  [33 <./regression.png>])
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -1279,10 +1281,10 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 11425 strings out of 474486
- 189847 string characters out of 5743755
- 2036542 words of memory out of 5000000
- 33419 multiletter control sequences out of 15000+600000
+ 11426 strings out of 474486
+ 189860 string characters out of 5743755
+ 2037542 words of memory out of 5000000
+ 33420 multiletter control sequences out of 15000+600000
  569145 words of font info for 77 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
  79i,12n,84p,2148b,1838s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -1302,9 +1304,9 @@ perse/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:
 amsfonts/cm/cmsy10.pfb><C:/Users/perse/AppData/Local/Programs/MiKTeX/fonts/type
 1/public/amsfonts/cm/cmti12.pfb><C:/Users/perse/AppData/Local/Programs/MiKTeX/f
 onts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on SP-name.pdf (85 pages, 17975525 bytes).
+Output written on SP-name.pdf (85 pages, 17976760 bytes).
 PDF statistics:
- 402 PDF objects out of 1000 (max. 8388607)
+ 403 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  181 words of extra memory for PDF output out of 10000 (max. 10000000)
 

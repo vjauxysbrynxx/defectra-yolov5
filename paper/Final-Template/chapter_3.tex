@@ -8,7 +8,7 @@ This chapter outlines the systematic approach that were taken to address the pro
 The researchers conducted initial inquiries to understand the problem domain and existing road maintenance practices. This phase included consulting the engineers under the Road Maintenance Department of the government agency Department of Public Works and Highways (DPWH). An interview with Engr. Jane Chua provided a comprehensive overview of the DPWH's road maintenance manual, which was crucial in aligning this project with existing standards. This collaboration with DPWH provided insights into road pothole classification standards, ensuring that the collected data will align with industry standards. The DPWH manual primarily focuses on the volume of detected potholes within a road segment as a measure of severity. However, since depth is not explicitly measured in their current procedures, the study will supplement this by referencing international standards such as the Long-Term Pavement Performance (LTPP) classification used in the United States \cite{miller2014}. The LTPP categorizes potholes based on depth thresholds, which will be integrated with DPWH’s volume-based assessment to provide a more comprehensive severity classification framework. The data collection involved capturing around 130 images of potholes from various locations within the UP Visayas Campus. Ground truth data of pothole depth were collected by the researchers by measuring the depth of different points in an individual pothole and then solving for its average depth. The researchers developed a manual specifically designed for depth measurement, which underwent a review by Engr. Benjamin Javellana, Assistant Director of the Maintenance Division at the Department of Public Works and Highways (DPWH) Regional Office VI. The finalized version of the manual was subsequently validated by the DPWH First District Engineering Office. In order to individually locate or determine each pothole where the ground truth data is collected, images taken were labeled with their corresponding coordinates, street names, and nearby landmarks.
 
 \subsubsection{Data Collection (Ground Truth Data)}
-Data collection took place between January and March 2025, during which the researchers collected depth information from 130 potholes around the University of the Philippines Visayas Miagao Campus. During data collection, the researchers are equipped with safety vests and an early warning device to give caution to incoming vehicles. Following the validated manual for pothole depth measurement, a ruler and a measuring tape were used in both vertical and horizontal positions as shown in Figure 3.1. This setup helped determine the distance from the road surface to the bottom of the pothole. The researchers recorded four measure points within the pothole as shown in Figure 3.2 and the resulting average is recorded as the pothole's depth.
+Data collection took place between January and March 2025, during which the researchers collected depth information from 130 potholes around the University of the Philippines Visayas Miagao Campus. During data collection, the researchers are equipped with safety vests and an early warning device to give caution to incoming vehicles. Following the validated manual for pothole depth measurement, a ruler and a measuring tape were used in both vertical and horizontal positions as shown in Figure 3.1. This setup helped determine the distance from the road surface to the bottom of the pothole. Then the researchers recorded four measure points within the pothole as shown in Figure 3.2 and the resulting average is recorded as the pothole's depth.
 
 %pothole manual measure picture%
 \begin{center}
@@ -75,7 +75,7 @@ The prototype system was constructed using several hardware components, which in
 
 
 \subsubsection{Prototype Building}
-The prototype involved the StereoPi V2 Kit which was acquired through an official international distributer. After assembling the camera, it was further modified to address the it's heating by incorporating a heat sink and a small computer fan to make it suitable for outdoor use.
+The prototype involved the StereoPi V2 Kit which was acquired through an official international distributer. After assembling the camera, it was further modified to address the it's heating by incorporating a heat sink and a small computer fan to make it suitable for outdoor use.As shown in Figure 3.4, the dual Raspberry Pi camera modules were securely mounted onto the custom housing. To facilitate user interaction and real-time monitoring, an LCD module was connected to the StereoPi board, as illustrated in Figure 3.5. The final assembled and fully functional prototype is presented in Figure 3.6.
 
 
 \begin{minipage}{0.45\textwidth}
@@ -93,13 +93,13 @@ The prototype involved the StereoPi V2 Kit which was acquired through an officia
 
 %Partial Build%
 \begin{center}
-	\includegraphics[scale=0.20]{prototype.png}
+	\includegraphics[scale=0.12]{prototype.png}
 	\captionof{figure}{The finished prototype.}
 \end{center}
 
 
 \subsubsection{Camera Calibration (Fisheye Distortion)}
-The StereoPi V2 is first calibrated using a 9 by 6 checkerboard, with a checker size of 55mm, from different angles through calibration scripts that came with the package. This process ensured that the camera is working properly in capturing stereo imagery. This removed distortion from captured images allowing depth estimation with more accuracy. 
+The StereoPi V2 was first calibrated using a 9×6 checkerboard, with a checker size of 55mm, from different angles using calibration scripts that came with the package. The calibration process, shown in Figure 3.7, involved capturing multiple images of the checkerboard pattern to correct fisheye lens distortion. This process ensured that the camera is working properly in capturing stereo imagery. This removed distortion from captured imaged allowing depth estimation with more accuracy.
 
 %calibration
 \begin{center}
@@ -108,7 +108,7 @@ The StereoPi V2 is first calibrated using a 9 by 6 checkerboard, with a checker 
 \end{center}
 
 \subsubsection{Camera Calibration (Disparity  Map Fine-tuning)}
-The stereo image pairs captured by the system were first rectified to ensure proper alignment of corresponding features. Block matching parameters were then fine-tuned to produce clearer and more accurate disparity maps. It was observed that the effective operational range of the stereo camera system extends from approximately 30 to 80 cm. At distances closer than 30 cm, the disparity maps exhibited significant noise, while at distances beyond 80 cm, disparity information became sparse or blank.
+The stereo image pairs captured by the system were first rectified to ensure proper alignment of corresponding features. Block matching parameters were then fine-tuned to produce clearer and more accurate disparity maps. This tuning process is illustrated in Figure 3.8. It was observed that the effective operational range of the stereo camera system extends from approximately 30 to 80 cm. At distances closer than 30 cm, the disparity maps exhibited significant noise, while at distances beyond 80 cm, disparity information became sparse or blank.
 
 %calibration2
 \begin{center}
@@ -117,11 +117,11 @@ The stereo image pairs captured by the system were first rectified to ensure pro
 \end{center}
 
 \subsubsection{Initial Testing}
-Initial testing was conducted to verify the functionality and basic accuracy of the stereoscopic camera system in a controlled environment. Artificial potholes with known depths were created to simulate varying real-world scenarios. The system captured disparity maps, and estimated depths were computed using the standard stereo camera depth formula.
+Initial testing was conducted to verify the functionality and basic accuracy of the stereoscopic camera system in a controlled environment. Artificial potholes with known depths were created to simulate varying real-world scenarios. The system captured disparity maps, and estimated depths were computed using the standard stereo camera depth formula. The LCD module displayed the disparity map and estimated depth readings in real-time during these tests, as shown in Figure 3.9.
 
 %initial test
 \begin{center}
-	\includegraphics[scale=0.35]{initialtest.jpg}
+	\includegraphics[scale=0.30]{initialtest.jpg}
 	\captionof{figure}{The system tested on a simulated pothole.}
 \end{center}
 
@@ -148,7 +148,7 @@ The accuracy of the pothole depth estimated by StereoPi V2 was analyzed using Li
 %For the accuracy of depth estimation using the Epipolar Spatio-Temporal Networks (ESTN), Root Mean Squared Error (RMSE) and Mean Absolute Error (MAE) will be used. RMSE is chosen for its ability to penalize larger errors more heavily, making it suitable for assessing depth estimation performance where larger deviations from the ground truth are more significant (Zhang et al., 2018). MAE is also employed to provide a straightforward measure of average error magnitude, offering a complementary evaluation of depth estimation without emphasizing larger errors as much (Zhang et al., 2020).
 
 \subsubsection{Final Testing and Validation}
-The testing process began with a detailed testing plan that includes both simulated and real-world testing scenarios. Initially, the system is tested in controlled environments to verify its capability to estimate pothole depth effectively. Following this, real-world testing was conducted using the StereoPi kit on previously located potholes, specifically at the University of the Philippines Visayas Miagao Campus. The procedure for estimating pothole depth closely followed the validated depth measurement manual where the system captured depth measurements at four designated points within each pothole, corresponding to the measure points used in the manual measurement data. These four estimated depths were then averaged to determine the final depth estimate for each pothole. The system's performance was validated by comparing its predictions with ground-truth data collected from manual inspections. 
+The testing process began with a detailed testing plan that includes both simulated and real-world testing scenarios. Initially, the system is tested in controlled environments to verify its capability to estimate pothole depth effectively. Following this, real-world testing was conducted using the StereoPi kit on previously located potholes, specifically at the University of the Philippines Visayas Miagao Campus. As illustrated in Figures 3.11 to 3.14, the procedure for estimating pothole depth closely followed the validated depth measurement manual, where the system captured depth measurements at four designated points within each pothole, corresponding to the measurement points used in the manual measurement data. These four estimated depths were then averaged to determine the final depth estimate for each pothole. The system’s performance was validated by comparing its predictions with ground-truth data collected from manual inspections.
 
 \begin{figure}[H]
 	\centering
