@@ -2,8 +2,8 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {3.1}{\ignorespaces Manual depth measurement of pothole using a ruler and measuring tape.}}{19}{}%
-\contentsline {figure}{\numberline {3.2}{\ignorespaces Four measure points of the pothole.}}{20}{}%
-\contentsline {figure}{\numberline {3.3}{\ignorespaces Components used in the prototype development.From the top left: Raspberry Pi Computer Module 4, 3D Printed Custom Housing, cooling fan, StereoPi V2 Board, two camera modules, antenna,momentary push button, and 2-inch LCD module. }}{22}{}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Four measurement points of the pothole.}}{20}{}%
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Components used in the prototype development. From the top left: Raspberry Pi Computer Module 4, 3D Printed Custom Housing, cooling fan, StereoPi V2 Board, two camera modules, antenna, momentary push button, and 2-inch LCD module. }}{22}{}%
 \contentsline {figure}{\numberline {3.4}{\ignorespaces Dual RPi Camera Modules attached to the custom housing.}}{23}{}%
 \contentsline {figure}{\numberline {3.5}{\ignorespaces LCD Module connected to the StereoPi board.}}{23}{}%
 \contentsline {figure}{\numberline {3.6}{\ignorespaces The finished prototype.}}{23}{}%
