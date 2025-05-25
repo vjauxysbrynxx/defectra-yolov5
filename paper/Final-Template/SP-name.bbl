@@ -1,0 +1,429 @@
+\begin{thebibliography}{}
+
+\bibitem [\protect \citeauthoryear {%
+Balita%
+}{%
+Balita%
+}{%
+{\protect \APACyear {2024}}%
+}]{%
+balita2024}
+\APACinsertmetastar {%
+balita2024}%
+\begin{APACrefauthors}%
+Balita, C.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2024}{{\APACmonth{06}}}{14}.
+\newblock
+\APACrefbtitle {{Road length Philippines 2023, by classification}.} {{Road
+  length Philippines 2023, by classification}.}
+\newblock
+\begin{APACrefURL}
+  \url{https://www.statista.com/statistics/1276356/philippines-road-length-by-classification/}
+  \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Bibi%
+\ \protect \BOthers {.}}{%
+Bibi%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2021}}%
+}]{%
+bibi2021}
+\APACinsertmetastar {%
+bibi2021}%
+\begin{APACrefauthors}%
+Bibi, R.%
+, Saeed, Y.%
+, Zeb, A.%
+, Ghazal, T\BPBI M.%
+, Rahman, T.%
+, Said, R\BPBI A.%
+\BDBL {}Khan, M\BPBI A.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2021}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {{Edge AI‐Based Automated Detection and Classification
+  of Road Anomalies in VANET Using Deep Learning}} {{Edge AI‐Based Automated
+  Detection and Classification of Road Anomalies in VANET Using Deep
+  Learning}}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{{Computational Intelligence and
+  Neuroscience}}{2021}{1}{}.
+\newblock
+\begin{APACrefDOI} \doi{10.1155/2021/6262194} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Ha%
+, Kim%
+\BCBL {}\ \BBA {} Kim%
+}{%
+Ha%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2022}}%
+}]{%
+ha2022}
+\APACinsertmetastar {%
+ha2022}%
+\begin{APACrefauthors}%
+Ha, J.%
+, Kim, D.%
+\BCBL {}\ \BBA {} Kim, M.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2022}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {{Assessing Severity of Road Cracks Using Deep
+  Learning-Based Segmentation and Detection}} {{Assessing Severity of Road
+  Cracks Using Deep Learning-Based Segmentation and Detection}}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{{The Journal of Supercomputing}}{78}{16}{17721--17735}.
+\newblock
+\begin{APACrefDOI} \doi{10.1007/s11227-022-04560-x} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Kumar%
+}{%
+Kumar%
+}{%
+{\protect \APACyear {2024}}%
+}]{%
+kumar2024}
+\APACinsertmetastar {%
+kumar2024}%
+\begin{APACrefauthors}%
+Kumar, A.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2024}{October}{}.
+\newblock
+{\BBOQ}\APACrefatitle {{What is Image Processing: Overview, Applications,
+  Benefits, and More}} {{What is Image Processing: Overview, Applications,
+  Benefits, and More}}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{{AI and Machine Learning}}{}{}{}.
+\newblock
+\begin{APACrefURL} \url{https://www.simplilearn.com/image-processing-article}
+  \end{APACrefURL}
+\newblock
+\APACrefnote{Accessed: January 1, 2025}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Kyriakou%
+, Christodoulou%
+\BCBL {}\ \BBA {} Dimitriou%
+}{%
+Kyriakou%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2016}}%
+}]{%
+kyriakou2016}
+\APACinsertmetastar {%
+kyriakou2016}%
+\begin{APACrefauthors}%
+Kyriakou, C.%
+, Christodoulou, S\BPBI E.%
+\BCBL {}\ \BBA {} Dimitriou, L.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2016}{April}{}.
+\newblock
+{\BBOQ}\APACrefatitle {{Roadway Pavement Anomaly Classification Utilizing
+  Smartphones and Artificial Intelligence}} {{Roadway Pavement Anomaly
+  Classification Utilizing Smartphones and Artificial Intelligence}}.{\BBCQ}
+\newblock
+\BIn{} \APACrefbtitle {{Proceedings of the IEEE Conference}.} {{Proceedings of
+  the IEEE Conference}.}
+\newblock
+\begin{APACrefURL} \url{https://ieeexplore.ieee.org/abstract/document/7495459}
+  \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Luo%
+, Lu%
+\BCBL {}\ \BBA {} Guo%
+}{%
+Luo%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2020}}%
+}]{%
+luo2020}
+\APACinsertmetastar {%
+luo2020}%
+\begin{APACrefauthors}%
+Luo, D.%
+, Lu, J.%
+\BCBL {}\ \BBA {} Guo, G.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2020}{June}{}.
+\newblock
+{\BBOQ}\APACrefatitle {{Road Anomaly Detection Through Deep Learning
+  Approaches}} {{Road Anomaly Detection Through Deep Learning
+  Approaches}}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{IEEE Journals and Magazine}{}{}{}.
+\newblock
+\APACrefnote{https://ieeexplore.ieee.org/document/9123753/}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Miller%
+\ \BBA {} Bellinger%
+}{%
+Miller%
+\ \BBA {} Bellinger%
+}{%
+{\protect \APACyear {2014}}%
+}]{%
+miller2014}
+\APACinsertmetastar {%
+miller2014}%
+\begin{APACrefauthors}%
+Miller, J\BPBI S.%
+\BCBT {}\ \BBA {} Bellinger, W\BPBI Y.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYear{2014}.
+\newblock
+\APACrefbtitle {{Distress Identification Manual for the {Long-Term Pavement
+  Performance} Program}} {{Distress Identification Manual for the {Long-Term
+  Pavement Performance} Program}}.
+\newblock
+\APACaddressPublisher{}{{U.S. Department of Transportation, Federal Highway
+  Administration}}.
+\newblock
+\begin{APACrefURL} \url{https://rosap.ntl.bts.gov/view/dot/28612}
+  \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Ramaiah%
+\ \BBA {} Kundu%
+}{%
+Ramaiah%
+\ \BBA {} Kundu%
+}{%
+{\protect \APACyear {2021}}%
+}]{%
+ramaiah2021}
+\APACinsertmetastar {%
+ramaiah2021}%
+\begin{APACrefauthors}%
+Ramaiah, N\BPBI K\BPBI B.%
+\BCBT {}\ \BBA {} Kundu, S.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2021}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {{Stereo Vision Based Pothole Detection System for
+  Improved Ride Quality}} {{Stereo Vision Based Pothole Detection System for
+  Improved Ride Quality}}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{{SAE International Journal of Advances and Current
+  Practices in Mobility}}{3}{5}{2603--2610}.
+\newblock
+\begin{APACrefDOI} \doi{10.4271/2021-01-0085} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Ramos%
+, Dacanay%
+\BCBL {}\ \BBA {} Bronuela-Ambrocio%
+}{%
+Ramos%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2023}}%
+}]{%
+ramos2023}
+\APACinsertmetastar {%
+ramos2023}%
+\begin{APACrefauthors}%
+Ramos, J\BPBI A.%
+, Dacanay, J\BPBI P.%
+\BCBL {}\ \BBA {} Bronuela-Ambrocio, L.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYear{2023}.
+\unskip\
+\newblock
+\APACrefbtitle {{A Review of the Current Practices in the Pavement Surface
+  Monitoring in the Philippines}} {{A Review of the Current Practices in the
+  Pavement Surface Monitoring in the Philippines}}\ \APACtypeAddressSchool
+  {\BPhD}{}{University of the Philippines Diliman}.
+\unskip\
+\newblock
+\begin{APACrefURL}
+  \url{https://ncts.upd.edu.ph/tssp/wp-content/uploads/2023/01/TSSP2022_09.pdf}
+  \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+{RICHES Project}%
+}{%
+{RICHES Project}%
+}{%
+{\protect \APACyear {2014}}%
+}]{%
+riches2014}
+\APACinsertmetastar {%
+riches2014}%
+\begin{APACrefauthors}%
+{RICHES Project}.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2014}{}{}.
+\newblock
+\APACrefbtitle {{Video Processing}.} {{Video Processing}.}
+\newblock
+\begin{APACrefURL}
+  \url{https://resources.riches-project.eu/glossary/video-processing/}
+  \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Sanz%
+, Mezcua%
+\BCBL {}\ \BBA {} Pena%
+}{%
+Sanz%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2012}}%
+}]{%
+sanz2012}
+\APACinsertmetastar {%
+sanz2012}%
+\begin{APACrefauthors}%
+Sanz, P.%
+, Mezcua, B.%
+\BCBL {}\ \BBA {} Pena, J.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2012}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {{Depth Estimation: An Introduction}} {{Depth Estimation:
+  An Introduction}}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{{Current Advancements in Stereo Vision}}{}{}{}.
+\newblock
+\begin{APACrefURL} \url{http://dx.doi.org/10.5772/45904} \end{APACrefURL}
+\newblock
+\begin{APACrefDOI} \doi{10.5772/45904} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Sattar%
+, Li%
+\BCBL {}\ \BBA {} Chapman%
+}{%
+Sattar%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2018}}%
+}]{%
+sattar2018}
+\APACinsertmetastar {%
+sattar2018}%
+\begin{APACrefauthors}%
+Sattar, S.%
+, Li, S.%
+\BCBL {}\ \BBA {} Chapman, M.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2018}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {{Road Surface Monitoring Using Smartphone Sensors: A
+  Review}} {{Road Surface Monitoring Using Smartphone Sensors: A
+  Review}}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{Sensors}{18}{11}{3845--3845}.
+\newblock
+\begin{APACrefDOI} \doi{10.3390/s18113845} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Scharstein%
+\ \BBA {} Szeliski%
+}{%
+Scharstein%
+\ \BBA {} Szeliski%
+}{%
+{\protect \APACyear {2002}}%
+}]{%
+scharstein2002}
+\APACinsertmetastar {%
+scharstein2002}%
+\begin{APACrefauthors}%
+Scharstein, D.%
+\BCBT {}\ \BBA {} Szeliski, R.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2002}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {{A Taxonomy and Evaluation of Dense Two-Frame Stereo
+  Correspondence Algorithms}} {{A Taxonomy and Evaluation of Dense Two-Frame
+  Stereo Correspondence Algorithms}}.{\BBCQ}
+\newblock
+\APACjournalVolNumPages{{International Journal of Computer
+  Vision}}{47}{1}{7--42}.
+\newblock
+\begin{APACrefURL}
+  \url{https://link.springer.com/article/10.1023/A:1014573219977}
+  \end{APACrefURL}
+\newblock
+\begin{APACrefDOI} \doi{10.1023/A:1014573219977} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Singh%
+, Bansal%
+, Kamal%
+\BCBL {}\ \BBA {} Kumar%
+}{%
+Singh%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2021}}%
+}]{%
+singh2021}
+\APACinsertmetastar {%
+singh2021}%
+\begin{APACrefauthors}%
+Singh, P.%
+, Bansal, A.%
+, Kamal, A\BPBI E.%
+\BCBL {}\ \BBA {} Kumar, S.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2021}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {{Road Surface Quality Monitoring Using Machine Learning
+  Algorithm}} {{Road Surface Quality Monitoring Using Machine Learning
+  Algorithm}}.{\BBCQ}
+\newblock
+\BIn{} \APACrefbtitle {{Smart Innovation, Systems and Technologies}} {{Smart
+  Innovation, Systems and Technologies}}\ (\BPGS\ 423--432).
+\newblock
+\begin{APACrefDOI} \doi{10.1007/978-981-16-6482-3_42} \end{APACrefDOI}
+\PrintBackRefs{\CurrentBib}
+
+\end{thebibliography}

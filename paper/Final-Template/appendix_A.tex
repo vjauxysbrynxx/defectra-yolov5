@@ -1,0 +1,95 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%   Filename    : appendix_A.tex 
+%
+%   Description : This file is for including the Research Ethics Documents (delegated as Appendix A) 
+%                 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\chapter{Code Snippets}
+\label{sec:appendixa}
+
+\begin{lstlisting}[language=Python, breaklines=true,caption={Function for generating stereo depth map and classifying pothole severity based on depth difference between two points}]
+	def stereo_depth_map(rectified_pair, save_path_prefix=None):
+	global disp_max, disp_min
+	dmLeft, dmRight = rectified_pair
+	
+	disparity_raw = sbm.compute(dmLeft, dmRight).astype(np.float32)
+	disparity_raw /= 16.0  # normalize disparity
+	
+	local_max, local_min = disparity_raw.max(), disparity_raw.min()
+	
+	if dm_colors_autotune:
+	disp_max = max(local_max, disp_max)
+	disp_min = min(local_min, disp_min)
+	local_max, local_min = disp_max, disp_min
+	
+	# Normalize for visualization
+	disparity_vis = (disparity_raw - local_min) * (255.0 / (local_max - local_min))
+	disparity_vis = np.uint8(np.clip(disparity_vis, 0, 255))
+	disparity_color = cv2.applyColorMap(disparity_vis, cv2.COLORMAP_JET)
+	
+	# Calculate depth
+	depth_map = calculate_depth(disparity_raw)
+	
+	# Define two points
+	center_y, center_x = depth_map.shape[0] // 2, depth_map.shape[1] // 2 - 20
+	second_y = center_y
+	second_x = center_x + offset_x
+	
+	# Read depth and disparity values
+	center_depth_cm = (depth_map[center_y, center_x]) 
+	second_depth_cm = (depth_map[second_y, second_x]) 
+	estimated_depth_cm = abs(center_depth_cm - second_depth_cm)
+	
+	# Define severity based on estimated depth
+	if estimated_depth_cm < 2.5:
+	severity = "Low"
+	elif estimated_depth_cm >= 2.5 and estimated_depth_cm < 5.0:
+	severity = "Medium"
+	elif estimated_depth_cm > 5.0:
+	severity = "High"
+	else:
+	severity = "Unknown"
+\end{lstlisting}
+
+\begin{lstlisting}[language=Python, breaklines=true,caption={Main loop for capturing stereo image pairs, remapping them for rectification,and estimating depth}]
+	for frame in camera.capture_continuous(capture, format="bgra", use_video_port=True, resize=(img_width,img_height)):
+	pair_img = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
+	
+	imgLeft = pair_img[:, :img_width//2]
+	imgRight = pair_img[:, img_width//2:]
+	
+	imgL = cv2.remap(imgLeft, leftMapX, leftMapY, interpolation=cv2.INTER_LINEAR, borderMode=cv2.BORDER_CONSTANT)
+	imgR = cv2.remap(imgRight, rightMapX, rightMapY, interpolation=cv2.INTER_LINEAR, borderMode=cv2.BORDER_CONSTANT)
+	
+	if useStripe:
+	imgL = imgL[80:160,:]
+	imgR = imgR[80:160,:]
+	
+	stereo_depth_map((imgL, imgR), save_path_prefix=None)
+	
+	button_held_time = 0
+	HOLD_THRESHOLD = 1.0  # seconds
+	
+	if GPIO.input(BUTTON_PIN) == GPIO.LOW:
+	press_start = time.time()
+	while GPIO.input(BUTTON_PIN) == GPIO.LOW:
+	time.sleep(0.01)
+	button_held_time = time.time() - press_start
+	
+	if button_held_time < HOLD_THRESHOLD:
+	timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+	prefix = f"./captures/capture_{timestamp}"
+	print(f"\n[!] Capturing snapshot at {timestamp}...")
+	stereo_depth_map((imgL, imgR), save_path_prefix=prefix)
+	time.sleep(0.5)
+	else:
+	cycle_offset()
+	time.sleep(0.5)
+\end{lstlisting}
+
+% Save the file you want to include in PDF format.
+% Uncomment the commant below specifying the correct appendix file. 
+%\includepdf[pages=-, scale = 0.9, pagecommand={}, offset = -30 0]{appendixA.pdf}
+

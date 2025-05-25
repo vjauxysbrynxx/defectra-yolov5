@@ -1,0 +1,40 @@
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Manual depth measurement of pothole using a ruler and measuring tape.}}{19}{}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Four measure points of the pothole.}}{20}{}%
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Components used in the prototype development.From the top left: Raspberry Pi Computer Module 4, 3D Printed Custom Housing, cooling fan, StereoPi V2 Board, two camera modules, antenna,momentary push button, and 2-inch LCD module. }}{22}{}%
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Dual RPi Camera Modules attached to the custom housing.}}{23}{}%
+\contentsline {figure}{\numberline {3.5}{\ignorespaces LCD Module connected to the StereoPi board.}}{23}{}%
+\contentsline {figure}{\numberline {3.6}{\ignorespaces The finished prototype.}}{23}{}%
+\contentsline {figure}{\numberline {3.7}{\ignorespaces Calibration process with a checkerboard to correct fisheye lens distortion.}}{24}{}%
+\contentsline {figure}{\numberline {3.8}{\ignorespaces Parameter tuning process to achieve cleaner and more accurate disparity maps.}}{25}{}%
+\contentsline {figure}{\numberline {3.9}{\ignorespaces The system tested on a simulated pothole.}}{25}{}%
+\contentsline {figure}{\numberline {3.10}{\ignorespaces Inverse Model Fit to Disparity vs. Distance. }}{26}{}%
+\contentsline {figure}{\numberline {3.11}{\ignorespaces First measure point}}{27}{}%
+\contentsline {figure}{\numberline {3.12}{\ignorespaces Second measure point}}{27}{}%
+\contentsline {figure}{\numberline {3.13}{\ignorespaces Third measure point}}{27}{}%
+\contentsline {figure}{\numberline {3.14}{\ignorespaces Fourth measure point}}{27}{}%
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Disparity Map}}{32}{}%
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Left Stereo Image}}{32}{}%
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Right Stereo Image}}{32}{}%
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Linear Regression Fit Between Actual and Estimated Depth}}{33}{}%
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {C.1}{\ignorespaces Actual Pothole Images }}{56}{}%
+\contentsline {figure}{\numberline {C.2}{\ignorespaces Simulated Pothole Images }}{57}{}%
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {D.1}{\ignorespaces Visualized pothole locations during the ground truth data collection within the UPV campus.}}{59}{}%
+\contentsline {figure}{\numberline {D.2}{\ignorespaces Letter requesting validation of data collection procedures.}}{60}{}%
+\contentsline {figure}{\numberline {D.3}{\ignorespaces Letter requesting permission for ground truth data collection within the UPV campus.}}{61}{}%
+\contentsline {figure}{\numberline {D.4}{\ignorespaces Letter requesting an interview with DPWH representatives for the process of verifying ground truth data.}}{62}{}%
+\contentsline {figure}{\numberline {D.5}{\ignorespaces Letter requesting an interview with DPWH representatives for the standard operating procedures of the agency for assessing road quality.}}{63}{}%
+\contentsline {figure}{\numberline {D.6}{\ignorespaces Validated pothole measurement procedural manual, reviewed by Engr. Ethel B. Morales, District Engineer, DPWH 1st District Engineering Office.}}{64}{}%
+\contentsline {figure}{\numberline {D.7}{\ignorespaces Second page of the pothole measurement procedural manual}}{65}{}%
+\contentsline {figure}{\numberline {D.8}{\ignorespaces Third page of the pothole measurement procedural manual}}{66}{}%
+\contentsline {figure}{\numberline {D.9}{\ignorespaces Fourth page of the pothole measurement procedural manual}}{67}{}%
+\contentsline {figure}{\numberline {D.10}{\ignorespaces Fifth page of the pothole measurement procedural manual}}{68}{}%
