@@ -14,8 +14,9 @@
 \contentsline {section}{\numberline {2.2}Related Studies}{8}{}%
 \contentsline {subsection}{\numberline {2.2.1}Deep Learning Studies}{9}{}%
 \contentsline {subsection}{\numberline {2.2.2}Machine Learning Studies}{11}{}%
-\contentsline {subsection}{\numberline {2.2.3}Computer Vision Studies}{13}{}%
-\contentsline {section}{\numberline {2.3}Chapter Summary}{15}{}%
+\contentsline {subsection}{\numberline {2.2.3}Computer Vision Studies}{12}{}%
+\contentsline {section}{\numberline {2.3}Synthesis}{14}{}%
+\contentsline {section}{\numberline {2.4}Chapter Summary}{15}{}%
 \contentsline {chapter}{\numberline {3}Research Methodology}{17}{}%
 \contentsline {section}{\numberline {3.1} Research Activities}{17}{}%
 \contentsline {subsection}{\numberline {3.1.1}Data Collection}{17}{}%

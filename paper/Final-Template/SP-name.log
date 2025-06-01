@@ -1,195 +1,194 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.1.28)  2 JUN 2025 01:07
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.1.13)  2 JUN 2025 01:30
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **./SP-name.tex
 (SP-name.tex
-LaTeX2e <2023-11-01> patch level 1
-L3 programming layer <2024-01-04>
+LaTeX2e <2024-11-01> patch level 1
+L3 programming layer <2024-12-25>
 
 LaTeX Warning: \include should only be used after \begin{document} on input lin
 e 3.
 
 (preamble.tex
-(C:\Users\perse\AppData\Local\Programs\MiKTeX\tex/latex/base\book.cls
-Document Class: book 2023/05/17 v1.4n Standard LaTeX document class
-(C:\Users\perse\AppData\Local\Programs\MiKTeX\tex/latex/base\bk12.clo
-File: bk12.clo 2023/05/17 v1.4n Standard LaTeX file (size option)
+(C:\Users\KRISTIAN LYLE\AppData\Local\MiKTeX\tex/latex/base\book.cls
+Document Class: book 2024/06/29 v1.4n Standard LaTeX document class
+(C:\Users\KRISTIAN LYLE\AppData\Local\MiKTeX\tex/latex/base\bk12.clo
+File: bk12.clo 2024/06/29 v1.4n Standard LaTeX file (size option)
 )
-\c@part=\count187
-\c@chapter=\count188
-\c@section=\count189
-\c@subsection=\count190
-\c@subsubsection=\count191
-\c@paragraph=\count192
-\c@subparagraph=\count193
-\c@figure=\count194
-\c@table=\count195
-\abovecaptionskip=\skip48
-\belowcaptionskip=\skip49
-\bibindent=\dimen140
+\c@part=\count196
+\c@chapter=\count197
+\c@section=\count198
+\c@subsection=\count199
+\c@subsubsection=\count266
+\c@paragraph=\count267
+\c@subparagraph=\count268
+\c@figure=\count269
+\c@table=\count270
+\abovecaptionskip=\skip49
+\belowcaptionskip=\skip50
+\bibindent=\dimen141
 )
-(C:\Users\perse\AppData\Local\Programs\MiKTeX\tex/latex/pdfpages\pdfpages.sty
+(C:\Users\KRISTIAN LYLE\AppData\Local\MiKTeX\tex/latex/pdfpages\pdfpages.sty
 Package: pdfpages 2024/10/28 v0.6c Insert pages of external PDF documents (AM)
 
-(C:\Users\perse\AppData\Local\Programs\MiKTeX\tex/latex/base\ifthen.sty
-Package: ifthen 2022/04/13 v1.1d Standard LaTeX ifthen package (DPC)
+(C:\Users\KRISTIAN LYLE\AppData\Local\MiKTeX\tex/latex/base\ifthen.sty
+Package: ifthen 2024/03/16 v1.1e Standard LaTeX ifthen package (DPC)
 )
-(C:\Users\perse\AppData\Local\Programs\MiKTeX\tex/latex/tools\calc.sty
+(C:\Users\KRISTIAN LYLE\AppData\Local\MiKTeX\tex/latex/tools\calc.sty
 Package: calc 2023/07/08 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count196
-\calc@Bcount=\count197
-\calc@Adimen=\dimen141
-\calc@Bdimen=\dimen142
-\calc@Askip=\skip50
-\calc@Bskip=\skip51
+\calc@Acount=\count271
+\calc@Bcount=\count272
+\calc@Adimen=\dimen142
+\calc@Bdimen=\dimen143
+\calc@Askip=\skip51
+\calc@Bskip=\skip52
 LaTeX Info: Redefining \setlength on input line 80.
 LaTeX Info: Redefining \addtolength on input line 81.
-\calc@Ccount=\count198
-\calc@Cskip=\skip52
+\calc@Ccount=\count273
+\calc@Cskip=\skip53
 )
-(C:\Users\perse\AppData\Local\Programs\MiKTeX\tex/latex/eso-pic\eso-pic.sty
+(C:\Users\KRISTIAN LYLE\AppData\Local\MiKTeX\tex/latex/eso-pic\eso-pic.sty
 Package: eso-pic 2023/05/03 v3.0c eso-pic (RN)
-\ESO@tempdima=\dimen143
-\ESO@tempdimb=\dimen144
+\ESO@tempdima=\dimen144
+\ESO@tempdimb=\dimen145
 
-(C:\Users\perse\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty
+(C:\Users\KRISTIAN LYLE\AppData\Local\MiKTeX\tex/latex/graphics\keyval.sty
 Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
 \KV@toks@=\toks17
 )
-(C:\Users\perse\AppData\Local\Programs\MiKTeX\tex/latex/xcolor\xcolor.sty
-Package: xcolor 2023/11/15 v3.01 LaTeX color extensions (UK)
+(C:\Users\KRISTIAN LYLE\AppData\Local\MiKTeX\tex/latex/xcolor\xcolor.sty
+Package: xcolor 2024/09/29 v3.02 LaTeX color extensions (UK)
 
-(C:\Users\perse\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\color.cfg
+(C:\Users\KRISTIAN LYLE\AppData\Local\MiKTeX\tex/latex/graphics-cfg\color.cfg
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package xcolor Info: Driver file: pdftex.def on input line 274.
 
-(C:\Users\perse\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\pdftex.def
-File: pdftex.def 2022/09/22 v1.2b Graphics/color driver for pdftex
+(C:\Users\KRISTIAN LYLE\AppData\Local\MiKTeX\tex/latex/graphics-def\pdftex.def
+File: pdftex.def 2024/04/13 v1.2c Graphics/color driver for pdftex
+) (C:\Users\KRISTIAN LYLE\AppData\Local\MiKTeX\tex/latex/graphics\mathcolor.ltx
 )
-(C:\Users\perse\AppData\Local\Programs\MiKTeX\tex/latex/graphics\mathcolor.ltx)
-Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1350.
-Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1354.
-Package xcolor Info: Model `RGB' extended on input line 1366.
-Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1368.
-Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1369.
-Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1370.
-Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1371.
-Package xcolor Info: Model `Gray' substituted by `gray' on input line 1372.
-Package xcolor Info: Model `wave' substituted by `hsb' on input line 1373.
-))
-(C:\Users\perse\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.sty
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1349.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1353.
+Package xcolor Info: Model `RGB' extended on input line 1365.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1367.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1370.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1371.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1372.
+)) (C:\Users\KRISTIAN LYLE\AppData\Local\MiKTeX\tex/latex/graphics\graphicx.sty
 Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
+(C:\Users\KRISTIAN LYLE\AppData\Local\MiKTeX\tex/latex/graphics\graphics.sty
+Package: graphics 2024/08/06 v1.4g Standard LaTeX Graphics (DPC,SPQR)
 
-(C:\Users\perse\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics.sty
-Package: graphics 2022/03/10 v1.4e Standard LaTeX Graphics (DPC,SPQR)
-
-(C:\Users\perse\AppData\Local\Programs\MiKTeX\tex/latex/graphics\trig.sty
-Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
+(C:\Users\KRISTIAN LYLE\AppData\Local\MiKTeX\tex/latex/graphics\trig.sty
+Package: trig 2023/12/02 v1.11 sin cos tan (DPC)
 )
-(C:\Users\perse\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\graphics.c
-fg
+(C:\Users\KRISTIAN LYLE\AppData\Local\MiKTeX\tex/latex/graphics-cfg\graphics.cf
+g
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
-Package graphics Info: Driver file: pdftex.def on input line 107.
+Package graphics Info: Driver file: pdftex.def on input line 106.
 )
-\Gin@req@height=\dimen145
-\Gin@req@width=\dimen146
+\Gin@req@height=\dimen146
+\Gin@req@width=\dimen147
 )
-\AM@pagewidth=\dimen147
-\AM@pageheight=\dimen148
-\AM@fboxrule=\dimen149
+\AM@pagewidth=\dimen148
+\AM@pageheight=\dimen149
+\AM@fboxrule=\dimen150
 
-(C:\Users\perse\AppData\Local\Programs\MiKTeX\tex/latex/pdfpages\pppdftex.def
+(C:\Users\KRISTIAN LYLE\AppData\Local\MiKTeX\tex/latex/pdfpages\pppdftex.def
 File: pppdftex.def 2024/10/28 v0.6c Pdfpages driver for pdfTeX (AM)
 )
-\pdfpages@includegraphics@status=\count199
-\AM@pagebox=\box51
+\pdfpages@includegraphics@status=\count274
+\AM@pagebox=\box52
 \AM@global@opts=\toks18
-\AM@pagecnt=\count266
+\AM@pagecnt=\count275
 \AM@toc@title=\toks19
 \AM@lof@heading=\toks20
-\c@AM@survey=\count267
-\AM@templatesizebox=\box52
-) (C:\Users\perse\AppData\Local\Programs\MiKTeX\tex/latex/apacite\apacite.sty
-Package: apacite 2013/07/21 v6.03 APA citation
-\c@BibCnt=\count268
-\bibleftmargin=\skip53
-\bibindent=\skip54
-\bibparsep=\skip55
-\bibitemsep=\skip56
-\biblabelsep=\skip57
+\c@AM@survey=\count276
+\AM@templatesizebox=\box53
 )
-(C:\Users\perse\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsmath.sty
-Package: amsmath 2023/05/13 v2.17o AMS math features
-\@mathmargin=\skip58
+(C:\Users\KRISTIAN LYLE\AppData\Local\MiKTeX\tex/latex/apacite\apacite.sty
+Package: apacite 2013/07/21 v6.03 APA citation
+\c@BibCnt=\count277
+\bibleftmargin=\skip54
+\bibindent=\skip55
+\bibparsep=\skip56
+\bibitemsep=\skip57
+\biblabelsep=\skip58
+)
+(C:\Users\KRISTIAN LYLE\AppData\Local\MiKTeX\tex/latex/amsmath\amsmath.sty
+Package: amsmath 2024/11/05 v2.17t AMS math features
+\@mathmargin=\skip59
 
 For additional information on amsmath, use the `?' option.
-(C:\Users\perse\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amstext.sty
+(C:\Users\KRISTIAN LYLE\AppData\Local\MiKTeX\tex/latex/amsmath\amstext.sty
 Package: amstext 2021/08/26 v2.01 AMS text
 
-(C:\Users\perse\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsgen.sty
+(C:\Users\KRISTIAN LYLE\AppData\Local\MiKTeX\tex/latex/amsmath\amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
 \@emptytoks=\toks21
-\ex@=\dimen150
+\ex@=\dimen151
 ))
-(C:\Users\perse\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsbsy.sty
+(C:\Users\KRISTIAN LYLE\AppData\Local\MiKTeX\tex/latex/amsmath\amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
-\pmbraise@=\dimen151
+\pmbraise@=\dimen152
 )
-(C:\Users\perse\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsopn.sty
+(C:\Users\KRISTIAN LYLE\AppData\Local\MiKTeX\tex/latex/amsmath\amsopn.sty
 Package: amsopn 2022/04/08 v2.04 operator names
 )
-\inf@bad=\count269
-LaTeX Info: Redefining \frac on input line 234.
-\uproot@=\count270
-\leftroot@=\count271
-LaTeX Info: Redefining \overline on input line 399.
-LaTeX Info: Redefining \colon on input line 410.
-\classnum@=\count272
-\DOTSCASE@=\count273
-LaTeX Info: Redefining \ldots on input line 496.
-LaTeX Info: Redefining \dots on input line 499.
-LaTeX Info: Redefining \cdots on input line 620.
-\Mathstrutbox@=\box53
-\strutbox@=\box54
-LaTeX Info: Redefining \big on input line 722.
-LaTeX Info: Redefining \Big on input line 723.
-LaTeX Info: Redefining \bigg on input line 724.
-LaTeX Info: Redefining \Bigg on input line 725.
-\big@size=\dimen152
-LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
-LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
-\macc@depth=\count274
-LaTeX Info: Redefining \bmod on input line 905.
-LaTeX Info: Redefining \pmod on input line 910.
-LaTeX Info: Redefining \smash on input line 940.
-LaTeX Info: Redefining \relbar on input line 970.
-LaTeX Info: Redefining \Relbar on input line 971.
-\c@MaxMatrixCols=\count275
-\dotsspace@=\muskip16
-\c@parentequation=\count276
-\dspbrk@lvl=\count277
+\inf@bad=\count278
+LaTeX Info: Redefining \frac on input line 233.
+\uproot@=\count279
+\leftroot@=\count280
+LaTeX Info: Redefining \overline on input line 398.
+LaTeX Info: Redefining \colon on input line 409.
+\classnum@=\count281
+\DOTSCASE@=\count282
+LaTeX Info: Redefining \ldots on input line 495.
+LaTeX Info: Redefining \dots on input line 498.
+LaTeX Info: Redefining \cdots on input line 619.
+\Mathstrutbox@=\box54
+\strutbox@=\box55
+LaTeX Info: Redefining \big on input line 721.
+LaTeX Info: Redefining \Big on input line 722.
+LaTeX Info: Redefining \bigg on input line 723.
+LaTeX Info: Redefining \Bigg on input line 724.
+\big@size=\dimen153
+LaTeX Font Info:    Redeclaring font encoding OML on input line 742.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 743.
+\macc@depth=\count283
+LaTeX Info: Redefining \bmod on input line 904.
+LaTeX Info: Redefining \pmod on input line 909.
+LaTeX Info: Redefining \smash on input line 939.
+LaTeX Info: Redefining \relbar on input line 969.
+LaTeX Info: Redefining \Relbar on input line 970.
+\c@MaxMatrixCols=\count284
+\dotsspace@=\muskip17
+\c@parentequation=\count285
+\dspbrk@lvl=\count286
 \tag@help=\toks22
-\row@=\count278
-\column@=\count279
-\maxfields@=\count280
+\row@=\count287
+\column@=\count288
+\maxfields@=\count289
 \andhelp@=\toks23
-\eqnshift@=\dimen153
-\alignsep@=\dimen154
-\tagshift@=\dimen155
-\tagwidth@=\dimen156
-\totwidth@=\dimen157
-\lineht@=\dimen158
+\eqnshift@=\dimen154
+\alignsep@=\dimen155
+\tagshift@=\dimen156
+\tagwidth@=\dimen157
+\totwidth@=\dimen158
+\lineht@=\dimen159
 \@envbody=\toks24
-\multlinegap=\skip59
-\multlinetaggap=\skip60
+\multlinegap=\skip60
+\multlinetaggap=\skip61
 \mathdisplay@stack=\toks25
 LaTeX Info: Redefining \[ on input line 2953.
 LaTeX Info: Redefining \] on input line 2954.
 )
-(C:\Users\perse\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amsfonts.sty
+(C:\Users\KRISTIAN LYLE\AppData\Local\MiKTeX\tex/latex/amsfonts\amsfonts.sty
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 \symAMSa=\mathgroup4
 \symAMSb=\mathgroup5
@@ -197,231 +196,235 @@ LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
 )
-(C:\Users\perse\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amssymb.sty
+(C:\Users\KRISTIAN LYLE\AppData\Local\MiKTeX\tex/latex/amsfonts\amssymb.sty
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
 )
-(C:\Users\perse\AppData\Local\Programs\MiKTeX\tex/latex/tools\verbatim.sty
-Package: verbatim 2023-11-06 v1.5v LaTeX2e package for verbatim enhancements
+(C:\Users\KRISTIAN LYLE\AppData\Local\MiKTeX\tex/latex/tools\verbatim.sty
+Package: verbatim 2024-01-22 v1.5x LaTeX2e package for verbatim enhancements
 \every@verbatim=\toks26
 \verbatim@line=\toks27
 \verbatim@in@stream=\read2
 )
-(C:\Users\perse\AppData\Local\Programs\MiKTeX\tex/latex/url\url.sty
-\Urlmuskip=\muskip17
+(C:\Users\KRISTIAN LYLE\AppData\Local\MiKTeX\tex/latex/url\url.sty
+\Urlmuskip=\muskip18
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
-(C:\Users\perse\AppData\Local\Programs\MiKTeX\tex/latex/tools\tabularx.sty
-Package: tabularx 2023/07/08 v2.11c `tabularx' package (DPC)
+(C:\Users\KRISTIAN LYLE\AppData\Local\MiKTeX\tex/latex/tools\tabularx.sty
+Package: tabularx 2023/12/11 v2.12a `tabularx' package (DPC)
 
-(C:\Users\perse\AppData\Local\Programs\MiKTeX\tex/latex/tools\array.sty
-Package: array 2023/10/16 v2.5g Tabular extension package (FMi)
-\col@sep=\dimen159
-\ar@mcellbox=\box55
-\extrarowheight=\dimen160
+(C:\Users\KRISTIAN LYLE\AppData\Local\MiKTeX\tex/latex/tools\array.sty
+Package: array 2024/10/17 v2.6g Tabular extension package (FMi)
+\col@sep=\dimen160
+\ar@mcellbox=\box56
+\extrarowheight=\dimen161
 \NC@list=\toks28
-\extratabsurround=\skip61
-\backup@length=\skip62
-\ar@cellbox=\box56
+\extratabsurround=\skip62
+\backup@length=\skip63
+\ar@cellbox=\box57
 )
-\TX@col@width=\dimen161
-\TX@old@table=\dimen162
-\TX@old@col=\dimen163
-\TX@target=\dimen164
-\TX@delta=\dimen165
-\TX@cols=\count281
+\TX@col@width=\dimen162
+\TX@old@table=\dimen163
+\TX@old@col=\dimen164
+\TX@target=\dimen165
+\TX@delta=\dimen166
+\TX@cols=\count290
 \TX@ftn=\toks29
 )
-(C:\Users\perse\AppData\Local\Programs\MiKTeX\tex/latex/setspace\setspace.sty
+(C:\Users\KRISTIAN LYLE\AppData\Local\MiKTeX\tex/latex/setspace\setspace.sty
 Package: setspace 2022/12/04 v6.7b set line spacing
 )
-(C:\Users\perse\AppData\Local\Programs\MiKTeX\tex/latex/lineno\lineno.sty
+(C:\Users\KRISTIAN LYLE\AppData\Local\MiKTeX\tex/latex/lineno\lineno.sty
 Package: lineno 2023/05/20 line numbers on paragraphs v5.3
 
-(C:\Users\perse\AppData\Local\Programs\MiKTeX\tex/latex/etoolbox\etoolbox.sty
+(C:\Users\KRISTIAN LYLE\AppData\Local\MiKTeX\tex/latex/etoolbox\etoolbox.sty
 Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count282
+\etb@tempcnta=\count291
 )
-(C:\Users\perse\AppData\Local\Programs\MiKTeX\tex/latex/kvoptions\kvoptions.sty
+(C:\Users\KRISTIAN LYLE\AppData\Local\MiKTeX\tex/latex/kvoptions\kvoptions.sty
 Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
-(C:\Users\perse\AppData\Local\Programs\MiKTeX\tex/generic/ltxcmds\ltxcmds.sty
+
+(C:\Users\KRISTIAN LYLE\AppData\Local\MiKTeX\tex/generic/ltxcmds\ltxcmds.sty
 Package: ltxcmds 2023-12-04 v1.26 LaTeX kernel commands for general use (HO)
 )
-(C:\Users\perse\AppData\Local\Programs\MiKTeX\tex/latex/kvsetkeys\kvsetkeys.sty
+(C:\Users\KRISTIAN LYLE\AppData\Local\MiKTeX\tex/latex/kvsetkeys\kvsetkeys.sty
 Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
 ))
-\linenopenalty=\count283
+\linenopenalty=\count292
 \output=\toks30
-\linenoprevgraf=\count284
-\linenumbersep=\dimen166
-\linenumberwidth=\dimen167
-\c@linenumber=\count285
-\c@pagewiselinenumber=\count286
-\c@LN@truepage=\count287
-\c@internallinenumber=\count288
-\c@internallinenumbers=\count289
-\quotelinenumbersep=\dimen168
-\bframerule=\dimen169
-\bframesep=\dimen170
-\bframebox=\box57
-\linenoamsmath@ams@eqpen=\count290
+\linenoprevgraf=\count293
+\linenumbersep=\dimen167
+\linenumberwidth=\dimen168
+\c@linenumber=\count294
+\c@pagewiselinenumber=\count295
+\c@LN@truepage=\count296
+\c@internallinenumber=\count297
+\c@internallinenumbers=\count298
+\quotelinenumbersep=\dimen169
+\bframerule=\dimen170
+\bframesep=\dimen171
+\bframebox=\box58
+\linenoamsmath@ams@eqpen=\count299
 LaTeX Info: Redefining \\ on input line 3180.
 )
-(C:\Users\perse\AppData\Local\Programs\MiKTeX\tex/latex/pdflscape\pdflscape.sty
+(C:\Users\KRISTIAN LYLE\AppData\Local\MiKTeX\tex/latex/pdflscape\pdflscape.sty
 Package: pdflscape 2022-10-27 v0.13 Display of landscape pages in PDF
 
-(C:\Users\perse\AppData\Local\Programs\MiKTeX\tex/latex/pdflscape\pdflscape-nom
-etadata.sty
+(C:\Users\KRISTIAN LYLE\AppData\Local\MiKTeX\tex/latex/pdflscape\pdflscape-nome
+tadata.sty
 Package: pdflscape-nometadata 2022-10-28 v0.13 Display of landscape pages in PD
 F (HO)
 
-(C:\Users\perse\AppData\Local\Programs\MiKTeX\tex/generic/iftex\iftex.sty
-Package: iftex 2022/02/03 v1.0f TeX engine tests
+(C:\Users\KRISTIAN LYLE\AppData\Local\MiKTeX\tex/generic/iftex\iftex.sty
+Package: iftex 2024/12/12 v1.0g TeX engine tests
 )
-(C:\Users\perse\AppData\Local\Programs\MiKTeX\tex/latex/graphics\lscape.sty
+(C:\Users\KRISTIAN LYLE\AppData\Local\MiKTeX\tex/latex/graphics\lscape.sty
 Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
 )
 Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 ))
-(C:\Users\perse\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption.sty
+(C:\Users\KRISTIAN LYLE\AppData\Local\MiKTeX\tex/latex/caption\caption.sty
 Package: caption 2023/08/05 v3.6o Customizing captions (AR)
 
-(C:\Users\perse\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption3.sty
+(C:\Users\KRISTIAN LYLE\AppData\Local\MiKTeX\tex/latex/caption\caption3.sty
 Package: caption3 2023/07/31 v2.4d caption3 kernel (AR)
-\caption@tempdima=\dimen171
-\captionmargin=\dimen172
-\caption@leftmargin=\dimen173
-\caption@rightmargin=\dimen174
-\caption@width=\dimen175
-\caption@indent=\dimen176
-\caption@parindent=\dimen177
-\caption@hangindent=\dimen178
+\caption@tempdima=\dimen172
+\captionmargin=\dimen173
+\caption@leftmargin=\dimen174
+\caption@rightmargin=\dimen175
+\caption@width=\dimen176
+\caption@indent=\dimen177
+\caption@parindent=\dimen178
+\caption@hangindent=\dimen179
 Package caption Info: Standard document class detected.
 )
-\c@caption@flags=\count291
-\c@continuedfloat=\count292
+\c@caption@flags=\count300
+\c@continuedfloat=\count301
 )
-(C:\Users\perse\AppData\Local\Programs\MiKTeX\tex/latex/adjustbox\adjustbox.sty
+(C:\Users\KRISTIAN LYLE\AppData\Local\MiKTeX\tex/latex/adjustbox\adjustbox.sty
 Package: adjustbox 2022/10/17 v1.3a Adjusting TeX boxes (trim, clip, ...)
-(C:\Users\perse\AppData\Local\Programs\MiKTeX\tex/latex/xkeyval\xkeyval.sty
+
+(C:\Users\KRISTIAN LYLE\AppData\Local\MiKTeX\tex/latex/xkeyval\xkeyval.sty
 Package: xkeyval 2022/06/16 v2.9 package option processing (HA)
 
-(C:\Users\perse\AppData\Local\Programs\MiKTeX\tex/generic/xkeyval\xkeyval.tex
-(C:\Users\perse\AppData\Local\Programs\MiKTeX\tex/generic/xkeyval\xkvutils.tex
+(C:\Users\KRISTIAN LYLE\AppData\Local\MiKTeX\tex/generic/xkeyval\xkeyval.tex
+(C:\Users\KRISTIAN LYLE\AppData\Local\MiKTeX\tex/generic/xkeyval\xkvutils.tex
 \XKV@toks=\toks31
 \XKV@tempa@toks=\toks32
 )
-\XKV@depth=\count293
+\XKV@depth=\count302
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
-))
-(C:\Users\perse\AppData\Local\Programs\MiKTeX\tex/latex/adjustbox\adjcalc.sty
+)) (C:\Users\KRISTIAN LYLE\AppData\Local\MiKTeX\tex/latex/adjustbox\adjcalc.sty
 Package: adjcalc 2012/05/16 v1.1 Provides advanced setlength with multiple back
 -ends (calc, etex, pgfmath)
-)
-(C:\Users\perse\AppData\Local\Programs\MiKTeX\tex/latex/adjustbox\trimclip.sty
+) (C:\Users\KRISTIAN LYLE\AppData\Local\MiKTeX\tex/latex/adjustbox\trimclip.sty
 Package: trimclip 2020/08/19 v1.2 Trim and clip general TeX material
 
-(C:\Users\perse\AppData\Local\Programs\MiKTeX\tex/latex/collectbox\collectbox.s
-ty
+(C:\Users\KRISTIAN LYLE\AppData\Local\MiKTeX\tex/latex/collectbox\collectbox.st
+y
 Package: collectbox 2022/10/17 v0.4c Collect macro arguments as boxes
-\collectedbox=\box58
+\collectedbox=\box59
 )
-\tc@llx=\dimen179
-\tc@lly=\dimen180
-\tc@urx=\dimen181
-\tc@ury=\dimen182
+\tc@llx=\dimen180
+\tc@lly=\dimen181
+\tc@urx=\dimen182
+\tc@ury=\dimen183
 Package trimclip Info: Using driver 'tc-pdftex.def'.
 
-(C:\Users\perse\AppData\Local\Programs\MiKTeX\tex/latex/adjustbox\tc-pdftex.def
+(C:\Users\KRISTIAN LYLE\AppData\Local\MiKTeX\tex/latex/adjustbox\tc-pdftex.def
 File: tc-pdftex.def 2019/01/04 v2.2 Clipping driver for pdftex
 ))
-\adjbox@Width=\dimen183
-\adjbox@Height=\dimen184
-\adjbox@Depth=\dimen185
-\adjbox@Totalheight=\dimen186
-\adjbox@pwidth=\dimen187
-\adjbox@pheight=\dimen188
-\adjbox@pdepth=\dimen189
-\adjbox@ptotalheight=\dimen190
+\adjbox@Width=\dimen184
+\adjbox@Height=\dimen185
+\adjbox@Depth=\dimen186
+\adjbox@Totalheight=\dimen187
+\adjbox@pwidth=\dimen188
+\adjbox@pheight=\dimen189
+\adjbox@pdepth=\dimen190
+\adjbox@ptotalheight=\dimen191
 
-(C:\Users\perse\AppData\Local\Programs\MiKTeX\tex/latex/ifoddpage\ifoddpage.sty
+(C:\Users\KRISTIAN LYLE\AppData\Local\MiKTeX\tex/latex/ifoddpage\ifoddpage.sty
 Package: ifoddpage 2022/10/18 v1.2 Conditionals for odd/even page detection
-\c@checkoddpage=\count294
-) (C:\Users\perse\AppData\Local\Programs\MiKTeX\tex/latex/varwidth\varwidth.sty
+\c@checkoddpage=\count303
+) (C:\Users\KRISTIAN LYLE\AppData\Local\MiKTeX\tex/latex/varwidth\varwidth.sty
 Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
-\@vwid@box=\box59
-\sift@deathcycles=\count295
-\@vwid@loff=\dimen191
-\@vwid@roff=\dimen192
-)) (C:\Users\perse\AppData\Local\Programs\MiKTeX\tex/latex/float\float.sty
+\@vwid@box=\box60
+\sift@deathcycles=\count304
+\@vwid@loff=\dimen192
+\@vwid@roff=\dimen193
+)) (C:\Users\KRISTIAN LYLE\AppData\Local\MiKTeX\tex/latex/float\float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count296
+\c@float@type=\count305
 \float@exts=\toks33
-\float@box=\box60
+\float@box=\box61
 \@float@everytoks=\toks34
-\@floatcapt=\box61
+\@floatcapt=\box62
 )
-(C:\Users\perse\AppData\Local\Programs\MiKTeX\tex/latex/subfig\subfig.sty
+(C:\Users\KRISTIAN LYLE\AppData\Local\MiKTeX\tex/latex/subfig\subfig.sty
 Package: subfig 2005/06/28 ver: 1.3 subfig package
-\c@KVtest=\count297
-\sf@farskip=\skip63
-\sf@captopadj=\dimen193
-\sf@capskip=\skip64
-\sf@nearskip=\skip65
-\c@subfigure=\count298
-\c@subfigure@save=\count299
-\c@lofdepth=\count300
-\c@subtable=\count301
-\c@subtable@save=\count302
-\c@lotdepth=\count303
-\sf@top=\skip66
-\sf@bottom=\skip67
+\c@KVtest=\count306
+\sf@farskip=\skip64
+\sf@captopadj=\dimen194
+\sf@capskip=\skip65
+\sf@nearskip=\skip66
+\c@subfigure=\count307
+\c@subfigure@save=\count308
+\c@lofdepth=\count309
+\c@subtable=\count310
+\c@subtable@save=\count311
+\c@lotdepth=\count312
+\sf@top=\skip67
+\sf@bottom=\skip68
 )
-(C:\Users\perse\AppData\Local\Programs\MiKTeX\tex/latex/listings\listings.sty
-\lst@mode=\count304
-\lst@gtempboxa=\box62
+(C:\Users\KRISTIAN LYLE\AppData\Local\MiKTeX\tex/latex/listings\listings.sty
+\lst@mode=\count313
+\lst@gtempboxa=\box63
 \lst@token=\toks35
-\lst@length=\count305
-\lst@currlwidth=\dimen194
-\lst@column=\count306
-\lst@pos=\count307
-\lst@lostspace=\dimen195
-\lst@width=\dimen196
-\lst@newlines=\count308
-\lst@lineno=\count309
-\lst@maxwidth=\dimen197
+\lst@length=\count314
+\lst@currlwidth=\dimen195
+\lst@column=\count315
+\lst@pos=\count316
+\lst@lostspace=\dimen196
+\lst@width=\dimen197
+\lst@newlines=\count317
+\lst@lineno=\count318
+\lst@maxwidth=\dimen198
 
-(C:\Users\perse\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstmisc.sty
-File: lstmisc.sty 2023/02/27 1.9 (Carsten Heinz)
-\c@lstnumber=\count310
-\lst@skipnumbers=\count311
-\lst@framebox=\box63
+(C:\Users\KRISTIAN LYLE\AppData\Local\MiKTeX\tex/latex/listings\lstpatch.sty
+File: lstpatch.sty 2024/09/23 1.10c (Carsten Heinz)
 )
-(C:\Users\perse\AppData\Local\Programs\MiKTeX\tex/latex/listings\listings.cfg
-File: listings.cfg 2023/02/27 1.9 listings configuration
+(C:\Users\KRISTIAN LYLE\AppData\Local\MiKTeX\tex/latex/listings\lstmisc.sty
+File: lstmisc.sty 2024/09/23 1.10c (Carsten Heinz)
+\c@lstnumber=\count319
+\lst@skipnumbers=\count320
+\lst@framebox=\box64
+)
+(C:\Users\KRISTIAN LYLE\AppData\Local\MiKTeX\tex/latex/listings\listings.cfg
+File: listings.cfg 2024/09/23 1.10c listings configuration
 ))
-Package: listings 2023/02/27 1.9 (Carsten Heinz)
-(C:\Users\perse\AppData\Local\Programs\MiKTeX\tex/latex/base\inputenc.sty
-Package: inputenc 2021/02/14 v1.3d Input encoding file
+Package: listings 2024/09/23 1.10c (Carsten Heinz)
+
+(C:\Users\KRISTIAN LYLE\AppData\Local\MiKTeX\tex/latex/base\inputenc.sty
+Package: inputenc 2024/02/08 v1.3d Input encoding file
 \inpenc@prehook=\toks36
 \inpenc@posthook=\toks37
 )
-(C:\Users\perse\AppData\Local\Programs\MiKTeX\tex/latex/titlesec\titlesec.sty
+(C:\Users\KRISTIAN LYLE\AppData\Local\MiKTeX\tex/latex/titlesec\titlesec.sty
 Package: titlesec 2025/01/04 v2.17 Sectioning titles
-\ttl@box=\box64
-\beforetitleunit=\skip68
-\aftertitleunit=\skip69
-\ttl@plus=\dimen198
-\ttl@minus=\dimen199
+\ttl@box=\box65
+\beforetitleunit=\skip69
+\aftertitleunit=\skip70
+\ttl@plus=\dimen199
+\ttl@minus=\dimen256
 \ttl@toksa=\toks38
-\titlewidth=\dimen256
-\titlewidthlast=\dimen257
-\titlewidthfirst=\dimen258
+\titlewidth=\dimen257
+\titlewidthlast=\dimen258
+\titlewidthfirst=\dimen259
 ))
-(C:\Users\perse\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdf
-tex.def
-File: l3backend-pdftex.def 2024-01-04 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count312
-\l__pdf_internal_box=\box65
+(C:\Users\KRISTIAN LYLE\AppData\Local\MiKTeX\tex/latex/l3backend\l3backend-pdft
+ex.def
+File: l3backend-pdftex.def 2024-05-08 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count321
+\l__pdf_internal_box=\box66
 )
 
 LaTeX Warning: Unused global option(s):
@@ -458,34 +461,33 @@ LaTeX Font Info:    ... okay on input line 7.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 7.
 LaTeX Font Info:    ... okay on input line 7.
 
-(C:\Users\perse\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mk
-ii
+(C:\Users\KRISTIAN LYLE\AppData\Local\MiKTeX\tex/context/base/mkii\supp-pdf.mki
+i
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count313
-\scratchdimen=\dimen259
-\scratchbox=\box66
-\nofMPsegments=\count314
-\nofMParguments=\count315
+\scratchcounter=\count322
+\scratchdimen=\dimen260
+\scratchbox=\box67
+\nofMPsegments=\count323
+\nofMParguments=\count324
 \everyMPshowfont=\toks39
-\MPscratchCnt=\count316
-\MPscratchDim=\dimen260
-\MPnumerator=\count317
-\makeMPintoPDFobject=\count318
+\MPscratchCnt=\count325
+\MPscratchDim=\dimen261
+\MPnumerator=\count326
+\makeMPintoPDFobject=\count327
 \everyMPtoPDFconversion=\toks40
 )
-(C:\Users\perse\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-b
-ase.sty
+(C:\Users\KRISTIAN LYLE\AppData\Local\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-ba
+se.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 85.
 
-(C:\Users\perse\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.c
-fg
+(C:\Users\KRISTIAN LYLE\AppData\Local\MiKTeX\tex/latex/00miktex\epstopdf-sys.cf
+g
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
-\c@maskedRefs=\count319
-
-(C:\Users\perse\AppData\Local\Programs\MiKTeX\tex/latex/apacite\english.apc
+\c@maskedRefs=\count328
+ (C:\Users\KRISTIAN LYLE\AppData\Local\MiKTeX\tex/latex/apacite\english.apc
 File: english.apc 2013/07/21 v6.03 apacite language file
 LaTeX Info: Redefining \BPBI on input line 129.
 LaTeX Info: Redefining \BHBI on input line 130.
@@ -495,33 +497,37 @@ Package caption Info: subfig package v1.3 is loaded.
 Package caption Info: float package is loaded.
 Package caption Info: listings package is loaded.
 Package caption Info: End \AtBeginDocument code.
-\c@lstlisting=\count320
+\c@lstlisting=\count329
 \openout2 = `title_page.aux'.
 
+(title_page.tex
 
-(title_page.tex [1
+[1
 
 
 
-{C:/Users/perse/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}])
+{C:/Users/KRISTIAN LYLE/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}])
 \openout2 = `approval.aux'.
 
- (approval.tex
+
+(approval.tex
 LaTeX Font Info:    Trying to load font information for U+msa on input line 15.
 
 
-(C:\Users\perse\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
+(C:\Users\KRISTIAN LYLE\AppData\Local\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
 LaTeX Font Info:    Trying to load font information for U+msb on input line 15.
 
 
-(C:\Users\perse\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
+(C:\Users\KRISTIAN LYLE\AppData\Local\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ))
 Overfull \hbox (16.05421pt too wide) in paragraph at lines 15--12
 [][] 
  []
+
+
 
 [2
 
@@ -530,14 +536,18 @@ Overfull \hbox (16.05421pt too wide) in paragraph at lines 15--12
 ]
 \openout2 = `declaration.aux'.
 
- (declaration.tex) [3
+ (declaration.tex)
+
+[3
 
 
 
 ]
 \openout2 = `dedication.aux'.
 
- (dedication.tex) [4
+ (dedication.tex)
+
+[4
 
 
 
@@ -547,53 +557,73 @@ Overfull \hbox (16.05421pt too wide) in paragraph at lines 15--12
  (acknowledgment.tex
 Underfull \vbox (badness 1668) has occurred while \output is active []
 
- [5
+
+
+[5
 
 
 
 ])
+
 [6]
 \openout2 = `abstract.aux'.
 
- (abstract.tex) [7
+ (abstract.tex)
+
+[7
 
 
 
-] [8
+]
+
+[8
 
 
 
 ] (SP-name.toc
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [9]
-Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [10])
+
+[9]
+
+[10])
 \tf@toc=\write3
 \openout3 = `SP-name.toc'.
 
 
-[11] [12
+
+[11]
+
+[12
 
 ] (SP-name.lof
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [13]
+
+
+[13]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [14])
+
+
+[14])
 \tf@lof=\write4
 \openout4 = `SP-name.lof'.
 
 
-[15] [16
+
+[15]
+
+[16
 
 ] (SP-name.lot)
 \tf@lot=\write5
 \openout5 = `SP-name.lot'.
 
- [17]
+
+
+[17]
 \openout2 = `chapter_1.aux'.
 
  (chapter_1.tex
@@ -601,22 +631,33 @@ Chapter 1.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [1
+
+
+[1
 
 
 ]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [2]
+
+
+[2]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [3]
+
+
+[3]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [4]
+
+
+[4]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [5])
+
+
+[5])
+
 [6]
 \openout2 = `chapter_2.aux'.
 
@@ -625,7 +666,9 @@ Chapter 2.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [7
+
+
+[7
 
 
 
@@ -638,21 +681,19 @@ Underfull \hbox (badness 10000) in paragraph at lines 23--25
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [8]
-Overfull \hbox (12.35379pt too wide) in paragraph at lines 27--29
-\OT1/cmr/bx/n/14.4 Road Anomaly De-tec-tion through Deep Learn-ing Ap-proaches 
-
- []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 27--29
+[8]
+Underfull \hbox (badness 10000) in paragraph at lines 26--29
 
  []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [9]
+
+
+[9]
 Underfull \hbox (badness 10000) in paragraph at lines 30--32
 
  []
@@ -660,223 +701,224 @@ Underfull \hbox (badness 10000) in paragraph at lines 30--32
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [10]
-Underfull \hbox (badness 10000) in paragraph at lines 33--35
-
- []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 38--40
-
- []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [11]
-Underfull \hbox (badness 10000) in paragraph at lines 41--43
+[10]
+Underfull \hbox (badness 10000) in paragraph at lines 35--37
 
  []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [12]
-Overfull \hbox (2.04216pt too wide) in paragraph at lines 46--48
+
+
+[11]
+Overfull \hbox (2.04216pt too wide) in paragraph at lines 40--42
 \OT1/cmr/bx/n/14.4 Stereo Vi-sion Based Pot-hole De-tec-tion Sys-tem for Im-pro
 ved
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 46--48
+Underfull \hbox (badness 10000) in paragraph at lines 40--42
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 40--42
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 43--45
 
  []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [13]
+
+
+[12]
+
+[13]
+
 [14]
-Underfull \hbox (badness 10000) in paragraph at lines 59--59
+Underfull \hbox (badness 10000) in paragraph at lines 60--60
 []|\OT1/cmr/bx/n/10.95 Technology/
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 61--61
+Underfull \hbox (badness 10000) in paragraph at lines 62--62
 []|\OT1/cmr/m/n/10.95 Automated De-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 61--61
+Underfull \hbox (badness 10000) in paragraph at lines 62--62
 \OT1/cmr/m/n/10.95 tec-tion and
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 61--61
+Underfull \hbox (badness 10000) in paragraph at lines 62--62
 \OT1/cmr/m/n/10.95 Clas-si-fi-ca-tion of
  []
 
 
-Underfull \hbox (badness 5578) in paragraph at lines 61--61
+Underfull \hbox (badness 5578) in paragraph at lines 62--62
 \OT1/cmr/m/n/10.95 Road Anoma-lies
  []
 
 
-Underfull \hbox (badness 3128) in paragraph at lines 61--61
+Underfull \hbox (badness 3128) in paragraph at lines 62--62
 []|\OT1/cmr/m/n/10.95 Lacks find-ings re-gard-ing
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 63--63
-[]|\OT1/cmr/m/n/10.95 Smartphones as
+Underfull \hbox (badness 1314) in paragraph at lines 64--64
+\OT1/cmr/m/n/10.95 Fu-sion for Road
  []
 
 
-Underfull \hbox (badness 5787) in paragraph at lines 63--63
-\OT1/cmr/m/n/10.95 sur-face mon-i-tor-
+Underfull \hbox (badness 10000) in paragraph at lines 64--64
+\OT1/cmr/m/n/10.95 Ob-sta-cle De-tec-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 63--63
-[]|\OT1/cmr/m/n/10.95 Machine Learn-ing,
+Underfull \hbox (badness 10000) in paragraph at lines 64--64
+[]|\OT1/cmr/m/n/10.95 Stereo Imag-ing,
  []
 
 
-Underfull \hbox (badness 4872) in paragraph at lines 63--63
-\OT1/cmr/m/n/10.95 en-ta-tion, smooth-ness of
+Underfull \hbox (badness 1221) in paragraph at lines 64--64
+[]|\OT1/cmr/m/n/10.95 Approach was con-ducted
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 65--65
-[]|\OT1/cmr/m/n/10.95 Road Anomaly
+Underfull \hbox (badness 10000) in paragraph at lines 66--66
+[]|\OT1/cmr/m/n/10.95 Single Im-age
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 65--65
-\OT1/cmr/m/n/10.95 De-tec-tion
+Underfull \hbox (badness 10000) in paragraph at lines 66--66
+\OT1/cmr/m/n/10.95 Depth Es-ti-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 65--65
-\OT1/cmr/m/n/10.95 through Deep
+Underfull \hbox (badness 10000) in paragraph at lines 66--66
+\OT1/cmr/m/n/10.95 ma-tion: An
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 65--65
-\OT1/cmr/m/n/10.95 Learn-ing Ap-
+Underfull \hbox (badness 6808) in paragraph at lines 66--66
+[]|\OT1/cmr/m/n/10.95 Identified var-i-ous is-sues
  []
 
 
-Underfull \hbox (badness 4531) in paragraph at lines 65--65
-[]|\OT1/cmr/m/n/10.95 Convolutional Neu-
+Underfull \hbox (badness 3646) in paragraph at lines 66--66
+\OT1/cmr/m/n/10.95 not men-tioned or thor-
  []
 
 
-Underfull \hbox (badness 2538) in paragraph at lines 65--65
-\OT1/cmr/m/n/10.95 ral Net-work, Deep
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 65--65
-\OT1/cmr/m/n/10.95 Feed-for-ward Net-
- []
-
-
-Underfull \hbox (badness 6995) in paragraph at lines 67--67
+Underfull \hbox (badness 6995) in paragraph at lines 68--68
 []|\OT1/cmr/m/n/10.95 Assessing Sever-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 67--67
+Underfull \hbox (badness 10000) in paragraph at lines 68--68
 \OT1/cmr/m/n/10.95 ity of Road
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 67--67
+Underfull \hbox (badness 10000) in paragraph at lines 68--68
 \OT1/cmr/m/n/10.95 Cracks Us-ing
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 67--67
+Underfull \hbox (badness 10000) in paragraph at lines 68--68
 \OT1/cmr/m/n/10.95 Deep Learning-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 67--67
+Underfull \hbox (badness 10000) in paragraph at lines 68--68
 \OT1/cmr/m/n/10.95 Based Seg-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 67--67
+Underfull \hbox (badness 10000) in paragraph at lines 68--68
 \OT1/cmr/m/n/10.95 men-ta-tion and
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 67--67
+Underfull \hbox (badness 10000) in paragraph at lines 68--68
 []|\OT1/cmr/m/n/10.95 SqueezNet, U-Net,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 67--67
+Underfull \hbox (badness 10000) in paragraph at lines 68--68
 \OT1/cmr/m/n/10.95 YOLOv5, and
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 67--67
+Underfull \hbox (badness 10000) in paragraph at lines 68--68
 \OT1/cmr/m/n/10.95 MobileNet-SSD
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 69--69
+Underfull \hbox (badness 10000) in paragraph at lines 70--70
 []|\OT1/cmr/m/n/10.95 Stereo Vi-sion
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 69--69
+Underfull \hbox (badness 10000) in paragraph at lines 70--70
 \OT1/cmr/m/n/10.95 Based Pot-hole
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 69--69
+Underfull \hbox (badness 10000) in paragraph at lines 70--70
 \OT1/cmr/m/n/10.95 for Im-proved
  []
 
 
-Underfull \hbox (badness 1755) in paragraph at lines 69--69
+Underfull \hbox (badness 1755) in paragraph at lines 70--70
 \OT1/cmr/m/n/10.95 hole and road con-di-tion
  []
 
 
-Overfull \hbox (75.46518pt too wide) in paragraph at lines 54--72
+Overfull \hbox (75.46518pt too wide) in paragraph at lines 55--73
  [] 
  []
 
 )
-Overfull \hbox (6.3334pt too wide) in paragraph at lines 51--26
+Overfull \hbox (6.3334pt too wide) in paragraph at lines 52--26
 []\OT1/cmr/m/n/12 The re-viewed lit-er-a-ture in-volved var-i-ous tech-niques a
 nd ap-proaches in road anomaly
  []
 
 
-LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[15] [16]
+[15]
 \openout2 = `chapter_3.aux'.
 
  (chapter_3.tex
-Chapter 3.
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [17
+[16
 
 
 
 
 ]
+Chapter 3.
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [18]
+
+
+[17]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+[18]
 <measure.png, id=120, 272.51813pt x 194.97844pt>
 File: measure.png Graphic file (type png)
 <use measure.png>
@@ -890,7 +932,9 @@ Package pdftex.def Info: pothole points.jpg  used on input line 21.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [19 <./measure.png>]
+
+
+[19 <./measure.png>]
 <figures/PHM_UPV.png, id=127, 391.4625pt x 418.56375pt>
 File: figures/PHM_UPV.png Graphic file (type png)
 <use figures/PHM_UPV.png>
@@ -899,7 +943,11 @@ Package pdftex.def Info: figures/PHM_UPV.png  used on input line 26.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [20 <./pothole points.jpg> <./figures/PHM_UPV.png>] [21]
+
+
+[20 <./pothole points.jpg> <./figures/PHM_UPV.png>]
+
+[21]
 <Parts.png, id=136, 1840.8775pt x 1314.9125pt>
 File: Parts.png Graphic file (type png)
 <use Parts.png>
@@ -908,10 +956,14 @@ Package pdftex.def Info: Parts.png  used on input line 76.
 
 Underfull \vbox (badness 3690) has occurred while \output is active []
 
- [22]
+
+
+[22]
 Underfull \vbox (badness 1097) has occurred while \output is active []
 
- [23 <./Parts.png (PNG copy)>]
+
+
+[23 <./Parts.png (PNG copy)>]
 <3.jpg, id=144, 1276.01718pt x 956.82469pt>
 File: 3.jpg Graphic file (type jpg)
 <use 3.jpg>
@@ -927,7 +979,9 @@ File: prototype.png Graphic file (type png)
 <use prototype.png>
 Package pdftex.def Info: prototype.png  used on input line 101.
 (pdftex.def)             Requested size: 190.66412pt x 136.22307pt.
- [24 <./3.jpg> <./1.jpg> <./prototype.png (PNG copy)>]
+
+
+[24 <./3.jpg> <./1.jpg> <./prototype.png (PNG copy)>]
 <calibration.png, id=150, 1284.8pt x 481.8pt>
 File: calibration.png Graphic file (type png)
 <use calibration.png>
@@ -939,19 +993,24 @@ File: calibration2.jpg Graphic file (type jpg)
 Package pdftex.def Info: calibration2.jpg  used on input line 120.
 (pdftex.def)             Requested size: 289.06754pt x 137.75874pt.
 
+
 [25 <./calibration.png> <./calibration2.jpg>]
 <initialtest.jpg, id=156, 688.82344pt x 489.32813pt>
 File: initialtest.jpg Graphic file (type jpg)
 <use initialtest.jpg>
 Package pdftex.def Info: initialtest.jpg  used on input line 129.
 (pdftex.def)             Requested size: 206.64862pt x 146.79956pt.
- [26 <./initialtest.jpg>]
+
+
+[26 <./initialtest.jpg>]
 <inversemodel.png, id=161, 408.02437pt x 236.38312pt>
 File: inversemodel.png Graphic file (type png)
 <use inversemodel.png>
 Package pdftex.def Info: inversemodel.png  used on input line 138.
 (pdftex.def)             Requested size: 224.4141pt x 130.01111pt.
- [27 <./inversemodel.png>]
+
+
+[27 <./inversemodel.png>]
 <measure1.png, id=166, 321.2pt x 240.9pt>
 File: measure1.png Graphic file (type png)
 <use measure1.png>
@@ -975,11 +1034,17 @@ Package pdftex.def Info: measure4.png  used on input line 185.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [28 <./measure1.png (PNG copy)> <./measure2.png (PNG copy)> <./measure3.png (P
-NG copy)> <./measure4.png (PNG copy)>]) [29]
+
+
+[28 <./measure1.png (PNG copy)> <./measure2.png (PNG copy)> <./measure3.png (PN
+G copy)> <./measure4.png (PNG copy)>])
+
+[29]
 \openout2 = `chapter_4.aux'.
 
- (chapter_4.tex [30
+ (chapter_4.tex
+
+[30
 
 
 
@@ -989,7 +1054,10 @@ Chapter 4.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [31]
+
+
+[31]
+
 [32]
 <pothole disparity.png, id=188, 250.68657pt x 190.46156pt>
 File: pothole disparity.png Graphic file (type png)
@@ -1010,6 +1078,8 @@ Package pdftex.def Info: pothole raw right.png  used on input line 96.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
+
+
 [33]
 Overfull \hbox (27.32071pt too wide) in paragraph at lines 107--114
  [][] 
@@ -1017,11 +1087,12 @@ Overfull \hbox (27.32071pt too wide) in paragraph at lines 107--114
 
 LaTeX Font Info:    Trying to load font information for OML+cmr on input line 1
 25.
-(C:\Users\perse\AppData\Local\Programs\MiKTeX\tex/latex/base\omlcmr.fd
-File: omlcmr.fd 2023/04/13 v2.5m Standard LaTeX font definitions
+(C:\Users\KRISTIAN LYLE\AppData\Local\MiKTeX\tex/latex/base\omlcmr.fd
+File: omlcmr.fd 2024/11/19 v2.5n Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OML/cmr/m/n' in size <12> not available
 (Font)              Font shape `OML/cmm/m/it' tried instead on input line 125.
+
 
 [34 <./pothole disparity.png> <./pothole raw left.png> <./pothole raw right.png
 >]
@@ -1030,14 +1101,21 @@ File: regression.png Graphic file (type png)
 <use regression.png>
 Package pdftex.def Info: regression.png  used on input line 136.
 (pdftex.def)             Requested size: 260.85034pt x 217.37527pt.
- [35 <./regression.png>])
+
+
+[35 <./regression.png>])
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [36]
+
+
+[36]
+
 [37]
 \openout2 = `chapter_5.aux'.
 
- (chapter_5.tex [38
+ (chapter_5.tex
+
+[38
 
 
 
@@ -1047,18 +1125,28 @@ Chapter 5.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [39]
+
+
+[39]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [40]
+
+
+[40]
+
 [41]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [42])
+
+
+[42])
+
 [43]
 \openout2 = `chapter_6.aux'.
 
- (chapter_6.tex [44
+ (chapter_6.tex
+
+[44
 
 
 
@@ -1068,45 +1156,56 @@ Chapter 6.
 (SP-name.bbl
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [45]
-Underfull \hbox (badness 1024) in paragraph at lines 166--182
-[]\OT1/cmr/m/n/12 Luo, D., Lu, J., & Guo, G.  (2020, June).  Road Anomaly De-te
-c-tion
- []
 
-[46])) [47]
+
+[45]
+
+[46]))
+
+[47]
 \openout2 = `appendix_A.aux'.
 
- (appendix_A.tex [48
+ (appendix_A.tex
+
+[48
 
 
 
 
 ]
 Appendix A.
-(C:\Users\perse\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.sty
-File: lstlang1.sty 2023/02/27 1.9 listings language file
+(C:\Users\KRISTIAN LYLE\AppData\Local\MiKTeX\tex/latex/listings\lstlang1.sty
+File: lstlang1.sty 2024/09/23 1.10c listings language file
 )
+
 [49]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [50]
+
+
+[50]
+
 [51]
 LaTeX Font Info:    Trying to load font information for OMS+cmr on input line 8
 3.
- (C:\Users\perse\AppData\Local\Programs\MiKTeX\tex/latex/base\omscmr.fd
-File: omscmr.fd 2023/04/13 v2.5m Standard LaTeX font definitions
+ (C:\Users\KRISTIAN LYLE\AppData\Local\MiKTeX\tex/latex/base\omscmr.fd
+File: omscmr.fd 2024/11/19 v2.5n Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 83.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [52])
+
+
+[52])
+
 [53]
 \openout2 = `appendix_B.aux'.
 
- (appendix_B.tex [54
+ (appendix_B.tex
+
+[54
 
 
 
@@ -1136,7 +1235,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 27--28
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [55]
+
+
+[55]
 Underfull \hbox (badness 10000) in paragraph at lines 29--30
 
  []
@@ -1145,6 +1246,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 29--30
 Underfull \hbox (badness 10000) in paragraph at lines 31--36
 
  []
+
+
 
 [56]
 \openout2 = `appendix_C.aux'.
@@ -1200,15 +1303,22 @@ Overfull \hbox (29.4682pt too wide) in paragraph at lines 65--71
 [][] 
  []
 
-) [57
+)
+
+[57
 
 
 
 
-] [58 <./figures/Actual_Disparity.png> <./figures/Actual_Left.png> <./figures/A
-ctual Right.png> <./figures/Actual_SP2.png>] [59 <./figures/Simulated_Disparity
-.png> <./figures/Simulated Left.png> <./figures/Simulated Right.png> <./figures
-/Simulated_Real.jpg>] [60]
+]
+
+[58 <./figures/Actual_Disparity.png> <./figures/Actual_Left.png> <./figures/Act
+ual Right.png> <./figures/Actual_SP2.png>]
+
+[59 <./figures/Simulated_Disparity.png> <./figures/Simulated Left.png> <./figur
+es/Simulated Right.png> <./figures/Simulated_Real.jpg>]
+
+[60]
 \openout2 = `appendix_D.aux'.
 
  (appendix_D.tex
@@ -1264,22 +1374,39 @@ File: figures/Manual_Page5.jpg Graphic file (type jpg)
 <use figures/Manual_Page5.jpg>
 Package pdftex.def Info: figures/Manual_Page5.jpg  used on input line 64.
 (pdftex.def)             Requested size: 415.55249pt x 537.7825pt.
-) [61
+)
+
+[61
 
 
 
 
-] [62 <./figures/DPWH_Letter.jpg>] [63 <./figures/Admin_Letter.jpg>]
-[64 <./figures/DPWH_Region.jpg>] [65 <./figures/DPWH_First.jpg>] [66 <./figures
-/Manual_Page1.png (PNG copy)>] [67 <./figures/Manual_Page2.jpg>] [68 <./figures
-/Manual_Page3.jpg>] [69 <./figures/Manual_Page4.jpg>] [70 <./figures/Manual_Pag
-e5.jpg>] (SP-name.aux (title_page.aux) (approval.aux) (declaration.aux)
-(dedication.aux) (acknowledgment.aux) (abstract.aux) (chapter_1.aux)
-(chapter_2.aux) (chapter_3.aux) (chapter_4.aux) (chapter_5.aux) (chapter_6.aux)
-(appendix_A.aux) (appendix_B.aux) (appendix_C.aux) (appendix_D.aux))
+]
+
+[62 <./figures/DPWH_Letter.jpg>]
+
+[63 <./figures/Admin_Letter.jpg>]
+
+[64 <./figures/DPWH_Region.jpg>]
+
+[65 <./figures/DPWH_First.jpg>]
+
+[66 <./figures/Manual_Page1.png (PNG copy)>]
+
+[67 <./figures/Manual_Page2.jpg>]
+
+[68 <./figures/Manual_Page3.jpg>]
+
+[69 <./figures/Manual_Page4.jpg>]
+
+[70 <./figures/Manual_Page5.jpg>] (SP-name.aux (title_page.aux) (approval.aux)
+(declaration.aux) (dedication.aux) (acknowledgment.aux) (abstract.aux)
+(chapter_1.aux) (chapter_2.aux) (chapter_3.aux) (chapter_4.aux) (chapter_5.aux)
+(chapter_6.aux) (appendix_A.aux) (appendix_B.aux) (appendix_C.aux)
+(appendix_D.aux))
  ***********
-LaTeX2e <2023-11-01> patch level 1
-L3 programming layer <2024-01-04>
+LaTeX2e <2024-11-01> patch level 1
+L3 programming layer <2024-12-25>
  ***********
 
 
@@ -1287,30 +1414,30 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 11425 strings out of 474486
- 189843 string characters out of 5743755
- 2036542 words of memory out of 5000000
- 33419 multiletter control sequences out of 15000+600000
- 569145 words of font info for 77 fonts, out of 8000000 for 9000
+ 11444 strings out of 473536
+ 191922 string characters out of 5715377
+ 856501 words of memory out of 5000000
+ 34369 multiletter control sequences out of 15000+600000
+ 569913 words of font info for 77 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
- 79i,12n,84p,2259b,1838s stack positions out of 10000i,1000n,20000p,200000b,200000s
- <C:\Users\perse\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm
-1200.pk><C:/Users/perse/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfon
-ts/cm/cmbx10.pfb><C:/Users/perse/AppData/Local/Programs/MiKTeX/fonts/type1/publ
-ic/amsfonts/cm/cmbx12.pfb><C:/Users/perse/AppData/Local/Programs/MiKTeX/fonts/t
-ype1/public/amsfonts/cm/cmbx8.pfb><C:/Users/perse/AppData/Local/Programs/MiKTeX
-/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Users/perse/AppData/Local/Progr
-ams/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/perse/AppData/Lo
-cal/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/perse/Ap
-pData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/
-perse/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:
-/Users/perse/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsl1
-2.pfb><C:/Users/perse/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts
-/cm/cmss8.pfb><C:/Users/perse/AppData/Local/Programs/MiKTeX/fonts/type1/public/
-amsfonts/cm/cmsy10.pfb><C:/Users/perse/AppData/Local/Programs/MiKTeX/fonts/type
-1/public/amsfonts/cm/cmti12.pfb><C:/Users/perse/AppData/Local/Programs/MiKTeX/f
-onts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on SP-name.pdf (87 pages, 17977732 bytes).
+ 79i,12n,84p,2259b,1820s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ <C:\Users\KRISTIAN LYLE\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi
+600\tcrm1200.pk><C:/Users/KRISTIAN LYLE/AppData/Local/MiKTeX/fonts/type1/public
+/amsfonts/cm/cmbx10.pfb><C:/Users/KRISTIAN LYLE/AppData/Local/MiKTeX/fonts/type
+1/public/amsfonts/cm/cmbx12.pfb><C:/Users/KRISTIAN LYLE/AppData/Local/MiKTeX/fo
+nts/type1/public/amsfonts/cm/cmbx8.pfb><C:/Users/KRISTIAN LYLE/AppData/Local/Mi
+KTeX/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Users/KRISTIAN LYLE/AppData
+/Local/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/KRISTIAN LYLE
+/AppData/Local/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/KRISTI
+AN LYLE/AppData/Local/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users
+/KRISTIAN LYLE/AppData/Local/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:
+/Users/KRISTIAN LYLE/AppData/Local/MiKTeX/fonts/type1/public/amsfonts/cm/cmsl12
+.pfb><C:/Users/KRISTIAN LYLE/AppData/Local/MiKTeX/fonts/type1/public/amsfonts/c
+m/cmss8.pfb><C:/Users/KRISTIAN LYLE/AppData/Local/MiKTeX/fonts/type1/public/ams
+fonts/cm/cmsy10.pfb><C:/Users/KRISTIAN LYLE/AppData/Local/MiKTeX/fonts/type1/pu
+blic/amsfonts/cm/cmti12.pfb><C:/Users/KRISTIAN LYLE/AppData/Local/MiKTeX/fonts/
+type1/public/amsfonts/cm/cmtt12.pfb>
+Output written on SP-name.pdf (87 pages, 17977321 bytes).
 PDF statistics:
  409 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
