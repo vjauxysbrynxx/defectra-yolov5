@@ -20,30 +20,30 @@
 \contentsline {section}{\numberline {3.1} Research Activities}{17}{}%
 \contentsline {subsection}{\numberline {3.1.1}Data Collection}{17}{}%
 \contentsline {subsubsection}{\numberline {3.1.1.1}Data Collection (Ground Truth Data)}{19}{}%
-\contentsline {subsection}{\numberline {3.1.2}Design, Testing, and Experimentation}{20}{}%
-\contentsline {subsubsection}{\numberline {3.1.2.1}Depth Measurement}{20}{}%
+\contentsline {subsection}{\numberline {3.1.2}Design, Testing, and Experimentation}{21}{}%
+\contentsline {subsubsection}{\numberline {3.1.2.1}Depth Measurement}{21}{}%
 \contentsline {subsubsection}{\numberline {3.1.2.2}Severity Assessment}{21}{}%
-\contentsline {subsubsection}{\numberline {3.1.2.3}Materials and Equipment}{21}{}%
+\contentsline {subsubsection}{\numberline {3.1.2.3}Materials and Equipment}{22}{}%
 \contentsline {subsubsection}{\numberline {3.1.2.4}Prototype Building}{23}{}%
 \contentsline {subsubsection}{\numberline {3.1.2.5}Camera Calibration (Fisheye Distortion)}{24}{}%
-\contentsline {subsubsection}{\numberline {3.1.2.6}Camera Calibration (Disparity Map Fine-tuning)}{24}{}%
-\contentsline {subsubsection}{\numberline {3.1.2.7}Initial Testing}{25}{}%
-\contentsline {subsubsection}{\numberline {3.1.2.8}Performance Metrics}{26}{}%
-\contentsline {subsubsection}{\numberline {3.1.2.9}Final Testing and Validation}{26}{}%
+\contentsline {subsubsection}{\numberline {3.1.2.6}Camera Calibration (Disparity Map Fine-tuning)}{25}{}%
+\contentsline {subsubsection}{\numberline {3.1.2.7}Initial Testing}{26}{}%
+\contentsline {subsubsection}{\numberline {3.1.2.8}Performance Metrics}{27}{}%
+\contentsline {subsubsection}{\numberline {3.1.2.9}Final Testing and Validation}{27}{}%
 \contentsline {subsubsection}{\numberline {3.1.2.10}Documentation}{28}{}%
-\contentsline {subsection}{\numberline {3.1.3}Challenges and Limitations}{28}{}%
-\contentsline {subsubsection}{\numberline {3.1.3.1}Camera Limitations}{28}{}%
-\contentsline {chapter}{\numberline {4}Results and Discussion}{29}{}%
-\contentsline {section}{\numberline {4.1}System Calibration and Model Refinement}{29}{}%
-\contentsline {section}{\numberline {4.2}Testing Results}{31}{}%
-\contentsline {section}{\numberline {4.3}Discussion}{33}{}%
-\contentsline {chapter}{\numberline {5}Conclusion}{37}{}%
-\contentsline {section}{\numberline {5.1}Summary}{37}{}%
-\contentsline {section}{\numberline {5.2}Conclusions}{38}{}%
-\contentsline {section}{\numberline {5.3}Recommendations for Practice}{40}{}%
-\contentsline {section}{\numberline {5.4}Suggestions for Further Research}{40}{}%
-\contentsline {chapter}{\numberline {6}References}{43}{}%
-\contentsline {chapter}{\numberline {A}Code Snippets}{47}{}%
-\contentsline {chapter}{\numberline {B}Resource Persons}{53}{}%
-\contentsline {chapter}{\numberline {C}Data Table and Pothole Images}{55}{}%
-\contentsline {chapter}{\numberline {D}Supplementary Documents}{59}{}%
+\contentsline {subsection}{\numberline {3.1.3}Challenges and Limitations}{29}{}%
+\contentsline {subsubsection}{\numberline {3.1.3.1}Camera Limitations}{29}{}%
+\contentsline {chapter}{\numberline {4}Results and Discussion}{31}{}%
+\contentsline {section}{\numberline {4.1}System Calibration and Model Refinement}{31}{}%
+\contentsline {section}{\numberline {4.2}Testing Results}{33}{}%
+\contentsline {section}{\numberline {4.3}Discussion}{35}{}%
+\contentsline {chapter}{\numberline {5}Conclusion}{39}{}%
+\contentsline {section}{\numberline {5.1}Summary}{39}{}%
+\contentsline {section}{\numberline {5.2}Conclusions}{40}{}%
+\contentsline {section}{\numberline {5.3}Recommendations for Practice}{42}{}%
+\contentsline {section}{\numberline {5.4}Suggestions for Further Research}{42}{}%
+\contentsline {chapter}{\numberline {6}References}{45}{}%
+\contentsline {chapter}{\numberline {A}Code Snippets}{49}{}%
+\contentsline {chapter}{\numberline {B}Resource Persons}{55}{}%
+\contentsline {chapter}{\numberline {C}Data Table and Pothole Images}{57}{}%
+\contentsline {chapter}{\numberline {D}Supplementary Documents}{61}{}%
