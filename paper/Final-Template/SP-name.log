@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.1.28)  2 JUN 2025 00:10
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.1.28)  2 JUN 2025 01:07
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -945,12 +945,13 @@ File: initialtest.jpg Graphic file (type jpg)
 <use initialtest.jpg>
 Package pdftex.def Info: initialtest.jpg  used on input line 129.
 (pdftex.def)             Requested size: 206.64862pt x 146.79956pt.
-<inversemodel.png, id=157, 408.02437pt x 236.38312pt>
+ [26 <./initialtest.jpg>]
+<inversemodel.png, id=161, 408.02437pt x 236.38312pt>
 File: inversemodel.png Graphic file (type png)
 <use inversemodel.png>
 Package pdftex.def Info: inversemodel.png  used on input line 138.
 (pdftex.def)             Requested size: 224.4141pt x 130.01111pt.
- [26 <./initialtest.jpg>] [27 <./inversemodel.png>]
+ [27 <./inversemodel.png>]
 <measure1.png, id=166, 321.2pt x 240.9pt>
 File: measure1.png Graphic file (type png)
 <use measure1.png>
@@ -971,12 +972,14 @@ File: measure4.png Graphic file (type png)
 <use measure4.png>
 Package pdftex.def Info: measure4.png  used on input line 185.
 (pdftex.def)             Requested size: 186.99734pt x 140.2514pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
  [28 <./measure1.png (PNG copy)> <./measure2.png (PNG copy)> <./measure3.png (P
 NG copy)> <./measure4.png (PNG copy)>]) [29]
 \openout2 = `chapter_4.aux'.
 
- (chapter_4.tex
-[30
+ (chapter_4.tex [30
 
 
 
@@ -1307,7 +1310,7 @@ perse/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:
 amsfonts/cm/cmsy10.pfb><C:/Users/perse/AppData/Local/Programs/MiKTeX/fonts/type
 1/public/amsfonts/cm/cmti12.pfb><C:/Users/perse/AppData/Local/Programs/MiKTeX/f
 onts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on SP-name.pdf (87 pages, 17977431 bytes).
+Output written on SP-name.pdf (87 pages, 17977732 bytes).
 PDF statistics:
  409 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
