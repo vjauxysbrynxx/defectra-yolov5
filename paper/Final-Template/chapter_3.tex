@@ -71,7 +71,7 @@ The estimated pothole depths were classified using the Long-Term Pavement Perfor
 \subsubsection{Materials and Equipment}
 
 
-The prototype system was constructed using several hardware components, which include the items listed below and shown in Figure 3.3:
+The prototype system was constructed using several hardware components, which include the items listed below and shown in Figure 3.4:
 \begin{itemize}
 	\item StereoPi V2 Board
 	\item Raspberry Pi Compute Module 4 (CM4)
@@ -92,7 +92,7 @@ The prototype system was constructed using several hardware components, which in
 
 
 \subsubsection{Prototype Building}
-The prototype involved the StereoPi V2 Kit which was acquired through an official international distributer. After assembling the camera, it was further modified to address the it's heating by incorporating a heat sink and a small computer fan to make it suitable for outdoor use.As shown in Figure 3.4, the dual Raspberry Pi camera modules were securely mounted onto the custom housing. To facilitate user interaction and real-time monitoring, an LCD module was connected to the StereoPi board, as illustrated in Figure 3.5. The final assembled and fully functional prototype is presented in Figure 3.6.
+The prototype involved the StereoPi V2 Kit which was acquired through an official international distributer. After assembling the camera, it was further modified to address the it's heating by incorporating a heat sink and a small computer fan to make it suitable for outdoor use.As shown in Figure 3.5, the dual Raspberry Pi camera modules were securely mounted onto the custom housing. To facilitate user interaction and real-time monitoring, an LCD module was connected to the StereoPi board, as illustrated in Figure 3.6. The final assembled and fully functional prototype is presented in Figure 3.7.
 
 
 \begin{minipage}{0.45\textwidth}
@@ -116,7 +116,7 @@ The prototype involved the StereoPi V2 Kit which was acquired through an officia
 
 
 \subsubsection{Camera Calibration (Fisheye Distortion)}
-The StereoPi V2 was first calibrated using a 9×6 checkerboard, with a checker size of 55mm, from different angles using calibration scripts that came with the package. The calibration process, shown in Figure 3.7, involved capturing multiple images of the checkerboard pattern to correct fisheye lens distortion. This process ensured that the camera is working properly in capturing stereo imagery. This removed distortion from captured imaged allowing depth estimation with more accuracy.
+The StereoPi V2 was first calibrated using a 9×6 checkerboard, with a checker size of 55mm, from different angles using calibration scripts that came with the package. The calibration process, shown in Figure 3.8, involved capturing multiple images of the checkerboard pattern to correct fisheye lens distortion. This process ensured that the camera is working properly in capturing stereo imagery. This removed distortion from captured imaged allowing depth estimation with more accuracy.
 
 %calibration
 \begin{center}
@@ -125,7 +125,7 @@ The StereoPi V2 was first calibrated using a 9×6 checkerboard, with a checker s
 \end{center}
 
 \subsubsection{Camera Calibration (Disparity  Map Fine-tuning)}
-The stereo image pairs captured by the system were first rectified to ensure proper alignment of corresponding features. Block matching parameters were then fine-tuned to produce clearer and more accurate disparity maps. This tuning process is illustrated in Figure 3.8. It was observed that the effective operational range of the stereo camera system extends from approximately 30 to 80 cm. At distances closer than 30 cm, the disparity maps exhibited significant noise, while at distances beyond 80 cm, disparity information became sparse or blank.
+The stereo image pairs captured by the system were first rectified to ensure proper alignment of corresponding features. Block matching parameters were then fine-tuned to produce clearer and more accurate disparity maps. This tuning process is illustrated in Figure 3.9. It was observed that the effective operational range of the stereo camera system extends from approximately 30 to 80 cm. At distances closer than 30 cm, the disparity maps exhibited significant noise, while at distances beyond 80 cm, disparity information became sparse or blank.
 
 %calibration2
 \begin{center}
@@ -134,7 +134,7 @@ The stereo image pairs captured by the system were first rectified to ensure pro
 \end{center}
 
 \subsubsection{Initial Testing}
-Initial testing was conducted to verify the functionality and basic accuracy of the stereoscopic camera system in a controlled environment. Simulated potholes with known depths were created to cover a wider range of pothole depth and shape, and also to consider the extremes. The system captured disparity maps, and estimated depths were computed using the standard stereo camera depth formula. The LCD module displayed the disparity map and estimated depth readings in real-time during these tests, as shown in Figure 3.9.
+Initial testing was conducted to verify the functionality and basic accuracy of the stereoscopic camera system in a controlled environment. Simulated potholes with known depths were created to cover a wider range of pothole depth and shape, and also to consider the extremes. The system captured disparity maps, and estimated depths were computed using the standard stereo camera depth formula. The LCD module displayed the disparity map and estimated depth readings in real-time during these tests, as shown in Figure 3.10.
 
 %initial test
 \begin{center}
@@ -142,7 +142,7 @@ Initial testing was conducted to verify the functionality and basic accuracy of 
 	\captionof{figure}{The system tested on a simulated pothole.}
 \end{center}
 
-However, the results revealed a non-linear relationship between the computed disparity values and the actual distances. This discrepancy indicated that the traditional depth estimation method was insufficient for the current setup. To address this, the researchers collected multiple data points and correlating known distances to their respective disparity readings and fitted an inverse model to better represent the system's behavior (see Figure 3.10). This updated disparity-to-depth model was subsequently used in the final testing phase.
+However, the results revealed a non-linear relationship between the computed disparity values and the actual distances. This discrepancy indicated that the traditional depth estimation method was insufficient for the current setup. To address this, the researchers collected multiple data points and correlating known distances to their respective disparity readings and fitted an inverse model to better represent the system's behavior (see Figure 3.11). This updated disparity-to-depth model was subsequently used in the final testing phase.
 
 %initial test
 \begin{figure}[H]
@@ -165,7 +165,7 @@ The accuracy of the pothole depth estimated by StereoPi V2 was analyzed using Li
 %For the accuracy of depth estimation using the Epipolar Spatio-Temporal Networks (ESTN), Root Mean Squared Error (RMSE) and Mean Absolute Error (MAE) will be used. RMSE is chosen for its ability to penalize larger errors more heavily, making it suitable for assessing depth estimation performance where larger deviations from the ground truth are more significant (Zhang et al., 2018). MAE is also employed to provide a straightforward measure of average error magnitude, offering a complementary evaluation of depth estimation without emphasizing larger errors as much (Zhang et al., 2020).
 
 \subsubsection{Final Testing and Validation}
-The testing process began with a detailed testing plan that includes both simulated and real-world testing scenarios. Initially, the system is tested in controlled environments to verify its capability to estimate pothole depth effectively. Following this, real-world testing was conducted using the StereoPi kit on previously located potholes, specifically at the University of the Philippines Visayas Miagao Campus. Although 130 potholes were originally identified, only 35 potholes that were in the most favorable conditions and practical to measure within the available time were considered for final testing. This was due to factors like debris and water being present in the pothole, making it difficult to obtain measurements. As illustrated in Figures 3.11 to 3.14, the procedure for estimating pothole depth closely followed the validated depth measurement manual, where the system captured depth measurements at four designated points within each pothole, corresponding to the measurement points used in the manual measurement data. These four estimated depths were then averaged to determine the final depth estimate for each pothole. The system’s performance was validated by comparing its predictions with ground-truth data collected from manual inspections.
+The testing process began with a detailed testing plan that includes both simulated and real-world testing scenarios. Initially, the system is tested in controlled environments to verify its capability to estimate pothole depth effectively. Following this, real-world testing was conducted using the StereoPi kit on previously located potholes, specifically at the University of the Philippines Visayas Miagao Campus. Although 130 potholes were originally identified, only 35 potholes that were in the most favorable conditions and practical to measure within the available time were considered for final testing. This was due to factors like debris and water being present in the pothole, making it difficult to obtain measurements. As illustrated in Figures 3.12 to 3.15, the procedure for estimating pothole depth closely followed the validated depth measurement manual, where the system captured depth measurements at four designated points within each pothole, corresponding to the measurement points used in the manual measurement data. These four estimated depths were then averaged to determine the final depth estimate for each pothole. The system’s performance was validated by comparing its predictions with ground-truth data collected from manual inspections.
 
 \begin{figure}[H]
 	\centering
