@@ -2,9 +2,11 @@
 \addvspace {10\p@ }
 \contentsline {table}{\numberline {2.1}{\ignorespaces Comparison of Related Studies on Road Anomaly Detection using Deep Learning Techniques and Stereo Vision}}{15}{}%
 \addvspace {10\p@ }
+\contentsline {table}{\numberline {3.1}{\ignorespaces Pothole Severity Classification Based on Depth}}{22}{}%
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {4.1}{\ignorespaces Linear Regression Model Fit Summary}}{34}{}%
-\contentsline {table}{\numberline {4.2}{\ignorespaces Model Coefficients - Estimated Depth}}{34}{}%
+\contentsline {table}{\numberline {4.1}{\ignorespaces Summary of Linear Regression Fit for Depth Estimation}}{34}{}%
+\contentsline {table}{\numberline {4.2}{\ignorespaces Linear Regression Coefficients for Estimated Pothole Depth}}{34}{}%
+\contentsline {table}{\numberline {4.3}{\ignorespaces Descriptive Statistics of Absolute Errors in Depth Estimation}}{35}{}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }

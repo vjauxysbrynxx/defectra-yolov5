@@ -47,6 +47,18 @@ The disparity-to-depth conversion utilizes an inverse model derived from calibra
 \subsubsection{Severity Assessment}
 
 The estimated pothole depths were classified using the Long-Term Pavement Performance (LTPP) depth thresholds, an internationally recognized framework for pavement distress evaluation. This classification provides standardized criteria to assess pothole severity objectively based on measured depth values. Specifically, potholes with depths less than 2.5 cm are categorized as low severity, those between 2.5 cm and 5 cm as medium severity, and potholes exceeding 5 cm are classified as high severity \cite{miller2014}.
+\begin{table}[H]
+	\centering
+	\begin{tabular}{|c|c|}
+		\hline
+		\textbf{Depth Range (cm)} & \textbf{Severity Level} \\ \hline
+		$<$ 2.5                  & Low                     \\ \hline
+		2.5 -- 5.0               & Medium                  \\ \hline
+		$>$ 5.0                  & High                    \\ \hline
+	\end{tabular}
+	\label{tab:severity-classification}
+	\caption{Pothole Severity Classification Based on Depth}
+\end{table}
 
 
 %\subsubsection{Model Design}
@@ -196,6 +208,11 @@ Throughout the research activities, thorough documentation was maintained. This 
 
 \subsubsection{Camera Limitations}
 During the data collection process, the researchers were faced with various issues involving the StereoPi V2 kit. Issues like inaccuracies in the rectified image pair and generated disparity map were very apparent in the early stages of data collection due to limited related studies and literature involving the camera. In addition, the camera also yielded some inaccurate depth estimation and over reliance on controlled environments which prompted the researchers to further improve its tuning and calibration. It was also observed that the effective working range of the camera for accurate depth estimation was limited to a distance of approximately 30cm to 80cm from the subject. Measurements taken outside of this range tended to result in noisy disparity maps or failed to distinguish objects properly in the disparity output, leading to unreliable depth values.
+
+\subsubsection{Absence of Deep Learning Integration}
+
+Due to the limited dataset and hardware constraints, deep learning models were not implemented in this study. The system was designed to operate using traditional stereo vision techniques for depth estimation, which do not require the large amounts of annotated data or high computational resources typically associated with deep learning. Furthermore, the primary objective of this special problem was to accurately estimate pothole depth and assess severity which are tasks that are well-suited for stereo-based approaches. Deep learning models are more commonly applied in detection and classification tasks, which were outside the scope of this study.
+
 
 %\subsubsection{Availability of Local Datasets}
 %The lack of locally labeled datasets for road defects has posed a challenge in training accurate models. The majority of available datasets are sourced from international locations, which may not fully represent the road conditions found in the study area. To address the lack of locally labeled datasets, the researchers will create a pilot dataset from local roads within the University of the Philippines Visayas Miagao Campus. This dataset will be manually annotated according to DPWH's classification standards, ensuring local relevance.

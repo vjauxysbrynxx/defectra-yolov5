@@ -34,10 +34,11 @@
 \contentsline {subsubsection}{\numberline {3.1.2.10}Documentation}{29}{}%
 \contentsline {subsection}{\numberline {3.1.3}Challenges and Limitations}{29}{}%
 \contentsline {subsubsection}{\numberline {3.1.3.1}Camera Limitations}{29}{}%
+\contentsline {subsubsection}{\numberline {3.1.3.2}Absence of Deep Learning Integration}{30}{}%
 \contentsline {chapter}{\numberline {4}Results and Discussion}{31}{}%
 \contentsline {section}{\numberline {4.1}System Calibration and Model Refinement}{31}{}%
 \contentsline {section}{\numberline {4.2}Testing Results}{33}{}%
-\contentsline {section}{\numberline {4.3}Discussion}{35}{}%
+\contentsline {section}{\numberline {4.3}Discussion}{36}{}%
 \contentsline {chapter}{\numberline {5}Conclusion}{39}{}%
 \contentsline {section}{\numberline {5.1}Summary}{39}{}%
 \contentsline {section}{\numberline {5.2}Conclusions}{40}{}%
