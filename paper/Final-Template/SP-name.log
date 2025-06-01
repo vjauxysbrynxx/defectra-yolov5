@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.1.28)  1 JUN 2025 22:58
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.1.28)  2 JUN 2025 01:07
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -890,106 +890,118 @@ Package pdftex.def Info: pothole points.jpg  used on input line 21.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [19 <./measure.png>] [20 <./pothole points.jpg>] [21]
-<Parts.png, id=135, 1840.8775pt x 1314.9125pt>
-File: Parts.png Graphic file (type png)
-<use Parts.png>
-Package pdftex.def Info: Parts.png  used on input line 71.
-(pdftex.def)             Requested size: 415.55249pt x 296.82568pt.
-
-Underfull \vbox (badness 2245) has occurred while \output is active []
-
- [22 <./Parts.png (PNG copy)>]
-<3.jpg, id=139, 1276.01718pt x 956.82469pt>
-File: 3.jpg Graphic file (type jpg)
-<use 3.jpg>
-Package pdftex.def Info: 3.jpg  used on input line 83.
-(pdftex.def)             Requested size: 186.99734pt x 140.21791pt.
-<1.jpg, id=140, 2055.68pt x 1481.535pt>
-File: 1.jpg Graphic file (type jpg)
-<use 1.jpg>
-Package pdftex.def Info: 1.jpg  used on input line 89.
-(pdftex.def)             Requested size: 186.99734pt x 134.75659pt.
-<prototype.png, id=141, 1588.93625pt x 1135.24126pt>
-File: prototype.png Graphic file (type png)
-<use prototype.png>
-Package pdftex.def Info: prototype.png  used on input line 96.
-(pdftex.def)             Requested size: 190.66412pt x 136.22307pt.
- [23 <./3.jpg> <./1.jpg> <./prototype.png (PNG copy)>]
-<calibration.png, id=145, 1284.8pt x 481.8pt>
-File: calibration.png Graphic file (type png)
-<use calibration.png>
-Package pdftex.def Info: calibration.png  used on input line 106.
-(pdftex.def)             Requested size: 321.19922pt x 120.44969pt.
-
-[24 <./calibration.png>]
-<calibration2.jpg, id=150, 1927.2pt x 918.43124pt>
-File: calibration2.jpg Graphic file (type jpg)
-<use calibration2.jpg>
-Package pdftex.def Info: calibration2.jpg  used on input line 115.
-(pdftex.def)             Requested size: 289.06754pt x 137.75874pt.
-<initialtest.jpg, id=151, 688.82344pt x 489.32813pt>
-File: initialtest.jpg Graphic file (type jpg)
-<use initialtest.jpg>
-Package pdftex.def Info: initialtest.jpg  used on input line 124.
-(pdftex.def)             Requested size: 206.64862pt x 146.79956pt.
- [25 <./calibration2.jpg> <./initialtest.jpg>]
-<inversemodel.png, id=155, 408.02437pt x 236.38312pt>
-File: inversemodel.png Graphic file (type png)
-<use inversemodel.png>
-Package pdftex.def Info: inversemodel.png  used on input line 133.
-(pdftex.def)             Requested size: 224.4141pt x 130.01111pt.
- [26 <./inversemodel.png>]
-<measure1.png, id=161, 321.2pt x 240.9pt>
-File: measure1.png Graphic file (type png)
-<use measure1.png>
-Package pdftex.def Info: measure1.png  used on input line 157.
-(pdftex.def)             Requested size: 186.99734pt x 140.2514pt.
-<measure2.png, id=162, 321.2pt x 240.9pt>
-File: measure2.png Graphic file (type png)
-<use measure2.png>
-Package pdftex.def Info: measure2.png  used on input line 164.
-(pdftex.def)             Requested size: 186.99734pt x 140.2514pt.
-<measure3.png, id=163, 321.2pt x 240.9pt>
-File: measure3.png Graphic file (type png)
-<use measure3.png>
-Package pdftex.def Info: measure3.png  used on input line 173.
-(pdftex.def)             Requested size: 186.99734pt x 140.2514pt.
-<measure4.png, id=164, 321.2pt x 240.9pt>
-File: measure4.png Graphic file (type png)
-<use measure4.png>
-Package pdftex.def Info: measure4.png  used on input line 180.
-(pdftex.def)             Requested size: 186.99734pt x 140.2514pt.
-
-Underfull \vbox (badness 2368) has occurred while \output is active []
-
- [27 <./measure1.png (PNG copy)> <./measure2.png (PNG copy)> <./measure3.png (P
-NG copy)> <./measure4.png (PNG copy)>]) [28]
-\openout2 = `chapter_4.aux'.
-
- (chapter_4.tex
-Chapter 4.
+ [19 <./measure.png>]
+<figures/PHM_UPV.png, id=127, 391.4625pt x 418.56375pt>
+File: figures/PHM_UPV.png Graphic file (type png)
+<use figures/PHM_UPV.png>
+Package pdftex.def Info: figures/PHM_UPV.png  used on input line 26.
+(pdftex.def)             Requested size: 195.73076pt x 209.28136pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [29
+ [20 <./pothole points.jpg> <./figures/PHM_UPV.png>] [21]
+<Parts.png, id=136, 1840.8775pt x 1314.9125pt>
+File: Parts.png Graphic file (type png)
+<use Parts.png>
+Package pdftex.def Info: Parts.png  used on input line 76.
+(pdftex.def)             Requested size: 415.55249pt x 296.82568pt.
+
+Underfull \vbox (badness 3690) has occurred while \output is active []
+
+ [22]
+Underfull \vbox (badness 1097) has occurred while \output is active []
+
+ [23 <./Parts.png (PNG copy)>]
+<3.jpg, id=144, 1276.01718pt x 956.82469pt>
+File: 3.jpg Graphic file (type jpg)
+<use 3.jpg>
+Package pdftex.def Info: 3.jpg  used on input line 88.
+(pdftex.def)             Requested size: 186.99734pt x 140.21791pt.
+<1.jpg, id=145, 2055.68pt x 1481.535pt>
+File: 1.jpg Graphic file (type jpg)
+<use 1.jpg>
+Package pdftex.def Info: 1.jpg  used on input line 94.
+(pdftex.def)             Requested size: 186.99734pt x 134.75659pt.
+<prototype.png, id=146, 1588.93625pt x 1135.24126pt>
+File: prototype.png Graphic file (type png)
+<use prototype.png>
+Package pdftex.def Info: prototype.png  used on input line 101.
+(pdftex.def)             Requested size: 190.66412pt x 136.22307pt.
+ [24 <./3.jpg> <./1.jpg> <./prototype.png (PNG copy)>]
+<calibration.png, id=150, 1284.8pt x 481.8pt>
+File: calibration.png Graphic file (type png)
+<use calibration.png>
+Package pdftex.def Info: calibration.png  used on input line 111.
+(pdftex.def)             Requested size: 321.19922pt x 120.44969pt.
+<calibration2.jpg, id=151, 1927.2pt x 918.43124pt>
+File: calibration2.jpg Graphic file (type jpg)
+<use calibration2.jpg>
+Package pdftex.def Info: calibration2.jpg  used on input line 120.
+(pdftex.def)             Requested size: 289.06754pt x 137.75874pt.
+
+[25 <./calibration.png> <./calibration2.jpg>]
+<initialtest.jpg, id=156, 688.82344pt x 489.32813pt>
+File: initialtest.jpg Graphic file (type jpg)
+<use initialtest.jpg>
+Package pdftex.def Info: initialtest.jpg  used on input line 129.
+(pdftex.def)             Requested size: 206.64862pt x 146.79956pt.
+ [26 <./initialtest.jpg>]
+<inversemodel.png, id=161, 408.02437pt x 236.38312pt>
+File: inversemodel.png Graphic file (type png)
+<use inversemodel.png>
+Package pdftex.def Info: inversemodel.png  used on input line 138.
+(pdftex.def)             Requested size: 224.4141pt x 130.01111pt.
+ [27 <./inversemodel.png>]
+<measure1.png, id=166, 321.2pt x 240.9pt>
+File: measure1.png Graphic file (type png)
+<use measure1.png>
+Package pdftex.def Info: measure1.png  used on input line 162.
+(pdftex.def)             Requested size: 186.99734pt x 140.2514pt.
+<measure2.png, id=167, 321.2pt x 240.9pt>
+File: measure2.png Graphic file (type png)
+<use measure2.png>
+Package pdftex.def Info: measure2.png  used on input line 169.
+(pdftex.def)             Requested size: 186.99734pt x 140.2514pt.
+<measure3.png, id=168, 321.2pt x 240.9pt>
+File: measure3.png Graphic file (type png)
+<use measure3.png>
+Package pdftex.def Info: measure3.png  used on input line 178.
+(pdftex.def)             Requested size: 186.99734pt x 140.2514pt.
+<measure4.png, id=169, 321.2pt x 240.9pt>
+File: measure4.png Graphic file (type png)
+<use measure4.png>
+Package pdftex.def Info: measure4.png  used on input line 185.
+(pdftex.def)             Requested size: 186.99734pt x 140.2514pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [28 <./measure1.png (PNG copy)> <./measure2.png (PNG copy)> <./measure3.png (P
+NG copy)> <./measure4.png (PNG copy)>]) [29]
+\openout2 = `chapter_4.aux'.
+
+ (chapter_4.tex [30
 
 
 
 
 ]
-[30]
-<pothole disparity.png, id=179, 250.68657pt x 190.46156pt>
+Chapter 4.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [31]
+[32]
+<pothole disparity.png, id=188, 250.68657pt x 190.46156pt>
 File: pothole disparity.png Graphic file (type png)
 <use pothole disparity.png>
 Package pdftex.def Info: pothole disparity.png  used on input line 82.
 (pdftex.def)             Requested size: 132.97983pt x 101.03712pt.
-<pothole raw left.png, id=180, 250.68657pt x 186.6975pt>
+<pothole raw left.png, id=189, 250.68657pt x 186.6975pt>
 File: pothole raw left.png Graphic file (type png)
 <use pothole raw left.png>
 Package pdftex.def Info: pothole raw left.png  used on input line 89.
 (pdftex.def)             Requested size: 132.97983pt x 99.04036pt.
-<pothole raw right.png, id=181, 250.68657pt x 188.20313pt>
+<pothole raw right.png, id=190, 250.68657pt x 188.20313pt>
 File: pothole raw right.png Graphic file (type png)
 <use pothole raw right.png>
 Package pdftex.def Info: pothole raw right.png  used on input line 96.
@@ -998,7 +1010,7 @@ Package pdftex.def Info: pothole raw right.png  used on input line 96.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[31]
+[33]
 Overfull \hbox (27.32071pt too wide) in paragraph at lines 107--114
  [][] 
  []
@@ -1011,21 +1023,21 @@ File: omlcmr.fd 2023/04/13 v2.5m Standard LaTeX font definitions
 LaTeX Font Info:    Font shape `OML/cmr/m/n' in size <12> not available
 (Font)              Font shape `OML/cmm/m/it' tried instead on input line 125.
 
-[32 <./pothole disparity.png> <./pothole raw left.png> <./pothole raw right.png
+[34 <./pothole disparity.png> <./pothole raw left.png> <./pothole raw right.png
 >]
-<regression.png, id=194, 474.27188pt x 395.22656pt>
+<regression.png, id=202, 474.27188pt x 395.22656pt>
 File: regression.png Graphic file (type png)
 <use regression.png>
 Package pdftex.def Info: regression.png  used on input line 136.
 (pdftex.def)             Requested size: 260.85034pt x 217.37527pt.
- [33 <./regression.png>])
+ [35 <./regression.png>])
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [34]
-[35]
+ [36]
+[37]
 \openout2 = `chapter_5.aux'.
 
- (chapter_5.tex [36
+ (chapter_5.tex [38
 
 
 
@@ -1035,18 +1047,18 @@ Chapter 5.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [37]
+ [39]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [38]
-[39]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [40])
+ [40]
 [41]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [42])
+[43]
 \openout2 = `chapter_6.aux'.
 
- (chapter_6.tex [42
+ (chapter_6.tex [44
 
 
 
@@ -1056,16 +1068,16 @@ Chapter 6.
 (SP-name.bbl
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [43]
+ [45]
 Underfull \hbox (badness 1024) in paragraph at lines 166--182
 []\OT1/cmr/m/n/12 Luo, D., Lu, J., & Guo, G.  (2020, June).  Road Anomaly De-te
 c-tion
  []
 
-[44])) [45]
+[46])) [47]
 \openout2 = `appendix_A.aux'.
 
- (appendix_A.tex [46
+ (appendix_A.tex [48
 
 
 
@@ -1075,11 +1087,11 @@ Appendix A.
 (C:\Users\perse\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.sty
 File: lstlang1.sty 2023/02/27 1.9 listings language file
 )
-[47]
+[49]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [48]
-[49]
+ [50]
+[51]
 LaTeX Font Info:    Trying to load font information for OMS+cmr on input line 8
 3.
  (C:\Users\perse\AppData\Local\Programs\MiKTeX\tex/latex/base\omscmr.fd
@@ -1090,11 +1102,11 @@ LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [50])
-[51]
+ [52])
+[53]
 \openout2 = `appendix_B.aux'.
 
- (appendix_B.tex [52
+ (appendix_B.tex [54
 
 
 
@@ -1124,7 +1136,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 27--28
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [53]
+ [55]
 Underfull \hbox (badness 10000) in paragraph at lines 29--30
 
  []
@@ -1134,7 +1146,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 31--36
 
  []
 
-[54]
+[56]
 \openout2 = `appendix_C.aux'.
 
  (appendix_C.tex
@@ -1142,43 +1154,43 @@ Appendix C.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<figures/Actual_Disparity.png, id=266, 337.26pt x 250.9375pt>
+<figures/Actual_Disparity.png, id=275, 337.26pt x 250.9375pt>
 File: figures/Actual_Disparity.png Graphic file (type png)
 <use figures/Actual_Disparity.png>
 Package pdftex.def Info: figures/Actual_Disparity.png  used on input line 56.
 (pdftex.def)             Requested size: 184.9429pt x 137.60634pt.
-<figures/Actual_Left.png, id=267, 337.26pt x 251.94125pt>
+<figures/Actual_Left.png, id=276, 337.26pt x 251.94125pt>
 File: figures/Actual_Left.png Graphic file (type png)
 <use figures/Actual_Left.png>
 Package pdftex.def Info: figures/Actual_Left.png  used on input line 56.
 (pdftex.def)             Requested size: 184.9429pt x 138.15677pt.
-<figures/Actual Right.png, id=268, 336.25626pt x 250.9375pt>
+<figures/Actual Right.png, id=277, 336.25626pt x 250.9375pt>
 File: figures/Actual Right.png Graphic file (type png)
 <use figures/Actual Right.png>
 Package pdftex.def Info: figures/Actual Right.png  used on input line 58.
 (pdftex.def)             Requested size: 184.9429pt x 138.01604pt.
-<figures/Actual_SP2.png, id=269, 623.32875pt x 698.61pt>
+<figures/Actual_SP2.png, id=278, 623.32875pt x 698.61pt>
 File: figures/Actual_SP2.png Graphic file (type png)
 <use figures/Actual_SP2.png>
 Package pdftex.def Info: figures/Actual_SP2.png  used on input line 58.
 (pdftex.def)             Requested size: 184.9429pt x 207.28207pt.
-<figures/Simulated_Disparity.png, id=270, 333.245pt x 247.92625pt>
+<figures/Simulated_Disparity.png, id=279, 333.245pt x 247.92625pt>
 File: figures/Simulated_Disparity.png Graphic file (type png)
 <use figures/Simulated_Disparity.png>
 Package pdftex.def Info: figures/Simulated_Disparity.png  used on input line 66
 .
 (pdftex.def)             Requested size: 184.9429pt x 137.59691pt.
-<figures/Simulated Left.png, id=271, 336.25626pt x 251.94125pt>
+<figures/Simulated Left.png, id=280, 336.25626pt x 251.94125pt>
 File: figures/Simulated Left.png Graphic file (type png)
 <use figures/Simulated Left.png>
 Package pdftex.def Info: figures/Simulated Left.png  used on input line 66.
 (pdftex.def)             Requested size: 184.9429pt x 138.5681pt.
-<figures/Simulated Right.png, id=272, 335.2525pt x 251.94125pt>
+<figures/Simulated Right.png, id=281, 335.2525pt x 251.94125pt>
 File: figures/Simulated Right.png Graphic file (type png)
 <use figures/Simulated Right.png>
 Package pdftex.def Info: figures/Simulated Right.png  used on input line 68.
 (pdftex.def)             Requested size: 184.9429pt x 138.98329pt.
-<figures/Simulated_Real.jpg, id=273, 429.85594pt x 356.83313pt>
+<figures/Simulated_Real.jpg, id=282, 429.85594pt x 356.83313pt>
 File: figures/Simulated_Real.jpg Graphic file (type jpg)
 <use figures/Simulated_Real.jpg>
 Package pdftex.def Info: figures/Simulated_Real.jpg  used on input line 68.
@@ -1188,89 +1200,83 @@ Overfull \hbox (29.4682pt too wide) in paragraph at lines 65--71
 [][] 
  []
 
-) [55
+) [57
 
 
 
 
-] [56 <./figures/Actual_Disparity.png> <./figures/Actual_Left.png> <./figures/A
-ctual Right.png> <./figures/Actual_SP2.png>] [57 <./figures/Simulated_Disparity
+] [58 <./figures/Actual_Disparity.png> <./figures/Actual_Left.png> <./figures/A
+ctual Right.png> <./figures/Actual_SP2.png>] [59 <./figures/Simulated_Disparity
 .png> <./figures/Simulated Left.png> <./figures/Simulated Right.png> <./figures
-/Simulated_Real.jpg>] [58]
+/Simulated_Real.jpg>] [60]
 \openout2 = `appendix_D.aux'.
 
  (appendix_D.tex
 Appendix D.
-<figures/PHM_UPV.png, id=294, 391.4625pt x 418.56375pt>
-File: figures/PHM_UPV.png Graphic file (type png)
-<use figures/PHM_UPV.png>
-Package pdftex.def Info: figures/PHM_UPV.png  used on input line 6.
-(pdftex.def)             Requested size: 266.10136pt x 284.52756pt.
-<figures/DPWH_Letter.jpg, id=295, 1223.57124pt x 1720.4275pt>
+<figures/DPWH_Letter.jpg, id=302, 1223.57124pt x 1720.4275pt>
 File: figures/DPWH_Letter.jpg Graphic file (type jpg)
 <use figures/DPWH_Letter.jpg>
-Package pdftex.def Info: figures/DPWH_Letter.jpg  used on input line 13.
+Package pdftex.def Info: figures/DPWH_Letter.jpg  used on input line 8.
 (pdftex.def)             Requested size: 415.55249pt x 584.28133pt.
-<figures/Admin_Letter.jpg, id=296, 1443.3925pt x 2055.68pt>
+<figures/Admin_Letter.jpg, id=303, 1443.3925pt x 2055.68pt>
 File: figures/Admin_Letter.jpg Graphic file (type jpg)
 <use figures/Admin_Letter.jpg>
-Package pdftex.def Info: figures/Admin_Letter.jpg  used on input line 20.
+Package pdftex.def Info: figures/Admin_Letter.jpg  used on input line 15.
 (pdftex.def)             Requested size: 415.55249pt x 591.83464pt.
 
-LaTeX Warning: Float too large for page by 16.53963pt on input line 23.
+LaTeX Warning: Float too large for page by 16.53963pt on input line 18.
 
-<figures/DPWH_Region.jpg, id=297, 2618.78375pt x 3513.125pt>
+<figures/DPWH_Region.jpg, id=304, 2618.78375pt x 3513.125pt>
 File: figures/DPWH_Region.jpg Graphic file (type jpg)
 <use figures/DPWH_Region.jpg>
-Package pdftex.def Info: figures/DPWH_Region.jpg  used on input line 27.
+Package pdftex.def Info: figures/DPWH_Region.jpg  used on input line 22.
 (pdftex.def)             Requested size: 415.55249pt x 557.44778pt.
-<figures/DPWH_First.jpg, id=298, 2482.27374pt x 3513.125pt>
+<figures/DPWH_First.jpg, id=305, 2482.27374pt x 3513.125pt>
 File: figures/DPWH_First.jpg Graphic file (type jpg)
 <use figures/DPWH_First.jpg>
-Package pdftex.def Info: figures/DPWH_First.jpg  used on input line 34.
+Package pdftex.def Info: figures/DPWH_First.jpg  used on input line 29.
 (pdftex.def)             Requested size: 415.55249pt x 588.11035pt.
 
-LaTeX Warning: Float too large for page by 12.81534pt on input line 37.
+LaTeX Warning: Float too large for page by 12.81534pt on input line 32.
 
-<figures/Manual_Page1.png, id=299, 614.295pt x 794.97pt>
+<figures/Manual_Page1.png, id=306, 614.295pt x 794.97pt>
 File: figures/Manual_Page1.png Graphic file (type png)
 <use figures/Manual_Page1.png>
-Package pdftex.def Info: figures/Manual_Page1.png  used on input line 41.
+Package pdftex.def Info: figures/Manual_Page1.png  used on input line 36.
 (pdftex.def)             Requested size: 415.55249pt x 537.7825pt.
-<figures/Manual_Page2.jpg, id=300, 614.295pt x 794.97pt>
+<figures/Manual_Page2.jpg, id=307, 614.295pt x 794.97pt>
 File: figures/Manual_Page2.jpg Graphic file (type jpg)
 <use figures/Manual_Page2.jpg>
-Package pdftex.def Info: figures/Manual_Page2.jpg  used on input line 48.
+Package pdftex.def Info: figures/Manual_Page2.jpg  used on input line 43.
 (pdftex.def)             Requested size: 415.55249pt x 537.7825pt.
-<figures/Manual_Page3.jpg, id=301, 614.295pt x 794.97pt>
+<figures/Manual_Page3.jpg, id=308, 614.295pt x 794.97pt>
 File: figures/Manual_Page3.jpg Graphic file (type jpg)
 <use figures/Manual_Page3.jpg>
-Package pdftex.def Info: figures/Manual_Page3.jpg  used on input line 55.
+Package pdftex.def Info: figures/Manual_Page3.jpg  used on input line 50.
 (pdftex.def)             Requested size: 415.55249pt x 537.7825pt.
-<figures/Manual_Page4.jpg, id=302, 614.295pt x 794.97pt>
+<figures/Manual_Page4.jpg, id=309, 614.295pt x 794.97pt>
 File: figures/Manual_Page4.jpg Graphic file (type jpg)
 <use figures/Manual_Page4.jpg>
-Package pdftex.def Info: figures/Manual_Page4.jpg  used on input line 62.
+Package pdftex.def Info: figures/Manual_Page4.jpg  used on input line 57.
 (pdftex.def)             Requested size: 415.55249pt x 537.7825pt.
-<figures/Manual_Page5.jpg, id=303, 614.295pt x 794.97pt>
+<figures/Manual_Page5.jpg, id=310, 614.295pt x 794.97pt>
 File: figures/Manual_Page5.jpg Graphic file (type jpg)
 <use figures/Manual_Page5.jpg>
-Package pdftex.def Info: figures/Manual_Page5.jpg  used on input line 69.
+Package pdftex.def Info: figures/Manual_Page5.jpg  used on input line 64.
 (pdftex.def)             Requested size: 415.55249pt x 537.7825pt.
-) [59
+) [61
 
 
 
 
- <./figures/PHM_UPV.png>] [60 <./figures/DPWH_Letter.jpg>] [61 <./figures/Admin
-_Letter.jpg>] [62 <./figures/DPWH_Region.jpg>] [63 <./figures/DPWH_First.jpg>] 
-[64 <./figures/Manual_Page1.png (PNG copy)>] [65 <./figures/Manual_Page2.jpg>] 
-[66 <./figures/Manual_Page3.jpg>] [67 <./figures/Manual_Page4.jpg>]
-[68 <./figures/Manual_Page5.jpg>] (SP-name.aux (title_page.aux) (approval.aux)
-(declaration.aux) (dedication.aux) (acknowledgment.aux) (abstract.aux)
-(chapter_1.aux) (chapter_2.aux) (chapter_3.aux) (chapter_4.aux) (chapter_5.aux)
-(chapter_6.aux) (appendix_A.aux) (appendix_B.aux) (appendix_C.aux)
-(appendix_D.aux))
+] [62 <./figures/DPWH_Letter.jpg>] [63 <./figures/Admin_Letter.jpg>]
+[64 <./figures/DPWH_Region.jpg>] [65 <./figures/DPWH_First.jpg>] [66 <./figures
+/Manual_Page1.png (PNG copy)>] [67 <./figures/Manual_Page2.jpg>] [68 <./figures
+/Manual_Page3.jpg>] [69 <./figures/Manual_Page4.jpg>] [70 <./figures/Manual_Pag
+e5.jpg>] (SP-name.aux (title_page.aux) (approval.aux) (declaration.aux)
+(dedication.aux) (acknowledgment.aux) (abstract.aux) (chapter_1.aux)
+(chapter_2.aux) (chapter_3.aux) (chapter_4.aux) (chapter_5.aux) (chapter_6.aux)
+(appendix_A.aux) (appendix_B.aux) (appendix_C.aux) (appendix_D.aux))
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-04>
@@ -1281,13 +1287,13 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 11426 strings out of 474486
- 189860 string characters out of 5743755
+ 11425 strings out of 474486
+ 189843 string characters out of 5743755
  2036542 words of memory out of 5000000
- 33420 multiletter control sequences out of 15000+600000
+ 33419 multiletter control sequences out of 15000+600000
  569145 words of font info for 77 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
- 79i,12n,84p,2148b,1838s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 79i,12n,84p,2259b,1838s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\perse\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm
 1200.pk><C:/Users/perse/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfon
 ts/cm/cmbx10.pfb><C:/Users/perse/AppData/Local/Programs/MiKTeX/fonts/type1/publ
@@ -1304,9 +1310,9 @@ perse/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:
 amsfonts/cm/cmsy10.pfb><C:/Users/perse/AppData/Local/Programs/MiKTeX/fonts/type
 1/public/amsfonts/cm/cmti12.pfb><C:/Users/perse/AppData/Local/Programs/MiKTeX/f
 onts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on SP-name.pdf (85 pages, 17976255 bytes).
+Output written on SP-name.pdf (87 pages, 17977732 bytes).
 PDF statistics:
- 403 PDF objects out of 1000 (max. 8388607)
+ 409 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  181 words of extra memory for PDF output out of 10000 (max. 10000000)
 
