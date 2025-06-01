@@ -119,65 +119,35 @@ Kumar, A.%
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
-Kyriakou%
-, Christodoulou%
-\BCBL {}\ \BBA {} Dimitriou%
+Mertan%
+, Duff%
+\BCBL {}\ \BBA {} Unal%
 }{%
-Kyriakou%
+Mertan%
 \ \protect \BOthers {.}}{%
-{\protect \APACyear {2016}}%
+{\protect \APACyear {2022}}%
 }]{%
-kyriakou2016}
+mertan2022}
 \APACinsertmetastar {%
-kyriakou2016}%
+mertan2022}%
 \begin{APACrefauthors}%
-Kyriakou, C.%
-, Christodoulou, S\BPBI E.%
-\BCBL {}\ \BBA {} Dimitriou, L.%
+Mertan, A.%
+, Duff, D\BPBI J.%
+\BCBL {}\ \BBA {} Unal, G.%
 \end{APACrefauthors}%
 \unskip\
 \newblock
-\APACrefYearMonthDay{2016}{April}{}.
+\APACrefYearMonthDay{2022}{}{}.
 \newblock
-{\BBOQ}\APACrefatitle {{Roadway Pavement Anomaly Classification Utilizing
-  Smartphones and Artificial Intelligence}} {{Roadway Pavement Anomaly
-  Classification Utilizing Smartphones and Artificial Intelligence}}.{\BBCQ}
+{\BBOQ}\APACrefatitle {Single image depth estimation: An overview} {Single
+  image depth estimation: An overview}.{\BBCQ}
 \newblock
-\BIn{} \APACrefbtitle {{Proceedings of the IEEE Conference}.} {{Proceedings of
-  the IEEE Conference}.}
+\APACjournalVolNumPages{Digital Signal Processing}{123}{}{103441}.
 \newblock
-\begin{APACrefURL} \url{https://ieeexplore.ieee.org/abstract/document/7495459}
+\begin{APACrefURL} \url{https://doi.org/10.1016/j.dsp.2022.103441}
   \end{APACrefURL}
-\PrintBackRefs{\CurrentBib}
-
-\bibitem [\protect \citeauthoryear {%
-Luo%
-, Lu%
-\BCBL {}\ \BBA {} Guo%
-}{%
-Luo%
-\ \protect \BOthers {.}}{%
-{\protect \APACyear {2020}}%
-}]{%
-luo2020}
-\APACinsertmetastar {%
-luo2020}%
-\begin{APACrefauthors}%
-Luo, D.%
-, Lu, J.%
-\BCBL {}\ \BBA {} Guo, G.%
-\end{APACrefauthors}%
-\unskip\
 \newblock
-\APACrefYearMonthDay{2020}{June}{}.
-\newblock
-{\BBOQ}\APACrefatitle {{Road Anomaly Detection Through Deep Learning
-  Approaches}} {{Road Anomaly Detection Through Deep Learning
-  Approaches}}.{\BBCQ}
-\newblock
-\APACjournalVolNumPages{IEEE Journals and Magazine}{}{}{}.
-\newblock
-\APACrefnote{https://ieeexplore.ieee.org/document/9123753/}
+\begin{APACrefDOI} \doi{10.1016/j.dsp.2022.103441} \end{APACrefDOI}
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -209,6 +179,38 @@ Miller, J\BPBI S.%
 \newblock
 \begin{APACrefURL} \url{https://rosap.ntl.bts.gov/view/dot/28612}
   \end{APACrefURL}
+\PrintBackRefs{\CurrentBib}
+
+\bibitem [\protect \citeauthoryear {%
+Perezyabov%
+, Gavrilenkov%
+\BCBL {}\ \BBA {} Afanasyev%
+}{%
+Perezyabov%
+\ \protect \BOthers {.}}{%
+{\protect \APACyear {2022}}%
+}]{%
+perezyabov2022}
+\APACinsertmetastar {%
+perezyabov2022}%
+\begin{APACrefauthors}%
+Perezyabov, O.%
+, Gavrilenkov, M.%
+\BCBL {}\ \BBA {} Afanasyev, I.%
+\end{APACrefauthors}%
+\unskip\
+\newblock
+\APACrefYearMonthDay{2022}{}{}.
+\newblock
+{\BBOQ}\APACrefatitle {Depth and Image Fusion for Road Obstacle Detection Using
+  Stereo Camera} {Depth and image fusion for road obstacle detection using
+  stereo camera}.{\BBCQ}
+\newblock
+\BIn{} \APACrefbtitle {2022 31st Conference of Open Innovations Association
+  (FRUCT)} {2022 31st conference of open innovations association (fruct)}\
+  (\BPG~237-244).
+\newblock
+\begin{APACrefDOI} \doi{10.23919/FRUCT54823.2022.9770927} \end{APACrefDOI}
 \PrintBackRefs{\CurrentBib}
 
 \bibitem [\protect \citeauthoryear {%
@@ -391,39 +393,6 @@ Scharstein, D.%
   \end{APACrefURL}
 \newblock
 \begin{APACrefDOI} \doi{10.1023/A:1014573219977} \end{APACrefDOI}
-\PrintBackRefs{\CurrentBib}
-
-\bibitem [\protect \citeauthoryear {%
-Singh%
-, Bansal%
-, Kamal%
-\BCBL {}\ \BBA {} Kumar%
-}{%
-Singh%
-\ \protect \BOthers {.}}{%
-{\protect \APACyear {2021}}%
-}]{%
-singh2021}
-\APACinsertmetastar {%
-singh2021}%
-\begin{APACrefauthors}%
-Singh, P.%
-, Bansal, A.%
-, Kamal, A\BPBI E.%
-\BCBL {}\ \BBA {} Kumar, S.%
-\end{APACrefauthors}%
-\unskip\
-\newblock
-\APACrefYearMonthDay{2021}{}{}.
-\newblock
-{\BBOQ}\APACrefatitle {{Road Surface Quality Monitoring Using Machine Learning
-  Algorithm}} {{Road Surface Quality Monitoring Using Machine Learning
-  Algorithm}}.{\BBCQ}
-\newblock
-\BIn{} \APACrefbtitle {{Smart Innovation, Systems and Technologies}} {{Smart
-  Innovation, Systems and Technologies}}\ (\BPGS\ 423--432).
-\newblock
-\begin{APACrefDOI} \doi{10.1007/978-981-16-6482-3_42} \end{APACrefDOI}
 \PrintBackRefs{\CurrentBib}
 
 \end{thebibliography}
