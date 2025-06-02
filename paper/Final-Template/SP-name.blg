@@ -53,45 +53,45 @@ Database file #1: myreferences.bib
 Warning--entry type for "riches2014" isn't style-file defined
 --line 71 of file myreferences.bib
 apacite.bst [2013/07/21 v6.03 APA bibliography style]
-You've used 14 entries,
+You've used 13 entries,
             6951 wiz_defined-function locations,
-            1380 strings with 13809 characters,
-and the built_in function-call counts, 28782 in all, are:
-= -- 3591
-> -- 241
-< -- 1377
-+ -- 1410
-- -- 30
-* -- 1858
-:= -- 5228
-add.period$ -- 59
-call.type$ -- 14
-change.case$ -- 250
+            1375 strings with 13622 characters,
+and the built_in function-call counts, 25943 in all, are:
+= -- 3234
+> -- 220
+< -- 1216
++ -- 1248
+- -- 28
+* -- 1672
+:= -- 4687
+add.period$ -- 53
+call.type$ -- 13
+change.case$ -- 228
 chr.to.int$ -- 0
-cite$ -- 28
-duplicate$ -- 739
-empty$ -- 1113
-format.name$ -- 405
-if$ -- 5447
+cite$ -- 26
+duplicate$ -- 671
+empty$ -- 1022
+format.name$ -- 364
+if$ -- 4938
 int.to.chr$ -- 0
-int.to.str$ -- 42
+int.to.str$ -- 39
 missing$ -- 0
-newline$ -- 386
-num.names$ -- 112
-pop$ -- 466
+newline$ -- 358
+num.names$ -- 104
+pop$ -- 438
 preamble$ -- 1
-purify$ -- 66
+purify$ -- 58
 quote$ -- 0
-skip$ -- 1906
+skip$ -- 1709
 stack$ -- 0
-substring$ -- 1527
-swap$ -- 420
-text.length$ -- 45
+substring$ -- 1366
+swap$ -- 390
+text.length$ -- 40
 text.prefix$ -- 0
 top$ -- 1
-type$ -- 1384
+type$ -- 1240
 warning$ -- 0
-while$ -- 152
+while$ -- 134
 width$ -- 0
-write$ -- 484
+write$ -- 445
 (There was 1 error message)
